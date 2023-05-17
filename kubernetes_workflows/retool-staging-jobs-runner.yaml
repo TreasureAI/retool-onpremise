@@ -1,0 +1,104 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: jobs-runner
+  name: jobs-runner
+spec:
+  replicas: 1 # jobs-runner pod should never be more than 1
+  selector:
+    matchLabels:
+      app: jobs-runner
+  template:
+    metadata:
+      labels:
+        app: jobs-runner
+    spec:
+      containers:
+      - args:
+        - bash
+        - -c
+        - ./docker_scripts/wait-for-it.sh -t 0 $POSTGRES_HOST:$POSTGRES_PORT;
+          ./docker_scripts/start_api.sh
+        env:
+        - name: JWT_SECRET
+          valueFrom:
+            secretKeyRef:
+              name: retoolstagingsecrets
+              key: jwt_secret
+        - name: SERVICE_TYPE
+          value: JOBS_RUNNER
+        - name: NODE_ENV
+          value: production
+        - name: POSTGRES_DB
+          value: "retool"
+        - name: POSTGRES_HOST
+          value: 127.0.0.1
+        - name: POSTGRES_PORT
+          value: "5432"
+        - name: POSTGRES_USER
+          value: "retool"
+        - name: POSTGRES_PASSWORD
+          valueFrom:
+            secretKeyRef:
+              name: retoolstagingsecrets
+              key: postgres_password
+        - name: ENCRYPTION_KEY
+          valueFrom:
+            secretKeyRef:
+              name: retoolstagingsecrets
+              key: encryption_key
+        - name: LICENSE_KEY
+          valueFrom:
+            secretKeyRef:
+              name: retoolstagingsecrets
+              key: license_key
+        - name: CLIENT_ID
+          valueFrom:
+            secretKeyRef:
+              name: retoolstagingsecrets
+              key: google_client_id
+        - name: CLIENT_SECRET
+          valueFrom:
+            secretKeyRef:
+              name: retoolstagingsecrets
+              key: google_client_secret
+        - name: GITHUB_APP_ID
+          value: "154266"
+        - name: GITHUB_APP_INSTALLATION_ID
+          value: "20910151"
+        - name: GITHUB_APP_PRIVATE_KEY
+          valueFrom:
+            secretKeyRef:
+              name: retoolstagingsecrets
+              key: github_app_private_key
+        image: tryretool/backend:2.113.8
+        name: jobs-runner
+        ports:
+        - containerPort: 3000
+        resources:
+          limits: # a smaller memory footprint may not allow image to be pulled
+            memory: "2.5Gi"
+            cpu: "1"
+          requests:
+            cpu: "1"
+            memory: "1.5Gi"
+      - name: cloud-sql-proxy
+        image: gcr.io/cloudsql-docker/gce-proxy:1.30.0
+        imagePullPolicy: IfNotPresent
+        command: ["/cloud_sql_proxy",
+          "-instances=tn-mvp-staging:us-central1:staging-upgraded=tcp:5432" ]
+        securityContext:
+            runAsNonRoot: true
+            runAsUser: 65532
+        resources:
+          limits:
+            memory: "1Gi"
+            cpu: "500m"
+          requests:
+            memory: "512Mi"
+            cpu: "250m"
+      serviceAccount: workload-identity-ksa
+      serviceAccountName: workload-identity-ksa
+      restartPolicy: Always
+status: {}

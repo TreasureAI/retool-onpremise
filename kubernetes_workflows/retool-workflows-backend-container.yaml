@@ -1,4 +1,4 @@
-apiVersion: apps/v1 
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   labels:
@@ -31,13 +31,13 @@ spec:
         - name: NODE_ENV
           value: production
         - name: POSTGRES_DB
-          value: hammerhead_production
+          value: "retool_prod"
         - name: POSTGRES_HOST
-          value: postgres
+          value: 127.0.0.1 # loopback because of cloud-sql-proxy
         - name: POSTGRES_PORT
           value: "5432"
         - name: POSTGRES_USER
-          value: retool_internal_user
+          value: "retool-prod"
         - name: POSTGRES_PASSWORD
           valueFrom:
             secretKeyRef:
@@ -71,7 +71,7 @@ spec:
           value: "workflows"
         - name: WORKFLOW_BACKEND_HOST
           value: http://workflows-api
-        image: tryretool/backend:X.Y.Z
+        image: tryretool/backend:2.113.8
         name: workflows-api
         ports:
         - containerPort: 3000
