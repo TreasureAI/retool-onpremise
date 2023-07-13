@@ -35,7 +35,7 @@ spec:
         app.kubernetes.io/instance: retool
         app.kubernetes.io/component: web
     spec:
-      
+
       volumes:
         - name: retool-temporal-web-config
           configMap:
@@ -65,7 +65,7 @@ metadata:
     app.kubernetes.io/instance: retool
     app.kubernetes.io/component: web
 spec:
-  type: ClusterIP 
+  type: ClusterIP
   ports:
     - port: 8080
       targetPort: 8080
@@ -99,7 +99,7 @@ spec:
         app.kubernetes.io/instance: retool
         app.kubernetes.io/component: admintools
     spec:
-      
+
       containers:
         - name: admin-tools
           image: "temporalio/admin-tools:1.18.5"
@@ -132,7 +132,7 @@ metadata:
     app.kubernetes.io/instance: retool
     app.kubernetes.io/component: admintools
 spec:
-  type: ClusterIP 
+  type: ClusterIP
   ports:
     - port: 22
       targetPort: 22

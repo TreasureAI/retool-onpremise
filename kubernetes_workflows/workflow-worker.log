@@ -1,0 +1,32 @@
+wait-for-it.sh: waiting for 127.0.0.1:5432 without a timeout
+wait-for-it.sh: 127.0.0.1:5432 is available after 2 seconds
+not untarring the bundle
+{"level":"info","message":"[process service types] WORKFLOW_TEMPORAL_WORKER","timestamp":"2023-06-13T21:36:12.113Z"}
+{"level":"info","message":"Not configuring StatsD...","timestamp":"2023-06-13T21:36:34.147Z"}
+{"level":"info","message":"Not configuring StatsD...","timestamp":"2023-06-13T21:36:34.149Z"}
+Setting http and https agent maxSockets to 25
+(node:20) [DEP0148] DeprecationWarning: Use of deprecated folder mapping "./" in the "exports" field module resolution of the package at /snapshot/retool_development/node_modules/@tryretool/common/package.json.
+Update this package.json to use a subpath pattern like "./*".
+(Use `retool_backend --trace-deprecation ...` to show where the warning was created)
+(node:20) [LRU_CACHE_UNBOUNDED] UnboundedCacheWarning: TTL caching without ttlAutopurge, max, or maxSize can result in unbounded memory consumption.
+(node:20) [LRU_CACHE_OPTION_maxAge] DeprecationWarning: The maxAge option is deprecated. Please use options.ttl instead.
+(node:20) [DEP0148] DeprecationWarning: Use of deprecated folder mapping "./" in the "exports" field module resolution of the package at /node_modules/@tryretool/workflowsBackend/package.json.
+Update this package.json to use a subpath pattern like "./*".
+(node:20) [DEP0111] DeprecationWarning: Access to process.binding('http_parser') is deprecated.
+{"level":"info","message":"installing temporal runtime","timestamp":"2023-06-13T21:36:34.663Z"}
+{"level":"info","message":"Rechecking license status...","timestamp":"2023-06-13T21:36:34.665Z"}
+(node:20) NOTE: We are formalizing our plans to enter AWS SDK for JavaScript (v2) into maintenance mode in 2023.
+
+Please migrate your code to use AWS SDK for JavaScript (v3).
+For more information, check the migration guide at https://a.co/7PzMCcy
+{"level":"info","message":"license check http response code: 200","timestamp":"2023-06-13T21:36:35.414Z"}
+{"level":"info","message":"License key feature flag overrides: {\"newSignUpFlowWithMobile\":true,\"mobileFeatureCallout\":true,\"retoolMobile\":true,\"workflowsBillingFrontend\":true,\"workflowsBetaAccess\":true,\"workflowsEnableTemporal\":true,\"workflowsSourceControl\":true}","timestamp":"2023-06-13T21:36:35.416Z"}
+{"level":"info","message":"Updated license status from licensing server","timestamp":"2023-06-13T21:36:35.420Z"}
+{"level":"info","message":"creating temporal worker connection","timestamp":"2023-06-13T21:36:35.424Z"}
+{"level":"info","message":"Scheduling UpdateTimedOutWorkflows","timestamp":"2023-06-13T21:36:35.425Z"}
+{"level":"info","message":"creating temporal worker","timestamp":"2023-06-13T21:36:35.505Z"}
+{"label":"worker","level":"info","message":"Creating worker","options":{"activities":{},"bundlerOptions":{},"connection":{"nativeClient":{},"referenceHolders":{}},"debugMode":false,"defaultHeartbeatThrottleInterval":"30s","defaultHeartbeatThrottleIntervalMs":30000,"enableNonLocalActivities":true,"enableSDKTracing":false,"identity":"20@workflow-worker-b8756f794-xjsv4-workflows-workflows","interceptors":{"activityInbound":[null,null,null,null,null],"workflowModules":["/snapshot/retool_development/node_modules/@temporalio/worker/lib/workflow-log-interceptor.js"]},"isolateExecutionTimeout":"5s","isolateExecutionTimeoutMs":5000,"loadedDataConverter":{"failureConverter":{"options":{"encodeCommonAttributes":false}},"payloadCodecs":[],"payloadConverter":{"converterByEncoding":{},"converters":[{"encodingType":"binary/null"},{"encodingType":"binary/plain"},{"encodingType":"json/plain"}]}},"maxCachedWorkflows":200,"maxConcurrentActivityTaskExecutions":10,"maxConcurrentLocalActivityExecutions":10,"maxConcurrentWorkflowTaskExecutions":10,"maxHeartbeatThrottleInterval":"60s","maxHeartbeatThrottleIntervalMs":60000,"namespace":"workflows","showStackTraceSources":false,"shutdownGraceTime":"11 minute","shutdownGraceTimeMs":660000,"sinks":{"defaultWorkerLogger":{"debug":{},"error":{},"info":{},"trace":{},"warn":{}}},"stickyQueueScheduleToStartTimeout":"10s","stickyQueueScheduleToStartTimeoutMs":10000,"taskQueue":"workflows","workflowBundle":{"codePath":"/snapshot/retool_development/backend/transpiled/temporal/workflowsExecutor/workflowsExecutor-workflows-bundle.js"},"workflowThreadPoolSize":8},"timestamp":1686692195506}
+{"label":"worker","level":"warn","message":"Ignoring WorkerOptions.bundlerOptions because WorkerOptions.workflowBundle is set","timestamp":1686692195506}
+{"level":"info","message":"Skipping UpdateTimedOutWorkflows: Already exists","timestamp":"2023-06-13T21:36:43.278Z"}
+{"label":"worker","level":"info","message":"Initializing worker","timestamp":1686692203273}
+{"label":"worker","level":"info","message":"Worker state changed","state":"RUNNING","timestamp":1686692203289}

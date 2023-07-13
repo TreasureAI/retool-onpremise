@@ -81,7 +81,7 @@ spec:
               key: github_app_private_key
         - name: LOG_LEVEL  # debugging
           value: "verbose"
-        image: tryretool/backend:2.116.3
+        image: tryretool/backend:2.121.5
         name: retool-api
         ports:
         - containerPort: 3000
@@ -92,6 +92,16 @@ spec:
           requests:
             cpu: "1"
             memory: "1Gi"
+        livenessProbe:
+            failureThreshold: 3
+            httpGet:
+              path: /api/checkHealth
+              port: 80
+              scheme: HTTP
+            initialDelaySeconds: 90
+            periodSeconds: 30
+            successThreshold:
+            timeoutSeconds: 30
       - name: cloud-sql-proxy
         image: gcr.io/cloudsql-docker/gce-proxy:1.30.0
         imagePullPolicy: IfNotPresent
@@ -116,8 +126,8 @@ apiVersion: v1
 kind: Service
 metadata:
   labels:
-    app: api
-  name: api
+    app: retool-api
+  name: retool-api-service
 spec:
   type: LoadBalancer
   ports:
@@ -125,4 +135,4 @@ spec:
     port: 3000
     targetPort: 3000
   selector:
-    app: api
+    app: retool-api

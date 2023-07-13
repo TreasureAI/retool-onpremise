@@ -1,0 +1,64 @@
+2023/06/13 21:20:28 current FDs rlimit set to 1048576, wanted limit is 8500. Nothing to do here.
+2023/06/13 21:20:28 Listening on 127.0.0.1:5432 for tn-mvp-staging:us-central1:staging-upgraded
+2023/06/13 21:20:28 Ready for new connections
+2023/06/13 21:20:28 Generated RSA key in 71.822165ms
+2023/06/13 21:20:29 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/13 21:20:29 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/13 21:20:29 Scheduling refresh of ephemeral certificate in 54m59.497148065s
+2023/06/13 21:20:29 Client closed local connection on 127.0.0.1:5432
+2023/06/13 21:20:30 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/13 21:20:30 Client closed local connection on 127.0.0.1:5432
+2023/06/13 21:20:30 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/13 21:20:30 Client closed local connection on 127.0.0.1:5432
+2023/06/13 21:20:45 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/13 21:20:46 Client closed local connection on 127.0.0.1:5432
+2023/06/13 21:20:46 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/13 21:20:47 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/13 21:20:47 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/13 21:20:47 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/13 21:20:48 Client closed local connection on 127.0.0.1:5432
+2023/06/13 21:20:48 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/13 21:20:48 Client closed local connection on 127.0.0.1:5432
+2023/06/13 21:21:03 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/13 21:21:03 Client closed local connection on 127.0.0.1:5432
+2023/06/13 21:21:03 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/13 21:21:06 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/13 21:21:06 Client closed local connection on 127.0.0.1:5432
+2023/06/13 21:21:06 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/13 21:21:07 Client closed local connection on 127.0.0.1:5432
+2023/06/13 21:21:20 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/13 21:21:20 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/13 21:21:20 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/13 21:21:20 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/13 21:21:25 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/13 21:21:26 Client closed local connection on 127.0.0.1:5432
+2023/06/13 21:21:26 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/13 21:21:29 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/13 21:21:29 Client closed local connection on 127.0.0.1:5432
+2023/06/13 21:21:29 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/13 21:21:30 Client closed local connection on 127.0.0.1:5432
+2023/06/13 21:21:49 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/13 21:21:50 Client closed local connection on 127.0.0.1:5432
+2023/06/13 21:21:50 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/13 21:21:58 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/13 21:21:58 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/13 21:21:58 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/13 21:21:58 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/13 21:22:23 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/13 21:22:23 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/13 21:22:23 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/13 21:22:23 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/13 21:37:26 Client closed local connection on 127.0.0.1:5432
+2023/06/13 21:37:26 Client closed local connection on 127.0.0.1:5432
+2023/06/13 21:37:26 Client closed local connection on 127.0.0.1:5432
+2023/06/13 21:37:44 Client closed local connection on 127.0.0.1:5432
+2023/06/13 21:37:44 Client closed local connection on 127.0.0.1:5432
+2023/06/13 21:38:06 Client closed local connection on 127.0.0.1:5432
+2023/06/13 21:38:06 Client closed local connection on 127.0.0.1:5432
+2023/06/13 21:38:21 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/13 21:38:30 Client closed local connection on 127.0.0.1:5432
+2023/06/13 21:38:30 Client closed local connection on 127.0.0.1:5432
+2023/06/13 21:39:03 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/13 21:39:23 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/13 21:39:23 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/13 21:39:32 New connection for "tn-mvp-staging:us-central1:staging-upgraded"

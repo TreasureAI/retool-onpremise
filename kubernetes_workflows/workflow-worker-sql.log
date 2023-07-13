@@ -1,0 +1,13 @@
+2023/06/13 21:36:10 current FDs rlimit set to 1048576, wanted limit is 8500. Nothing to do here.
+2023/06/13 21:36:10 Listening on 127.0.0.1:5432 for tn-mvp-staging:us-central1:staging-upgraded
+2023/06/13 21:36:10 Ready for new connections
+2023/06/13 21:36:11 Generated RSA key in 461.125167ms
+2023/06/13 21:36:11 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/13 21:36:11 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/13 21:36:11 Scheduling refresh of ephemeral certificate in 54m59.430341882s
+2023/06/13 21:36:11 Client closed local connection on 127.0.0.1:5432
+2023/06/13 21:36:34 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/13 21:36:34 Client closed local connection on 127.0.0.1:5432
+2023/06/13 21:36:34 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/13 21:36:35 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/13 21:36:35 New connection for "tn-mvp-staging:us-central1:staging-upgraded"

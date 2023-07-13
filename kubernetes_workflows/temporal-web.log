@@ -1,0 +1,15 @@
+2023/05/22 20:24:12 Loading config; env=docker,configDir=config
+2023/05/22 20:24:12 Loading config files=[config/docker.yaml]
+2023/05/22 20:24:12 Loading config; env=docker,configDir=config
+2023/05/22 20:24:12 Loading config files=[config/docker.yaml]
+Starting UI server...
+
+   ____    __
+  / __/___/ /  ___
+ / _// __/ _ \/ _ \
+/___/\__/_//_/\___/ v4.9.0
+High performance, minimalist Go web framework
+https://echo.labstack.com
+____________________________________O/_______
+                                    O\
+⇨ http server started on [::]:8080

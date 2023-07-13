@@ -71,7 +71,7 @@ spec:
           value: "workflows"
         - name: WORKFLOW_BACKEND_HOST
           value: http://workflows-api
-        image: tryretool/backend:2.113.8
+        image: tryretool/backend:2.121.5
         name: workflows-api
         ports:
         - containerPort: 3000
@@ -81,6 +81,24 @@ spec:
           requests:
             cpu: "1"
             memory: 1024M
+      - name: cloud-sql-proxy
+        image: gcr.io/cloudsql-docker/gce-proxy:1.30.0
+        imagePullPolicy: IfNotPresent
+        command: ["/cloud_sql_proxy",
+          "-instances=tn-mvp-staging:us-central1:staging-upgraded=tcp:5432" ]
+        securityContext:
+            runAsNonRoot: true
+            runAsUser: 65532
+        resources:
+          limits:
+            memory: "1Gi"
+            cpu: "500m"
+          # requests:
+          #   memory: "512Mi"
+          #   cpu: "250m"
+        # any node pools that schedule this job must have workload-identity properly configured
+      serviceAccount: workload-identity-ksa
+      serviceAccountName: workload-identity-ksa
       restartPolicy: Always
 ---
 apiVersion: v1
