@@ -7,3 +7,8 @@ retool-secrets.yaml
 retool-staging-secrets.yaml
 helm/charts
 .idea/
+kubernetes_workflows/temporal/retool-temporal-secrets.template.yaml
+kubernetes_workflows/temporal/del-temporal.sh
+kubernetes_workflows/retooltemporalsecrets.yaml
+kubernetes_workflows/retoolstagingsecrets.yaml
+kubernetes_workflows/temporal/retool-temporal-frontend-log.txt

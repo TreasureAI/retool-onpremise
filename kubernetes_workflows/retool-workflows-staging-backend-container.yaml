@@ -1,0 +1,117 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: workflows-api
+  name: workflows-api
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: workflows-api
+  template:
+    metadata:
+      labels:
+        app: workflows-api
+    spec:
+      containers:
+      - args:
+        - bash
+        - -c
+        - ./docker_scripts/wait-for-it.sh -t 0 $POSTGRES_HOST:$POSTGRES_PORT;
+          ./docker_scripts/start_api.sh
+        env:
+        - name: JWT_SECRET
+          valueFrom:
+            secretKeyRef:
+              name: retoolstagingsecrets
+              key: jwt_secret
+        - name: SERVICE_TYPE
+          value: MAIN_BACKEND,DB_CONNECTOR,DB_SSH_CONNECTOR
+        - name: NODE_ENV
+          value: production
+        - name: POSTGRES_DB
+          value: "retool"
+        - name: POSTGRES_HOST
+          value: 127.0.0.1 # loopback because of cloud-sql-proxy
+        - name: POSTGRES_PORT
+          value: "5432"
+        - name: POSTGRES_USER
+          value: "retool"
+        - name: POSTGRES_PASSWORD
+          valueFrom:
+            secretKeyRef:
+              name: retoolstagingsecrets
+              key: postgres_password
+        - name: ENCRYPTION_KEY
+          valueFrom:
+            secretKeyRef:
+              name: retoolstagingsecrets
+              key: encryption_key
+        - name: LICENSE_KEY
+          valueFrom:
+            secretKeyRef:
+              name: retoolstagingsecrets
+              key: license_key
+        - name: CLIENT_ID
+          valueFrom:
+            secretKeyRef:
+              name: retoolstagingsecrets
+              key: google_client_id
+        - name: CLIENT_SECRET
+          valueFrom:
+            secretKeyRef:
+              name: retoolstagingsecrets
+              key: google_client_secret
+        - name: WORKFLOW_TEMPORAL_CLUSTER_FRONTEND_HOST
+          value: "retool-temporal-frontend"
+        - name: WORKFLOW_TEMPORAL_CLUSTER_FRONTEND_PORT
+          value: "7233"
+        - name: WORKFLOW_TEMPORAL_CLUSTER_NAMESPACE
+          value: "workflows"
+        - name: WORKFLOW_BACKEND_HOST
+          value: http://workflows-api
+        image: tryretool/backend:2.121.5
+        name: workflows-api
+        ports:
+        - containerPort: 3000
+        resources:
+          limits:
+            memory: 2048M
+          requests:
+            cpu: "1"
+            memory: 1024M
+      - name: cloud-sql-proxy
+        image: gcr.io/cloudsql-docker/gce-proxy:1.30.0
+        imagePullPolicy: IfNotPresent
+        command: ["/cloud_sql_proxy",
+          "-instances=tn-mvp-staging:us-central1:staging-upgraded=tcp:5432" ]
+        securityContext:
+            runAsNonRoot: true
+            runAsUser: 65532
+        resources:
+          limits:
+            memory: "1Gi"
+            cpu: "500m"
+          # requests:
+          #   memory: "512Mi"
+          #   cpu: "250m"
+        # any node pools that schedule this job must have workload-identity properly configured
+      serviceAccount: workload-identity-ksa
+      serviceAccountName: workload-identity-ksa
+      restartPolicy: Always
+---
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app: workflows-api
+  name: workflows-api
+spec:
+  type: LoadBalancer
+  ports:
+  - protocol: TCP
+    port: 80
+    targetPort: 3000
+  selector:
+    app: workflows-api

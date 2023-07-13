@@ -1,0 +1,1911 @@
+2023/06/02 16:22:36 current FDs rlimit set to 1048576, wanted limit is 8500. Nothing to do here.
+2023/06/02 16:22:37 Listening on 127.0.0.1:5432 for tn-mvp-staging:us-central1:staging-upgraded
+2023/06/02 16:22:37 Ready for new connections
+2023/06/02 16:22:37 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/02 16:22:37 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/02 16:22:38 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/02 16:22:38 Generated RSA key in 936.123788ms
+2023/06/02 16:22:38 Scheduling refresh of ephemeral certificate in 54m59.800866107s
+2023/06/02 16:22:38 Client closed local connection on 127.0.0.1:5432
+2023/06/02 16:22:38 Client closed local connection on 127.0.0.1:5432
+2023/06/02 16:22:38 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/02 16:22:38 Client closed local connection on 127.0.0.1:5432
+2023/06/02 16:22:38 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/02 16:22:39 Client closed local connection on 127.0.0.1:5432
+2023/06/02 16:22:39 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/02 16:22:39 Client closed local connection on 127.0.0.1:5432
+2023/06/02 16:22:39 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/02 16:22:39 Client closed local connection on 127.0.0.1:5432
+2023/06/02 16:22:39 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/02 16:22:40 Client closed local connection on 127.0.0.1:5432
+2023/06/02 16:22:40 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/02 16:22:40 Client closed local connection on 127.0.0.1:5432
+2023/06/02 16:22:40 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/02 16:22:41 Client closed local connection on 127.0.0.1:5432
+2023/06/02 16:22:41 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/02 16:22:41 Client closed local connection on 127.0.0.1:5432
+2023/06/02 16:22:41 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/02 16:22:41 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/02 16:22:42 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/02 16:22:42 Client closed local connection on 127.0.0.1:5432
+2023/06/02 16:22:42 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/02 17:17:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/02 17:17:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/02 17:17:38 Scheduling refresh of ephemeral certificate in 54m59.756891883s
+2023/06/02 17:22:41 Client closed local connection on 127.0.0.1:5432
+2023/06/02 17:22:42 Client closed local connection on 127.0.0.1:5432
+2023/06/02 17:22:43 Client closed local connection on 127.0.0.1:5432
+2023/06/02 17:22:53 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/02 17:29:42 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/02 18:12:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/02 18:12:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/02 18:12:38 Scheduling refresh of ephemeral certificate in 54m59.61548099s
+2023/06/02 18:22:53 Client closed local connection on 127.0.0.1:5432
+2023/06/02 18:29:42 Client closed local connection on 127.0.0.1:5432
+2023/06/02 18:29:43 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/02 18:42:33 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/02 19:07:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/02 19:07:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/02 19:07:38 Scheduling refresh of ephemeral certificate in 54m59.741276804s
+2023/06/02 19:29:43 Client closed local connection on 127.0.0.1:5432
+2023/06/02 19:30:53 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/02 19:42:33 Client closed local connection on 127.0.0.1:5432
+2023/06/02 19:46:33 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/02 20:02:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/02 20:02:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/02 20:02:38 Scheduling refresh of ephemeral certificate in 54m59.613059731s
+2023/06/02 20:30:53 Client closed local connection on 127.0.0.1:5432
+2023/06/02 20:34:42 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/02 20:46:33 Client closed local connection on 127.0.0.1:5432
+2023/06/02 20:51:42 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/02 20:57:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/02 20:57:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/02 20:57:38 Scheduling refresh of ephemeral certificate in 54m59.776188932s
+2023/06/02 21:34:43 Client closed local connection on 127.0.0.1:5432
+2023/06/02 21:44:44 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/02 21:51:42 Client closed local connection on 127.0.0.1:5432
+2023/06/02 21:52:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/02 21:52:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/02 21:52:38 Scheduling refresh of ephemeral certificate in 54m59.66777909s
+2023/06/02 22:00:34 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/02 22:44:44 Client closed local connection on 127.0.0.1:5432
+2023/06/02 22:47:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/02 22:47:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/02 22:47:38 Scheduling refresh of ephemeral certificate in 54m59.726677274s
+2023/06/02 22:51:14 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/02 23:00:34 Client closed local connection on 127.0.0.1:5432
+2023/06/02 23:10:54 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/02 23:42:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/02 23:42:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/02 23:42:38 Scheduling refresh of ephemeral certificate in 54m59.583134791s
+2023/06/02 23:51:14 Client closed local connection on 127.0.0.1:5432
+2023/06/02 23:54:42 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/03 00:13:04 Client closed local connection on 127.0.0.1:5432
+2023/06/03 00:13:04 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/03 00:37:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/03 00:37:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/03 00:37:38 Scheduling refresh of ephemeral certificate in 54m59.77600457s
+2023/06/03 00:54:42 Client closed local connection on 127.0.0.1:5432
+2023/06/03 01:00:14 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/03 01:13:04 Client closed local connection on 127.0.0.1:5432
+2023/06/03 01:17:54 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/03 01:32:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/03 01:32:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/03 01:32:38 Scheduling refresh of ephemeral certificate in 54m59.635428797s
+2023/06/03 02:00:15 Client closed local connection on 127.0.0.1:5432
+2023/06/03 02:00:35 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/03 02:17:55 Client closed local connection on 127.0.0.1:5432
+2023/06/03 02:18:15 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/03 02:27:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/03 02:27:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/03 02:27:38 Scheduling refresh of ephemeral certificate in 54m59.760278804s
+2023/06/03 03:00:35 Client closed local connection on 127.0.0.1:5432
+2023/06/03 03:16:45 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/03 03:18:15 Client closed local connection on 127.0.0.1:5432
+2023/06/03 03:22:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/03 03:22:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/03 03:22:38 Scheduling refresh of ephemeral certificate in 54m59.687767915s
+2023/06/03 03:29:42 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/03 04:16:45 Client closed local connection on 127.0.0.1:5432
+2023/06/03 04:17:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/03 04:17:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/03 04:17:38 Scheduling refresh of ephemeral certificate in 54m59.737435447s
+2023/06/03 04:18:05 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/03 04:29:45 Client closed local connection on 127.0.0.1:5432
+2023/06/03 04:50:55 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/03 05:12:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/03 05:12:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/03 05:12:38 Scheduling refresh of ephemeral certificate in 54m59.662371959s
+2023/06/03 05:18:05 Client closed local connection on 127.0.0.1:5432
+2023/06/03 05:27:35 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/03 05:52:35 Client closed local connection on 127.0.0.1:5432
+2023/06/03 05:52:35 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/03 06:07:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/03 06:07:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/03 06:07:38 Scheduling refresh of ephemeral certificate in 54m59.780715573s
+2023/06/03 06:27:36 Client closed local connection on 127.0.0.1:5432
+2023/06/03 06:29:16 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/03 06:52:36 Client closed local connection on 127.0.0.1:5432
+2023/06/03 06:54:36 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/03 07:02:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/03 07:02:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/03 07:02:38 Scheduling refresh of ephemeral certificate in 54m59.692092317s
+2023/06/03 07:29:16 Client closed local connection on 127.0.0.1:5432
+2023/06/03 07:40:56 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/03 07:54:36 Client closed local connection on 127.0.0.1:5432
+2023/06/03 07:57:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/03 07:57:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/03 07:57:38 Scheduling refresh of ephemeral certificate in 54m59.797038582s
+2023/06/03 08:00:16 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/03 08:40:56 Client closed local connection on 127.0.0.1:5432
+2023/06/03 08:45:46 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/03 08:52:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/03 08:52:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/03 08:52:38 Scheduling refresh of ephemeral certificate in 54m59.6865016s
+2023/06/03 09:00:16 Client closed local connection on 127.0.0.1:5432
+2023/06/03 09:03:42 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/03 09:45:46 Client closed local connection on 127.0.0.1:5432
+2023/06/03 09:47:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/03 09:47:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/03 09:47:38 Scheduling refresh of ephemeral certificate in 54m59.732973663s
+2023/06/03 09:54:56 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/03 10:03:42 Client closed local connection on 127.0.0.1:5432
+2023/06/03 10:04:56 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/03 10:42:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/03 10:42:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/03 10:42:38 Scheduling refresh of ephemeral certificate in 54m59.631919576s
+2023/06/03 10:54:56 Client closed local connection on 127.0.0.1:5432
+2023/06/03 10:56:47 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/03 11:04:56 Client closed local connection on 127.0.0.1:5432
+2023/06/03 11:19:57 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/03 11:37:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/03 11:37:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/03 11:37:38 Scheduling refresh of ephemeral certificate in 54m59.76872907s
+2023/06/03 11:56:47 Client closed local connection on 127.0.0.1:5432
+2023/06/03 12:00:03 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/03 12:19:57 Client closed local connection on 127.0.0.1:5432
+2023/06/03 12:21:57 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/03 12:32:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/03 12:32:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/03 12:32:38 Scheduling refresh of ephemeral certificate in 54m59.653459286s
+2023/06/03 13:00:03 Client closed local connection on 127.0.0.1:5432
+2023/06/03 13:07:42 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/03 13:21:57 Client closed local connection on 127.0.0.1:5432
+2023/06/03 13:27:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/03 13:27:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/03 13:27:38 Scheduling refresh of ephemeral certificate in 54m59.783014264s
+2023/06/03 13:32:47 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/03 14:07:47 Client closed local connection on 127.0.0.1:5432
+2023/06/03 14:15:37 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/03 14:22:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/03 14:22:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/03 14:22:38 Scheduling refresh of ephemeral certificate in 54m59.658118694s
+2023/06/03 14:32:47 Client closed local connection on 127.0.0.1:5432
+2023/06/03 14:42:47 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/03 15:15:37 Client closed local connection on 127.0.0.1:5432
+2023/06/03 15:17:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/03 15:17:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/03 15:17:38 Scheduling refresh of ephemeral certificate in 54m59.779879833s
+2023/06/03 15:19:38 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/03 15:51:18 Client closed local connection on 127.0.0.1:5432
+2023/06/03 15:51:18 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/03 16:12:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/03 16:12:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/03 16:12:38 Scheduling refresh of ephemeral certificate in 54m59.632250899s
+2023/06/03 16:19:38 Client closed local connection on 127.0.0.1:5432
+2023/06/03 16:36:08 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/03 16:51:18 Client closed local connection on 127.0.0.1:5432
+2023/06/03 16:52:38 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/03 17:07:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/03 17:07:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/03 17:07:38 Scheduling refresh of ephemeral certificate in 54m59.7596799s
+2023/06/03 17:36:08 Client closed local connection on 127.0.0.1:5432
+2023/06/03 17:43:58 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/03 17:52:38 Client closed local connection on 127.0.0.1:5432
+2023/06/03 17:56:28 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/03 18:02:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/03 18:02:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/03 18:02:38 Scheduling refresh of ephemeral certificate in 54m59.684966924s
+2023/06/03 18:43:58 Client closed local connection on 127.0.0.1:5432
+2023/06/03 18:56:28 Client closed local connection on 127.0.0.1:5432
+2023/06/03 18:56:28 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/03 18:57:28 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/03 18:57:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/03 18:57:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/03 18:57:38 Scheduling refresh of ephemeral certificate in 54m59.768705288s
+2023/06/03 19:52:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/03 19:52:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/03 19:52:38 Scheduling refresh of ephemeral certificate in 54m59.60478171s
+2023/06/03 19:56:29 Client closed local connection on 127.0.0.1:5432
+2023/06/03 19:57:28 Client closed local connection on 127.0.0.1:5432
+2023/06/03 19:57:29 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/03 20:03:49 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/03 20:47:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/03 20:47:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/03 20:47:38 Scheduling refresh of ephemeral certificate in 54m59.776606176s
+2023/06/03 20:57:29 Client closed local connection on 127.0.0.1:5432
+2023/06/03 21:03:49 Client closed local connection on 127.0.0.1:5432
+2023/06/03 21:03:49 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/03 21:15:39 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/03 21:42:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/03 21:42:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/03 21:42:38 Scheduling refresh of ephemeral certificate in 54m59.432442798s
+2023/06/03 22:03:49 Client closed local connection on 127.0.0.1:5432
+2023/06/03 22:05:29 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/03 22:15:39 Client closed local connection on 127.0.0.1:5432
+2023/06/03 22:26:09 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/03 22:37:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/03 22:37:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/03 22:37:38 Scheduling refresh of ephemeral certificate in 54m59.738251217s
+2023/06/03 23:05:29 Client closed local connection on 127.0.0.1:5432
+2023/06/03 23:12:29 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/03 23:26:09 Client closed local connection on 127.0.0.1:5432
+2023/06/03 23:28:09 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/03 23:32:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/03 23:32:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/03 23:32:38 Scheduling refresh of ephemeral certificate in 54m59.643916103s
+2023/06/04 00:12:29 Client closed local connection on 127.0.0.1:5432
+2023/06/04 00:17:00 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/04 00:27:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/04 00:27:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/04 00:27:38 Scheduling refresh of ephemeral certificate in 54m59.7380339s
+2023/06/04 00:28:10 Client closed local connection on 127.0.0.1:5432
+2023/06/04 00:32:00 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/04 01:17:00 Client closed local connection on 127.0.0.1:5432
+2023/06/04 01:22:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/04 01:22:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/04 01:22:38 Scheduling refresh of ephemeral certificate in 54m59.637744659s
+2023/06/04 01:24:20 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/04 01:32:00 Client closed local connection on 127.0.0.1:5432
+2023/06/04 01:34:20 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/04 02:17:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/04 02:17:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/04 02:17:38 Scheduling refresh of ephemeral certificate in 54m59.772501946s
+2023/06/04 02:24:20 Client closed local connection on 127.0.0.1:5432
+2023/06/04 02:34:20 Client closed local connection on 127.0.0.1:5432
+2023/06/04 02:34:20 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/04 02:38:50 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/04 03:12:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/04 03:12:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/04 03:12:38 Scheduling refresh of ephemeral certificate in 54m59.67818528s
+2023/06/04 03:34:21 Client closed local connection on 127.0.0.1:5432
+2023/06/04 03:38:50 Client closed local connection on 127.0.0.1:5432
+2023/06/04 03:38:50 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/04 03:41:50 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/04 04:07:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/04 04:07:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/04 04:07:38 Scheduling refresh of ephemeral certificate in 54m59.78092086s
+2023/06/04 04:38:50 Client closed local connection on 127.0.0.1:5432
+2023/06/04 04:41:50 Client closed local connection on 127.0.0.1:5432
+2023/06/04 04:41:51 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/04 04:50:51 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/04 05:02:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/04 05:02:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/04 05:02:38 Scheduling refresh of ephemeral certificate in 54m59.642597929s
+2023/06/04 05:41:51 Client closed local connection on 127.0.0.1:5432
+2023/06/04 05:45:01 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/04 05:50:51 Client closed local connection on 127.0.0.1:5432
+2023/06/04 05:57:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/04 05:57:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/04 05:57:38 Scheduling refresh of ephemeral certificate in 54m59.781637288s
+2023/06/04 06:00:11 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/04 06:50:51 Client closed local connection on 127.0.0.1:5432
+2023/06/04 06:52:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/04 06:52:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/04 06:52:38 Scheduling refresh of ephemeral certificate in 54m59.700916222s
+2023/06/04 07:00:01 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/04 07:00:11 Client closed local connection on 127.0.0.1:5432
+2023/06/04 07:00:22 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/04 07:47:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/04 07:47:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/04 07:47:38 Scheduling refresh of ephemeral certificate in 54m59.769073073s
+2023/06/04 08:00:01 Client closed local connection on 127.0.0.1:5432
+2023/06/04 08:00:01 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/04 08:00:31 Client closed local connection on 127.0.0.1:5432
+2023/06/04 08:00:31 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/04 08:42:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/04 08:42:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/04 08:42:38 Scheduling refresh of ephemeral certificate in 54m59.633940785s
+2023/06/04 09:00:02 Client closed local connection on 127.0.0.1:5432
+2023/06/04 09:00:02 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/04 09:00:31 Client closed local connection on 127.0.0.1:5432
+2023/06/04 09:04:32 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/04 09:37:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/04 09:37:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/04 09:37:38 Scheduling refresh of ephemeral certificate in 54m59.748582242s
+2023/06/04 10:00:02 Client closed local connection on 127.0.0.1:5432
+2023/06/04 10:00:52 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/04 10:04:32 Client closed local connection on 127.0.0.1:5432
+2023/06/04 10:27:22 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/04 10:32:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/04 10:32:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/04 10:32:38 Scheduling refresh of ephemeral certificate in 54m59.714177772s
+2023/06/04 11:00:52 Client closed local connection on 127.0.0.1:5432
+2023/06/04 11:03:22 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/04 11:27:22 Client closed local connection on 127.0.0.1:5432
+2023/06/04 11:27:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/04 11:27:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/04 11:27:38 Scheduling refresh of ephemeral certificate in 54m59.789662431s
+2023/06/04 11:27:42 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/04 11:47:42 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/04 11:47:42 Client closed local connection on 127.0.0.1:5432
+2023/06/04 12:00:32 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/04 12:00:32 Client closed local connection on 127.0.0.1:5432
+2023/06/04 12:03:22 Client closed local connection on 127.0.0.1:5432
+2023/06/04 12:03:42 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/04 12:22:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/04 12:22:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/04 12:22:38 Scheduling refresh of ephemeral certificate in 54m59.693147569s
+2023/06/04 12:27:42 Client closed local connection on 127.0.0.1:5432
+2023/06/04 12:29:02 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/04 13:03:42 Client closed local connection on 127.0.0.1:5432
+2023/06/04 13:03:42 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/04 13:17:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/04 13:17:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/04 13:17:38 Scheduling refresh of ephemeral certificate in 54m59.752035612s
+2023/06/04 13:29:02 Client closed local connection on 127.0.0.1:5432
+2023/06/04 13:33:43 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/04 14:03:43 Client closed local connection on 127.0.0.1:5432
+2023/06/04 14:03:43 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/04 14:12:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/04 14:12:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/04 14:12:38 Scheduling refresh of ephemeral certificate in 54m59.646688133s
+2023/06/04 14:33:43 Client closed local connection on 127.0.0.1:5432
+2023/06/04 14:41:13 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/04 15:03:43 Client closed local connection on 127.0.0.1:5432
+2023/06/04 15:07:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/04 15:07:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/04 15:07:38 Scheduling refresh of ephemeral certificate in 54m59.760645389s
+2023/06/04 15:18:03 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/04 15:41:13 Client closed local connection on 127.0.0.1:5432
+2023/06/04 15:48:13 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/04 16:02:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/04 16:02:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/04 16:02:38 Scheduling refresh of ephemeral certificate in 54m59.592014657s
+2023/06/04 16:18:03 Client closed local connection on 127.0.0.1:5432
+2023/06/04 16:18:23 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/04 16:48:13 Client closed local connection on 127.0.0.1:5432
+2023/06/04 16:55:42 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/04 16:57:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/04 16:57:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/04 16:57:38 Scheduling refresh of ephemeral certificate in 54m59.77488712s
+2023/06/04 17:18:23 Client closed local connection on 127.0.0.1:5432
+2023/06/04 17:20:33 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/04 17:52:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/04 17:52:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/04 17:52:38 Scheduling refresh of ephemeral certificate in 54m59.691750378s
+2023/06/04 17:55:42 Client closed local connection on 127.0.0.1:5432
+2023/06/04 18:06:43 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/04 18:20:33 Client closed local connection on 127.0.0.1:5432
+2023/06/04 18:22:54 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/04 18:47:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/04 18:47:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/04 18:47:38 Scheduling refresh of ephemeral certificate in 54m59.754068674s
+2023/06/04 19:06:44 Client closed local connection on 127.0.0.1:5432
+2023/06/04 19:16:44 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/04 19:22:54 Client closed local connection on 127.0.0.1:5432
+2023/06/04 19:32:24 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/04 19:42:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/04 19:42:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/04 19:42:38 Scheduling refresh of ephemeral certificate in 54m59.649667569s
+2023/06/04 20:16:44 Client closed local connection on 127.0.0.1:5432
+2023/06/04 20:32:24 Client closed local connection on 127.0.0.1:5432
+2023/06/04 20:32:24 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/04 20:36:34 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/04 20:37:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/04 20:37:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/04 20:37:38 Scheduling refresh of ephemeral certificate in 54m59.767165075s
+2023/06/04 21:32:24 Client closed local connection on 127.0.0.1:5432
+2023/06/04 21:32:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/04 21:32:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/04 21:32:38 Scheduling refresh of ephemeral certificate in 54m59.634748313s
+2023/06/04 21:36:34 Client closed local connection on 127.0.0.1:5432
+2023/06/04 21:36:34 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/04 21:36:34 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/04 22:27:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/04 22:27:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/04 22:27:38 Scheduling refresh of ephemeral certificate in 54m59.744116368s
+2023/06/04 22:36:35 Client closed local connection on 127.0.0.1:5432
+2023/06/04 22:36:35 Client closed local connection on 127.0.0.1:5432
+2023/06/04 22:36:35 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/04 22:40:55 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/04 23:22:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/04 23:22:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/04 23:22:38 Scheduling refresh of ephemeral certificate in 54m59.365754598s
+2023/06/04 23:36:35 Client closed local connection on 127.0.0.1:5432
+2023/06/04 23:38:45 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/04 23:40:55 Client closed local connection on 127.0.0.1:5432
+2023/06/04 23:41:42 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/05 00:17:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/05 00:17:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/05 00:17:38 Scheduling refresh of ephemeral certificate in 54m59.769226221s
+2023/06/05 00:38:45 Client closed local connection on 127.0.0.1:5432
+2023/06/05 00:41:42 Client closed local connection on 127.0.0.1:5432
+2023/06/05 00:41:45 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/05 00:53:35 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/05 01:12:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/05 01:12:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/05 01:12:38 Scheduling refresh of ephemeral certificate in 54m59.659961794s
+2023/06/05 01:41:45 Client closed local connection on 127.0.0.1:5432
+2023/06/05 01:42:05 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/05 01:53:35 Client closed local connection on 127.0.0.1:5432
+2023/06/05 01:59:45 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/05 02:07:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/05 02:07:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/05 02:07:38 Scheduling refresh of ephemeral certificate in 54m59.757574957s
+2023/06/05 02:42:05 Client closed local connection on 127.0.0.1:5432
+2023/06/05 02:46:55 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/05 02:59:46 Client closed local connection on 127.0.0.1:5432
+2023/06/05 03:00:06 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/05 03:02:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/05 03:02:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/05 03:02:38 Scheduling refresh of ephemeral certificate in 54m59.665093232s
+2023/06/05 03:46:56 Client closed local connection on 127.0.0.1:5432
+2023/06/05 03:50:42 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/05 03:57:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/05 03:57:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/05 03:57:38 Scheduling refresh of ephemeral certificate in 54m59.739463319s
+2023/06/05 04:00:06 Client closed local connection on 127.0.0.1:5432
+2023/06/05 04:00:16 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/05 04:50:42 Client closed local connection on 127.0.0.1:5432
+2023/06/05 04:51:46 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/05 04:52:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/05 04:52:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/05 04:52:38 Scheduling refresh of ephemeral certificate in 54m59.655230714s
+2023/06/05 05:00:16 Client closed local connection on 127.0.0.1:5432
+2023/06/05 05:09:42 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/05 05:47:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/05 05:47:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/05 05:47:38 Scheduling refresh of ephemeral certificate in 54m59.775879601s
+2023/06/05 05:51:46 Client closed local connection on 127.0.0.1:5432
+2023/06/05 05:53:26 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/05 06:09:44 Client closed local connection on 127.0.0.1:5432
+2023/06/05 06:10:06 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/05 06:42:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/05 06:42:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/05 06:42:38 Scheduling refresh of ephemeral certificate in 54m59.659480688s
+2023/06/05 06:53:26 Client closed local connection on 127.0.0.1:5432
+2023/06/05 06:56:06 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/05 07:12:17 Client closed local connection on 127.0.0.1:5432
+2023/06/05 07:12:17 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/05 07:37:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/05 07:37:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/05 07:37:38 Scheduling refresh of ephemeral certificate in 54m59.773394859s
+2023/06/05 07:56:07 Client closed local connection on 127.0.0.1:5432
+2023/06/05 08:06:42 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/05 08:12:17 Client closed local connection on 127.0.0.1:5432
+2023/06/05 08:26:37 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/05 08:32:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/05 08:32:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/05 08:32:38 Scheduling refresh of ephemeral certificate in 54m59.652420722s
+2023/06/05 09:09:47 Client closed local connection on 127.0.0.1:5432
+2023/06/05 09:09:47 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/05 09:26:37 Client closed local connection on 127.0.0.1:5432
+2023/06/05 09:27:27 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/05 09:27:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/05 09:27:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/05 09:27:38 Scheduling refresh of ephemeral certificate in 54m59.783673701s
+2023/06/05 10:09:47 Client closed local connection on 127.0.0.1:5432
+2023/06/05 10:14:07 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/05 10:22:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/05 10:22:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/05 10:22:38 Scheduling refresh of ephemeral certificate in 54m59.520864553s
+2023/06/05 10:27:27 Client closed local connection on 127.0.0.1:5432
+2023/06/05 10:29:17 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/05 11:14:07 Client closed local connection on 127.0.0.1:5432
+2023/06/05 11:17:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/05 11:17:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/05 11:17:38 Scheduling refresh of ephemeral certificate in 54m59.738653723s
+2023/06/05 11:19:37 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/05 11:29:17 Client closed local connection on 127.0.0.1:5432
+2023/06/05 11:35:17 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/05 12:12:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/05 12:12:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/05 12:12:38 Scheduling refresh of ephemeral certificate in 54m59.647750022s
+2023/06/05 12:19:38 Client closed local connection on 127.0.0.1:5432
+2023/06/05 12:21:42 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/05 12:35:18 Client closed local connection on 127.0.0.1:5432
+2023/06/05 12:49:18 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/05 13:07:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/05 13:07:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/05 13:07:38 Scheduling refresh of ephemeral certificate in 54m59.774962188s
+2023/06/05 13:21:42 Client closed local connection on 127.0.0.1:5432
+2023/06/05 13:24:08 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/05 13:49:18 Client closed local connection on 127.0.0.1:5432
+2023/06/05 13:49:18 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/05 14:02:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/05 14:02:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/05 14:02:38 Scheduling refresh of ephemeral certificate in 54m59.627496623s
+2023/06/05 14:49:18 Client closed local connection on 127.0.0.1:5432
+2023/06/05 14:49:18 Client closed local connection on 127.0.0.1:5432
+2023/06/05 14:49:18 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/05 14:51:58 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/05 14:57:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/05 14:57:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/05 14:57:38 Scheduling refresh of ephemeral certificate in 54m59.735125171s
+2023/06/05 15:49:18 Client closed local connection on 127.0.0.1:5432
+2023/06/05 15:51:48 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/05 15:52:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/05 15:52:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/05 15:52:38 Scheduling refresh of ephemeral certificate in 54m59.654659769s
+2023/06/05 16:03:42 Client closed local connection on 127.0.0.1:5432
+2023/06/05 16:03:42 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/05 16:47:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/05 16:47:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/05 16:47:38 Scheduling refresh of ephemeral certificate in 54m59.765508893s
+2023/06/05 16:51:49 Client closed local connection on 127.0.0.1:5432
+2023/06/05 17:00:15 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/05 17:03:42 Client closed local connection on 127.0.0.1:5432
+2023/06/05 17:05:14 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/05 17:42:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/05 17:42:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/05 17:42:38 Scheduling refresh of ephemeral certificate in 54m59.643405044s
+2023/06/05 18:00:15 Client closed local connection on 127.0.0.1:5432
+2023/06/05 18:05:15 Client closed local connection on 127.0.0.1:5432
+2023/06/05 18:05:19 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/05 18:15:42 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/05 18:37:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/05 18:37:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/05 18:37:38 Scheduling refresh of ephemeral certificate in 54m59.755326663s
+2023/06/05 19:05:19 Client closed local connection on 127.0.0.1:5432
+2023/06/05 19:06:19 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/05 19:15:42 Client closed local connection on 127.0.0.1:5432
+2023/06/05 19:20:59 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/05 19:32:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/05 19:32:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/05 19:32:38 Scheduling refresh of ephemeral certificate in 54m59.626498003s
+2023/06/05 20:06:20 Client closed local connection on 127.0.0.1:5432
+2023/06/05 20:09:20 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/05 20:21:00 Client closed local connection on 127.0.0.1:5432
+2023/06/05 20:26:50 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/05 20:27:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/05 20:27:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/05 20:27:38 Scheduling refresh of ephemeral certificate in 54m59.750639857s
+2023/06/05 21:09:20 Client closed local connection on 127.0.0.1:5432
+2023/06/05 21:13:00 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/05 21:22:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/05 21:22:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/05 21:22:38 Scheduling refresh of ephemeral certificate in 54m59.645054511s
+2023/06/05 21:26:50 Client closed local connection on 127.0.0.1:5432
+2023/06/05 21:35:00 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/05 22:13:00 Client closed local connection on 127.0.0.1:5432
+2023/06/05 22:17:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/05 22:17:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/05 22:17:38 Scheduling refresh of ephemeral certificate in 54m59.668188189s
+2023/06/05 22:21:40 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/05 22:35:00 Client closed local connection on 127.0.0.1:5432
+2023/06/05 22:38:30 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/05 23:12:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/05 23:12:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/05 23:12:38 Scheduling refresh of ephemeral certificate in 54m59.582819581s
+2023/06/05 23:21:40 Client closed local connection on 127.0.0.1:5432
+2023/06/05 23:30:20 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/05 23:38:30 Client closed local connection on 127.0.0.1:5432
+2023/06/05 23:40:20 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/06 00:07:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/06 00:07:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/06 00:07:38 Scheduling refresh of ephemeral certificate in 54m59.777487915s
+2023/06/06 00:30:20 Client closed local connection on 127.0.0.1:5432
+2023/06/06 00:31:31 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/06 00:40:20 Client closed local connection on 127.0.0.1:5432
+2023/06/06 00:48:31 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/06 01:02:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/06 01:02:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/06 01:02:38 Scheduling refresh of ephemeral certificate in 54m59.686864769s
+2023/06/06 01:31:31 Client closed local connection on 127.0.0.1:5432
+2023/06/06 01:33:01 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/06 01:48:31 Client closed local connection on 127.0.0.1:5432
+2023/06/06 01:57:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/06 01:57:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/06 01:57:38 Scheduling refresh of ephemeral certificate in 54m59.720692234s
+2023/06/06 01:58:21 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/06 02:33:01 Client closed local connection on 127.0.0.1:5432
+2023/06/06 02:34:51 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/06 02:52:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/06 02:52:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/06 02:52:38 Scheduling refresh of ephemeral certificate in 54m59.616861348s
+2023/06/06 02:58:21 Client closed local connection on 127.0.0.1:5432
+2023/06/06 03:26:31 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/06 03:34:51 Client closed local connection on 127.0.0.1:5432
+2023/06/06 03:47:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/06 03:47:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/06 03:47:38 Scheduling refresh of ephemeral certificate in 54m59.769855513s
+2023/06/06 03:50:31 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/06 04:26:31 Client closed local connection on 127.0.0.1:5432
+2023/06/06 04:32:22 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/06 04:42:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/06 04:42:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/06 04:42:38 Scheduling refresh of ephemeral certificate in 54m59.647448039s
+2023/06/06 04:50:31 Client closed local connection on 127.0.0.1:5432
+2023/06/06 05:00:07 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/06 05:32:22 Client closed local connection on 127.0.0.1:5432
+2023/06/06 05:34:32 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/06 05:37:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/06 05:37:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/06 05:37:38 Scheduling refresh of ephemeral certificate in 54m59.724795773s
+2023/06/06 06:00:07 Client closed local connection on 127.0.0.1:5432
+2023/06/06 06:10:32 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/06 06:32:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/06 06:32:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/06 06:32:38 Scheduling refresh of ephemeral certificate in 54m59.643011312s
+2023/06/06 06:34:32 Client closed local connection on 127.0.0.1:5432
+2023/06/06 06:38:12 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/06 07:10:32 Client closed local connection on 127.0.0.1:5432
+2023/06/06 07:12:32 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/06 07:27:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/06 07:27:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/06 07:27:38 Scheduling refresh of ephemeral certificate in 54m59.740625651s
+2023/06/06 07:36:42 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/06 07:36:42 Client closed local connection on 127.0.0.1:5432
+2023/06/06 07:38:22 Client closed local connection on 127.0.0.1:5432
+2023/06/06 07:38:22 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/06 07:43:42 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/06 07:43:42 Client closed local connection on 127.0.0.1:5432
+2023/06/06 07:50:42 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/06 07:50:42 Client closed local connection on 127.0.0.1:5432
+2023/06/06 08:12:32 Client closed local connection on 127.0.0.1:5432
+2023/06/06 08:12:42 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/06 08:22:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/06 08:22:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/06 08:22:38 Scheduling refresh of ephemeral certificate in 54m59.634777544s
+2023/06/06 08:38:22 Client closed local connection on 127.0.0.1:5432
+2023/06/06 08:38:52 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/06 09:12:42 Client closed local connection on 127.0.0.1:5432
+2023/06/06 09:16:42 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/06 09:17:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/06 09:17:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/06 09:17:38 Scheduling refresh of ephemeral certificate in 54m59.718413983s
+2023/06/06 09:38:53 Client closed local connection on 127.0.0.1:5432
+2023/06/06 09:52:43 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/06 10:12:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/06 10:12:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/06 10:12:38 Scheduling refresh of ephemeral certificate in 54m59.639146232s
+2023/06/06 10:16:42 Client closed local connection on 127.0.0.1:5432
+2023/06/06 10:17:03 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/06 10:52:43 Client closed local connection on 127.0.0.1:5432
+2023/06/06 10:54:43 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/06 11:07:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/06 11:07:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/06 11:07:38 Scheduling refresh of ephemeral certificate in 54m59.725578139s
+2023/06/06 11:17:03 Client closed local connection on 127.0.0.1:5432
+2023/06/06 11:17:23 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/06 11:54:43 Client closed local connection on 127.0.0.1:5432
+2023/06/06 12:00:06 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/06 12:02:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/06 12:02:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/06 12:02:38 Scheduling refresh of ephemeral certificate in 54m59.591735628s
+2023/06/06 12:17:23 Client closed local connection on 127.0.0.1:5432
+2023/06/06 12:29:42 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/06 12:57:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/06 12:57:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/06 12:57:38 Scheduling refresh of ephemeral certificate in 54m59.755981338s
+2023/06/06 13:00:07 Client closed local connection on 127.0.0.1:5432
+2023/06/06 13:00:42 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/06 13:29:42 Client closed local connection on 127.0.0.1:5432
+2023/06/06 13:34:24 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/06 13:52:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/06 13:52:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/06 13:52:38 Scheduling refresh of ephemeral certificate in 54m59.636319337s
+2023/06/06 14:00:42 Client closed local connection on 127.0.0.1:5432
+2023/06/06 14:15:14 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/06 14:34:24 Client closed local connection on 127.0.0.1:5432
+2023/06/06 14:47:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/06 14:47:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/06 14:47:38 Scheduling refresh of ephemeral certificate in 54m59.700812189s
+2023/06/06 14:50:04 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/06 15:15:14 Client closed local connection on 127.0.0.1:5432
+2023/06/06 15:15:24 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/06 15:42:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/06 15:42:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/06 15:42:38 Scheduling refresh of ephemeral certificate in 54m59.640818355s
+2023/06/06 15:50:04 Client closed local connection on 127.0.0.1:5432
+2023/06/06 15:50:54 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/06 16:18:14 Client closed local connection on 127.0.0.1:5432
+2023/06/06 16:18:14 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/06 16:37:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/06 16:37:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/06 16:37:38 Scheduling refresh of ephemeral certificate in 54m59.766081283s
+2023/06/06 16:50:54 Client closed local connection on 127.0.0.1:5432
+2023/06/06 16:56:34 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/06 17:18:14 Client closed local connection on 127.0.0.1:5432
+2023/06/06 17:26:54 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/06 17:32:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/06 17:32:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/06 17:32:38 Scheduling refresh of ephemeral certificate in 54m59.689961234s
+2023/06/06 17:56:34 Client closed local connection on 127.0.0.1:5432
+2023/06/06 18:08:04 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/06 18:26:54 Client closed local connection on 127.0.0.1:5432
+2023/06/06 18:27:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/06 18:27:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/06 18:27:38 Scheduling refresh of ephemeral certificate in 54m59.782165043s
+2023/06/06 18:39:25 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/06 19:08:05 Client closed local connection on 127.0.0.1:5432
+2023/06/06 19:09:35 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/06 19:22:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/06 19:22:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/06 19:22:38 Scheduling refresh of ephemeral certificate in 54m59.688316298s
+2023/06/06 19:39:25 Client closed local connection on 127.0.0.1:5432
+2023/06/06 19:44:05 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/06 20:13:55 Client closed local connection on 127.0.0.1:5432
+2023/06/06 20:13:55 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/06 20:17:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/06 20:17:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/06 20:17:38 Scheduling refresh of ephemeral certificate in 54m59.775029094s
+2023/06/06 20:44:05 Client closed local connection on 127.0.0.1:5432
+2023/06/06 20:46:25 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/06 21:12:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/06 21:12:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/06 21:12:38 Scheduling refresh of ephemeral certificate in 54m59.618238008s
+2023/06/06 21:13:55 Client closed local connection on 127.0.0.1:5432
+2023/06/06 21:15:05 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/06 21:46:25 Client closed local connection on 127.0.0.1:5432
+2023/06/06 21:55:25 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/06 22:07:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/06 22:07:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/06 22:07:38 Scheduling refresh of ephemeral certificate in 54m59.744712163s
+2023/06/06 22:15:05 Client closed local connection on 127.0.0.1:5432
+2023/06/06 22:18:55 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/06 22:55:26 Client closed local connection on 127.0.0.1:5432
+2023/06/06 22:57:56 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/06 23:02:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/06 23:02:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/06 23:02:38 Scheduling refresh of ephemeral certificate in 54m59.662702381s
+2023/06/06 23:18:56 Client closed local connection on 127.0.0.1:5432
+2023/06/06 23:21:06 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/06 23:57:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/06 23:57:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/06 23:57:38 Scheduling refresh of ephemeral certificate in 54m59.763009503s
+2023/06/06 23:57:56 Client closed local connection on 127.0.0.1:5432
+2023/06/07 00:06:26 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/07 00:21:06 Client closed local connection on 127.0.0.1:5432
+2023/06/07 00:52:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/07 00:52:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/07 00:52:38 Scheduling refresh of ephemeral certificate in 54m59.661344748s
+2023/06/07 01:00:06 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/07 01:00:06 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/07 01:00:06 Client closed local connection on 127.0.0.1:5432
+2023/06/07 01:47:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/07 01:47:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/07 01:47:38 Scheduling refresh of ephemeral certificate in 54m59.737482072s
+2023/06/07 02:00:06 Client closed local connection on 127.0.0.1:5432
+2023/06/07 02:00:06 Client closed local connection on 127.0.0.1:5432
+2023/06/07 02:00:06 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/07 02:00:06 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/07 02:00:06 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/07 02:00:07 Client closed local connection on 127.0.0.1:5432
+2023/06/07 02:42:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/07 02:42:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/07 02:42:38 Scheduling refresh of ephemeral certificate in 54m59.705683931s
+2023/06/07 03:00:06 Client closed local connection on 127.0.0.1:5432
+2023/06/07 03:00:07 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/07 03:00:07 Client closed local connection on 127.0.0.1:5432
+2023/06/07 03:00:07 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/07 03:37:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/07 03:37:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/07 03:37:38 Scheduling refresh of ephemeral certificate in 54m59.784953959s
+2023/06/07 04:00:07 Client closed local connection on 127.0.0.1:5432
+2023/06/07 04:00:07 Client closed local connection on 127.0.0.1:5432
+2023/06/07 04:00:07 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/07 04:03:07 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/07 04:32:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/07 04:32:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/07 04:32:38 Scheduling refresh of ephemeral certificate in 54m59.653501843s
+2023/06/07 05:00:07 Client closed local connection on 127.0.0.1:5432
+2023/06/07 05:03:07 Client closed local connection on 127.0.0.1:5432
+2023/06/07 05:03:11 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/07 05:05:57 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/07 05:27:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/07 05:27:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/07 05:27:38 Scheduling refresh of ephemeral certificate in 54m59.750329484s
+2023/06/07 06:03:11 Client closed local connection on 127.0.0.1:5432
+2023/06/07 06:05:57 Client closed local connection on 127.0.0.1:5432
+2023/06/07 06:05:57 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/07 06:10:17 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/07 06:22:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/07 06:22:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/07 06:22:38 Scheduling refresh of ephemeral certificate in 54m59.671704042s
+2023/06/07 07:05:57 Client closed local connection on 127.0.0.1:5432
+2023/06/07 07:09:37 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/07 07:10:17 Client closed local connection on 127.0.0.1:5432
+2023/06/07 07:17:17 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/07 07:17:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/07 07:17:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/07 07:17:38 Scheduling refresh of ephemeral certificate in 54m59.779100028s
+2023/06/07 08:09:38 Client closed local connection on 127.0.0.1:5432
+2023/06/07 08:12:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/07 08:12:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/07 08:12:38 Scheduling refresh of ephemeral certificate in 54m59.678325236s
+2023/06/07 08:17:18 Client closed local connection on 127.0.0.1:5432
+2023/06/07 08:17:18 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/07 08:19:48 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/07 09:07:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/07 09:07:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/07 09:07:38 Scheduling refresh of ephemeral certificate in 54m59.746504617s
+2023/06/07 09:17:19 Client closed local connection on 127.0.0.1:5432
+2023/06/07 09:19:48 Client closed local connection on 127.0.0.1:5432
+2023/06/07 09:19:48 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/07 09:26:28 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/07 10:02:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/07 10:02:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/07 10:02:38 Scheduling refresh of ephemeral certificate in 54m59.712972713s
+2023/06/07 10:19:49 Client closed local connection on 127.0.0.1:5432
+2023/06/07 10:22:28 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/07 10:26:28 Client closed local connection on 127.0.0.1:5432
+2023/06/07 10:27:08 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/07 10:57:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/07 10:57:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/07 10:57:38 Scheduling refresh of ephemeral certificate in 54m59.773840079s
+2023/06/07 11:24:58 Client closed local connection on 127.0.0.1:5432
+2023/06/07 11:24:58 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/07 11:27:08 Client closed local connection on 127.0.0.1:5432
+2023/06/07 11:27:58 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/07 11:52:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/07 11:52:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/07 11:52:38 Scheduling refresh of ephemeral certificate in 54m59.616290111s
+2023/06/07 12:24:59 Client closed local connection on 127.0.0.1:5432
+2023/06/07 12:27:09 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/07 12:27:59 Client closed local connection on 127.0.0.1:5432
+2023/06/07 12:34:49 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/07 12:47:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/07 12:47:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/07 12:47:38 Scheduling refresh of ephemeral certificate in 54m59.736955903s
+2023/06/07 13:27:09 Client closed local connection on 127.0.0.1:5432
+2023/06/07 13:34:49 Client closed local connection on 127.0.0.1:5432
+2023/06/07 13:34:57 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/07 13:42:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/07 13:42:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/07 13:42:38 Scheduling refresh of ephemeral certificate in 54m59.638611976s
+2023/06/07 13:51:39 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/07 14:34:58 Client closed local connection on 127.0.0.1:5432
+2023/06/07 14:37:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/07 14:37:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/07 14:37:38 Scheduling refresh of ephemeral certificate in 54m59.744450701s
+2023/06/07 14:47:09 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/07 14:51:39 Client closed local connection on 127.0.0.1:5432
+2023/06/07 15:02:09 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/07 15:32:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/07 15:32:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/07 15:32:38 Scheduling refresh of ephemeral certificate in 54m59.630962176s
+2023/06/07 15:47:09 Client closed local connection on 127.0.0.1:5432
+2023/06/07 15:48:29 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/07 16:02:09 Client closed local connection on 127.0.0.1:5432
+2023/06/07 16:05:10 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/07 16:27:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/07 16:27:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/07 16:27:38 Scheduling refresh of ephemeral certificate in 54m59.748782471s
+2023/06/07 16:48:30 Client closed local connection on 127.0.0.1:5432
+2023/06/07 17:00:10 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/07 17:05:10 Client closed local connection on 127.0.0.1:5432
+2023/06/07 17:05:20 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/07 17:22:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/07 17:22:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/07 17:22:38 Scheduling refresh of ephemeral certificate in 54m59.707509596s
+2023/06/07 18:00:10 Client closed local connection on 127.0.0.1:5432
+2023/06/07 18:00:10 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/07 18:05:20 Client closed local connection on 127.0.0.1:5432
+2023/06/07 18:10:08 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/07 18:17:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/07 18:17:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/07 18:17:38 Scheduling refresh of ephemeral certificate in 54m59.752621952s
+2023/06/07 19:00:10 Client closed local connection on 127.0.0.1:5432
+2023/06/07 19:03:30 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/07 19:10:08 Client closed local connection on 127.0.0.1:5432
+2023/06/07 19:11:30 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/07 19:12:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/07 19:12:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/07 19:12:38 Scheduling refresh of ephemeral certificate in 54m59.624944734s
+2023/06/07 20:03:30 Client closed local connection on 127.0.0.1:5432
+2023/06/07 20:03:41 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/07 20:07:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/07 20:07:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/07 20:07:38 Scheduling refresh of ephemeral certificate in 54m59.769216645s
+2023/06/07 20:11:30 Client closed local connection on 127.0.0.1:5432
+2023/06/07 20:13:10 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/07 21:02:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/07 21:02:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/07 21:02:38 Scheduling refresh of ephemeral certificate in 54m59.692161519s
+2023/06/07 21:03:41 Client closed local connection on 127.0.0.1:5432
+2023/06/07 21:09:51 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/07 21:28:11 Client closed local connection on 127.0.0.1:5432
+2023/06/07 21:28:11 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/07 21:57:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/07 21:57:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/07 21:57:38 Scheduling refresh of ephemeral certificate in 54m59.750912268s
+2023/06/07 22:09:51 Client closed local connection on 127.0.0.1:5432
+2023/06/07 22:12:01 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/07 22:28:11 Client closed local connection on 127.0.0.1:5432
+2023/06/07 22:30:41 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/07 22:52:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/07 22:52:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/07 22:52:38 Scheduling refresh of ephemeral certificate in 54m59.679875081s
+2023/06/07 23:12:01 Client closed local connection on 127.0.0.1:5432
+2023/06/07 23:14:21 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/07 23:30:41 Client closed local connection on 127.0.0.1:5432
+2023/06/07 23:37:51 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/07 23:47:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/07 23:47:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/07 23:47:38 Scheduling refresh of ephemeral certificate in 54m59.741317274s
+2023/06/08 00:14:21 Client closed local connection on 127.0.0.1:5432
+2023/06/08 00:16:11 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/08 00:37:52 Client closed local connection on 127.0.0.1:5432
+2023/06/08 00:42:32 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/08 00:42:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/08 00:42:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/08 00:42:38 Scheduling refresh of ephemeral certificate in 54m59.638599706s
+2023/06/08 01:16:12 Client closed local connection on 127.0.0.1:5432
+2023/06/08 01:19:22 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/08 01:37:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/08 01:37:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/08 01:37:38 Scheduling refresh of ephemeral certificate in 54m59.748754434s
+2023/06/08 01:42:32 Client closed local connection on 127.0.0.1:5432
+2023/06/08 01:54:42 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/08 02:19:22 Client closed local connection on 127.0.0.1:5432
+2023/06/08 02:27:32 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/08 02:32:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/08 02:32:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/08 02:32:38 Scheduling refresh of ephemeral certificate in 54m59.586704353s
+2023/06/08 02:55:32 Client closed local connection on 127.0.0.1:5432
+2023/06/08 02:55:32 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/08 03:27:32 Client closed local connection on 127.0.0.1:5432
+2023/06/08 03:27:32 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/08 03:27:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/08 03:27:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/08 03:27:38 Scheduling refresh of ephemeral certificate in 54m59.744486433s
+2023/06/08 03:55:32 Client closed local connection on 127.0.0.1:5432
+2023/06/08 04:00:06 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/08 04:22:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/08 04:22:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/08 04:22:38 Scheduling refresh of ephemeral certificate in 54m59.607336928s
+2023/06/08 04:27:32 Client closed local connection on 127.0.0.1:5432
+2023/06/08 04:32:22 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/08 05:00:06 Client closed local connection on 127.0.0.1:5432
+2023/06/08 05:01:02 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/08 05:17:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/08 05:17:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/08 05:17:38 Scheduling refresh of ephemeral certificate in 54m59.748382051s
+2023/06/08 05:32:23 Client closed local connection on 127.0.0.1:5432
+2023/06/08 05:40:33 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/08 06:01:03 Client closed local connection on 127.0.0.1:5432
+2023/06/08 06:12:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/08 06:12:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/08 06:12:38 Scheduling refresh of ephemeral certificate in 54m59.663740552s
+2023/06/08 06:14:13 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/08 06:40:33 Client closed local connection on 127.0.0.1:5432
+2023/06/08 06:40:43 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/08 07:07:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/08 07:07:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/08 07:07:38 Scheduling refresh of ephemeral certificate in 54m59.755349992s
+2023/06/08 07:14:13 Client closed local connection on 127.0.0.1:5432
+2023/06/08 07:28:03 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/08 07:40:43 Client closed local connection on 127.0.0.1:5432
+2023/06/08 07:58:23 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/08 08:02:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/08 08:02:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/08 08:02:38 Scheduling refresh of ephemeral certificate in 54m59.62748365s
+2023/06/08 08:28:03 Client closed local connection on 127.0.0.1:5432
+2023/06/08 08:29:33 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/08 08:57:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/08 08:57:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/08 08:57:38 Scheduling refresh of ephemeral certificate in 54m59.731220797s
+2023/06/08 09:03:42 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/08 09:03:42 Client closed local connection on 127.0.0.1:5432
+2023/06/08 09:29:34 Client closed local connection on 127.0.0.1:5432
+2023/06/08 09:36:04 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/08 09:52:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/08 09:52:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/08 09:52:38 Scheduling refresh of ephemeral certificate in 54m59.645520509s
+2023/06/08 10:08:34 Client closed local connection on 127.0.0.1:5432
+2023/06/08 10:08:34 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/08 10:36:04 Client closed local connection on 127.0.0.1:5432
+2023/06/08 10:38:44 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/08 10:47:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/08 10:47:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/08 10:47:38 Scheduling refresh of ephemeral certificate in 54m59.773516554s
+2023/06/08 11:08:34 Client closed local connection on 127.0.0.1:5432
+2023/06/08 11:14:54 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/08 11:38:44 Client closed local connection on 127.0.0.1:5432
+2023/06/08 11:42:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/08 11:42:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/08 11:42:38 Scheduling refresh of ephemeral certificate in 54m59.665491982s
+2023/06/08 11:44:42 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/08 12:14:54 Client closed local connection on 127.0.0.1:5432
+2023/06/08 12:26:44 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/08 12:37:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/08 12:37:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/08 12:37:38 Scheduling refresh of ephemeral certificate in 54m59.728361083s
+2023/06/08 12:51:14 Client closed local connection on 127.0.0.1:5432
+2023/06/08 12:51:14 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/08 13:26:44 Client closed local connection on 127.0.0.1:5432
+2023/06/08 13:27:04 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/08 13:32:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/08 13:32:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/08 13:32:38 Scheduling refresh of ephemeral certificate in 54m59.6710006s
+2023/06/08 13:51:15 Client closed local connection on 127.0.0.1:5432
+2023/06/08 13:52:05 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/08 14:27:05 Client closed local connection on 127.0.0.1:5432
+2023/06/08 14:27:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/08 14:27:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/08 14:27:38 Scheduling refresh of ephemeral certificate in 54m59.756293923s
+2023/06/08 14:45:35 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/08 14:52:05 Client closed local connection on 127.0.0.1:5432
+2023/06/08 14:53:05 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/08 15:22:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/08 15:22:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/08 15:22:38 Scheduling refresh of ephemeral certificate in 54m59.663866938s
+2023/06/08 15:45:35 Client closed local connection on 127.0.0.1:5432
+2023/06/08 15:52:15 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/08 15:53:05 Client closed local connection on 127.0.0.1:5432
+2023/06/08 16:05:45 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/08 16:17:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/08 16:17:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/08 16:17:38 Scheduling refresh of ephemeral certificate in 54m59.735241477s
+2023/06/08 16:52:15 Client closed local connection on 127.0.0.1:5432
+2023/06/08 16:54:25 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/08 17:05:45 Client closed local connection on 127.0.0.1:5432
+2023/06/08 17:12:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/08 17:12:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/08 17:12:38 Scheduling refresh of ephemeral certificate in 54m59.636859491s
+2023/06/08 17:54:26 Client closed local connection on 127.0.0.1:5432
+2023/06/08 17:54:26 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/08 17:56:26 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/08 18:07:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/08 18:07:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/08 18:07:38 Scheduling refresh of ephemeral certificate in 54m59.768393947s
+2023/06/08 18:54:26 Client closed local connection on 127.0.0.1:5432
+2023/06/08 18:56:26 Client closed local connection on 127.0.0.1:5432
+2023/06/08 18:56:26 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/08 19:02:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/08 19:02:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/08 19:02:38 Scheduling refresh of ephemeral certificate in 54m59.597366585s
+2023/06/08 19:16:26 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/08 19:56:27 Client closed local connection on 127.0.0.1:5432
+2023/06/08 19:57:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/08 19:57:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/08 19:57:38 Scheduling refresh of ephemeral certificate in 54m59.709632082s
+2023/06/08 20:07:46 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/08 20:16:26 Client closed local connection on 127.0.0.1:5432
+2023/06/08 20:23:36 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/08 20:52:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/08 20:52:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/08 20:52:38 Scheduling refresh of ephemeral certificate in 54m59.656930629s
+2023/06/08 21:07:46 Client closed local connection on 127.0.0.1:5432
+2023/06/08 21:23:16 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/08 21:23:36 Client closed local connection on 127.0.0.1:5432
+2023/06/08 21:31:16 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/08 21:47:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/08 21:47:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/08 21:47:38 Scheduling refresh of ephemeral certificate in 54m59.703736797s
+2023/06/08 22:23:16 Client closed local connection on 127.0.0.1:5432
+2023/06/08 22:27:37 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/08 22:31:16 Client closed local connection on 127.0.0.1:5432
+2023/06/08 22:36:42 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/08 22:42:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/08 22:42:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/08 22:42:38 Scheduling refresh of ephemeral certificate in 54m59.656713551s
+2023/06/08 23:27:37 Client closed local connection on 127.0.0.1:5432
+2023/06/08 23:28:07 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/08 23:37:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/08 23:37:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/08 23:37:38 Scheduling refresh of ephemeral certificate in 54m59.760076819s
+2023/06/08 23:48:42 Client closed local connection on 127.0.0.1:5432
+2023/06/08 23:48:42 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/09 00:28:07 Client closed local connection on 127.0.0.1:5432
+2023/06/09 00:32:27 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/09 00:32:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/09 00:32:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/09 00:32:38 Scheduling refresh of ephemeral certificate in 54m59.645703329s
+2023/06/09 00:48:42 Client closed local connection on 127.0.0.1:5432
+2023/06/09 00:53:42 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/09 01:27:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/09 01:27:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/09 01:27:38 Scheduling refresh of ephemeral certificate in 54m59.782824543s
+2023/06/09 01:32:27 Client closed local connection on 127.0.0.1:5432
+2023/06/09 01:36:47 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/09 01:53:42 Client closed local connection on 127.0.0.1:5432
+2023/06/09 02:02:37 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/09 02:22:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/09 02:22:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/09 02:22:38 Scheduling refresh of ephemeral certificate in 54m59.608680032s
+2023/06/09 02:36:47 Client closed local connection on 127.0.0.1:5432
+2023/06/09 02:43:17 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/09 03:02:37 Client closed local connection on 127.0.0.1:5432
+2023/06/09 03:03:42 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/09 03:17:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/09 03:17:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/09 03:17:38 Scheduling refresh of ephemeral certificate in 54m59.761291335s
+2023/06/09 03:43:18 Client closed local connection on 127.0.0.1:5432
+2023/06/09 03:45:48 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/09 04:03:42 Client closed local connection on 127.0.0.1:5432
+2023/06/09 04:06:08 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/09 04:12:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/09 04:12:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/09 04:12:38 Scheduling refresh of ephemeral certificate in 54m59.718330504s
+2023/06/09 04:45:48 Client closed local connection on 127.0.0.1:5432
+2023/06/09 04:50:18 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/09 05:06:08 Client closed local connection on 127.0.0.1:5432
+2023/06/09 05:07:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/09 05:07:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/09 05:07:38 Scheduling refresh of ephemeral certificate in 54m59.74821907s
+2023/06/09 05:11:08 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/09 05:50:18 Client closed local connection on 127.0.0.1:5432
+2023/06/09 05:54:38 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/09 06:02:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/09 06:02:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/09 06:02:38 Scheduling refresh of ephemeral certificate in 54m59.671639848s
+2023/06/09 06:11:08 Client closed local connection on 127.0.0.1:5432
+2023/06/09 06:28:38 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/09 06:54:38 Client closed local connection on 127.0.0.1:5432
+2023/06/09 06:57:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/09 06:57:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/09 06:57:38 Scheduling refresh of ephemeral certificate in 54m59.745607091s
+2023/06/09 06:59:29 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/09 07:28:39 Client closed local connection on 127.0.0.1:5432
+2023/06/09 07:30:49 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/09 07:52:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/09 07:52:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/09 07:52:38 Scheduling refresh of ephemeral certificate in 54m59.653680335s
+2023/06/09 07:59:29 Client closed local connection on 127.0.0.1:5432
+2023/06/09 08:03:09 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/09 08:30:49 Client closed local connection on 127.0.0.1:5432
+2023/06/09 08:38:49 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/09 08:47:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/09 08:47:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/09 08:47:38 Scheduling refresh of ephemeral certificate in 54m59.766190057s
+2023/06/09 09:03:49 Client closed local connection on 127.0.0.1:5432
+2023/06/09 09:03:49 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/09 09:38:49 Client closed local connection on 127.0.0.1:5432
+2023/06/09 09:42:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/09 09:42:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/09 09:42:38 Scheduling refresh of ephemeral certificate in 54m59.628378952s
+2023/06/09 09:48:19 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/09 10:03:49 Client closed local connection on 127.0.0.1:5432
+2023/06/09 10:13:59 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/09 10:37:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/09 10:37:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/09 10:37:38 Scheduling refresh of ephemeral certificate in 54m59.773916571s
+2023/06/09 10:48:19 Client closed local connection on 127.0.0.1:5432
+2023/06/09 10:55:49 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/09 11:13:59 Client closed local connection on 127.0.0.1:5432
+2023/06/09 11:21:00 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/09 11:32:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/09 11:32:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/09 11:32:38 Scheduling refresh of ephemeral certificate in 54m59.675102769s
+2023/06/09 11:55:50 Client closed local connection on 127.0.0.1:5432
+2023/06/09 12:21:00 Client closed local connection on 127.0.0.1:5432
+2023/06/09 12:21:00 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/09 12:21:10 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/09 12:27:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/09 12:27:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/09 12:27:38 Scheduling refresh of ephemeral certificate in 54m59.702418932s
+2023/06/09 13:21:00 Client closed local connection on 127.0.0.1:5432
+2023/06/09 13:21:10 Client closed local connection on 127.0.0.1:5432
+2023/06/09 13:21:10 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/09 13:22:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/09 13:22:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/09 13:22:38 Scheduling refresh of ephemeral certificate in 54m59.687314265s
+2023/06/09 13:30:10 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/09 14:17:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/09 14:17:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/09 14:17:38 Scheduling refresh of ephemeral certificate in 54m59.789324723s
+2023/06/09 14:21:11 Client closed local connection on 127.0.0.1:5432
+2023/06/09 14:30:10 Client closed local connection on 127.0.0.1:5432
+2023/06/09 14:30:10 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/09 15:00:10 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/09 15:12:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/09 15:12:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/09 15:12:38 Scheduling refresh of ephemeral certificate in 54m59.652417852s
+2023/06/09 15:30:10 Client closed local connection on 127.0.0.1:5432
+2023/06/09 15:38:00 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/09 16:00:10 Client closed local connection on 127.0.0.1:5432
+2023/06/09 16:07:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/09 16:07:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/09 16:07:38 Scheduling refresh of ephemeral certificate in 54m59.741751467s
+2023/06/09 16:19:31 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/09 16:38:01 Client closed local connection on 127.0.0.1:5432
+2023/06/09 16:41:21 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/09 17:02:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/09 17:02:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/09 17:02:38 Scheduling refresh of ephemeral certificate in 54m59.668579669s
+2023/06/09 17:19:31 Client closed local connection on 127.0.0.1:5432
+2023/06/09 17:20:01 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/09 17:41:21 Client closed local connection on 127.0.0.1:5432
+2023/06/09 17:57:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/09 17:57:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/09 17:57:38 Scheduling refresh of ephemeral certificate in 54m59.773801965s
+2023/06/09 18:00:06 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/09 18:20:01 Client closed local connection on 127.0.0.1:5432
+2023/06/09 18:45:11 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/09 18:52:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/09 18:52:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/09 18:52:38 Scheduling refresh of ephemeral certificate in 54m59.668219053s
+2023/06/09 19:20:01 Client closed local connection on 127.0.0.1:5432
+2023/06/09 19:21:31 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/09 19:45:11 Client closed local connection on 127.0.0.1:5432
+2023/06/09 19:47:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/09 19:47:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/09 19:47:38 Scheduling refresh of ephemeral certificate in 54m59.743427007s
+2023/06/09 19:49:01 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/09 20:21:31 Client closed local connection on 127.0.0.1:5432
+2023/06/09 20:21:32 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/09 20:42:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/09 20:42:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/09 20:42:38 Scheduling refresh of ephemeral certificate in 54m59.683241806s
+2023/06/09 20:49:02 Client closed local connection on 127.0.0.1:5432
+2023/06/09 20:57:12 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/09 21:21:32 Client closed local connection on 127.0.0.1:5432
+2023/06/09 21:22:52 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/09 21:37:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/09 21:37:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/09 21:37:38 Scheduling refresh of ephemeral certificate in 54m59.732993645s
+2023/06/09 21:57:12 Client closed local connection on 127.0.0.1:5432
+2023/06/09 22:04:02 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/09 22:22:52 Client closed local connection on 127.0.0.1:5432
+2023/06/09 22:23:42 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/09 22:32:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/09 22:32:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/09 22:32:38 Scheduling refresh of ephemeral certificate in 54m59.662948254s
+2023/06/09 23:04:42 Client closed local connection on 127.0.0.1:5432
+2023/06/09 23:04:42 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/09 23:23:42 Client closed local connection on 127.0.0.1:5432
+2023/06/09 23:27:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/09 23:27:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/09 23:27:38 Scheduling refresh of ephemeral certificate in 54m59.743344557s
+2023/06/09 23:39:32 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/10 00:04:42 Client closed local connection on 127.0.0.1:5432
+2023/06/10 00:07:52 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/10 00:22:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/10 00:22:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/10 00:22:38 Scheduling refresh of ephemeral certificate in 54m59.646326655s
+2023/06/10 00:39:32 Client closed local connection on 127.0.0.1:5432
+2023/06/10 00:41:53 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/10 01:07:53 Client closed local connection on 127.0.0.1:5432
+2023/06/10 01:15:13 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/10 01:17:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/10 01:17:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/10 01:17:38 Scheduling refresh of ephemeral certificate in 54m59.756671963s
+2023/06/10 01:41:53 Client closed local connection on 127.0.0.1:5432
+2023/06/10 01:46:03 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/10 02:12:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/10 02:12:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/10 02:12:38 Scheduling refresh of ephemeral certificate in 54m59.65060563s
+2023/06/10 02:15:13 Client closed local connection on 127.0.0.1:5432
+2023/06/10 02:17:13 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/10 02:46:03 Client closed local connection on 127.0.0.1:5432
+2023/06/10 03:00:42 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/10 03:07:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/10 03:07:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/10 03:07:38 Scheduling refresh of ephemeral certificate in 54m59.761666488s
+2023/06/10 03:17:13 Client closed local connection on 127.0.0.1:5432
+2023/06/10 03:17:13 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/10 04:00:42 Client closed local connection on 127.0.0.1:5432
+2023/06/10 04:01:13 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/10 04:02:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/10 04:02:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/10 04:02:38 Scheduling refresh of ephemeral certificate in 54m59.65022018s
+2023/06/10 04:17:13 Client closed local connection on 127.0.0.1:5432
+2023/06/10 04:20:23 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/10 04:57:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/10 04:57:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/10 04:57:38 Scheduling refresh of ephemeral certificate in 54m59.775278893s
+2023/06/10 05:01:13 Client closed local connection on 127.0.0.1:5432
+2023/06/10 05:05:04 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/10 05:20:24 Client closed local connection on 127.0.0.1:5432
+2023/06/10 05:25:24 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/10 05:52:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/10 05:52:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/10 05:52:38 Scheduling refresh of ephemeral certificate in 54m59.626308944s
+2023/06/10 06:05:04 Client closed local connection on 127.0.0.1:5432
+2023/06/10 06:11:54 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/10 06:25:24 Client closed local connection on 127.0.0.1:5432
+2023/06/10 06:34:34 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/10 06:47:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/10 06:47:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/10 06:47:38 Scheduling refresh of ephemeral certificate in 54m59.761017555s
+2023/06/10 07:11:54 Client closed local connection on 127.0.0.1:5432
+2023/06/10 07:17:54 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/10 07:34:34 Client closed local connection on 127.0.0.1:5432
+2023/06/10 07:40:44 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/10 07:42:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/10 07:42:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/10 07:42:38 Scheduling refresh of ephemeral certificate in 54m59.661249737s
+2023/06/10 08:18:14 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/10 08:18:14 Client closed local connection on 127.0.0.1:5432
+2023/06/10 08:37:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/10 08:37:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/10 08:37:38 Scheduling refresh of ephemeral certificate in 54m59.764738926s
+2023/06/10 08:40:44 Client closed local connection on 127.0.0.1:5432
+2023/06/10 08:44:54 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/10 09:18:15 Client closed local connection on 127.0.0.1:5432
+2023/06/10 09:22:55 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/10 09:32:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/10 09:32:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/10 09:32:38 Scheduling refresh of ephemeral certificate in 54m59.322369106s
+2023/06/10 09:48:35 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/10 09:48:35 Client closed local connection on 127.0.0.1:5432
+2023/06/10 10:22:55 Client closed local connection on 127.0.0.1:5432
+2023/06/10 10:24:25 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/10 10:27:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/10 10:27:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/10 10:27:38 Scheduling refresh of ephemeral certificate in 54m59.75405726s
+2023/06/10 10:48:35 Client closed local connection on 127.0.0.1:5432
+2023/06/10 11:00:15 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/10 11:22:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/10 11:22:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/10 11:22:38 Scheduling refresh of ephemeral certificate in 54m59.696202493s
+2023/06/10 11:24:25 Client closed local connection on 127.0.0.1:5432
+2023/06/10 11:28:25 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/10 12:00:15 Client closed local connection on 127.0.0.1:5432
+2023/06/10 12:07:05 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/10 12:17:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/10 12:17:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/10 12:17:38 Scheduling refresh of ephemeral certificate in 54m59.737431928s
+2023/06/10 12:28:25 Client closed local connection on 127.0.0.1:5432
+2023/06/10 12:36:42 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/10 13:07:05 Client closed local connection on 127.0.0.1:5432
+2023/06/10 13:07:36 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/10 13:12:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/10 13:12:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/10 13:12:38 Scheduling refresh of ephemeral certificate in 54m59.66072472s
+2023/06/10 13:36:42 Client closed local connection on 127.0.0.1:5432
+2023/06/10 13:49:42 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/10 14:07:36 Client closed local connection on 127.0.0.1:5432
+2023/06/10 14:07:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/10 14:07:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/10 14:07:38 Scheduling refresh of ephemeral certificate in 54m59.733961165s
+2023/06/10 14:15:26 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/10 14:49:42 Client closed local connection on 127.0.0.1:5432
+2023/06/10 14:56:16 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/10 15:02:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/10 15:02:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/10 15:02:38 Scheduling refresh of ephemeral certificate in 54m59.690073931s
+2023/06/10 15:15:26 Client closed local connection on 127.0.0.1:5432
+2023/06/10 15:17:06 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/10 15:56:16 Client closed local connection on 127.0.0.1:5432
+2023/06/10 15:57:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/10 15:57:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/10 15:57:38 Scheduling refresh of ephemeral certificate in 54m59.748544385s
+2023/06/10 16:03:06 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/10 16:17:06 Client closed local connection on 127.0.0.1:5432
+2023/06/10 16:20:46 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/10 16:52:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/10 16:52:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/10 16:52:38 Scheduling refresh of ephemeral certificate in 54m59.632084289s
+2023/06/10 17:03:06 Client closed local connection on 127.0.0.1:5432
+2023/06/10 17:07:16 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/10 17:20:46 Client closed local connection on 127.0.0.1:5432
+2023/06/10 17:24:26 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/10 17:47:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/10 17:47:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/10 17:47:38 Scheduling refresh of ephemeral certificate in 54m59.730835937s
+2023/06/10 18:07:17 Client closed local connection on 127.0.0.1:5432
+2023/06/10 18:18:37 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/10 18:24:27 Client closed local connection on 127.0.0.1:5432
+2023/06/10 18:42:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/10 18:42:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/10 18:42:38 Scheduling refresh of ephemeral certificate in 54m59.663393751s
+2023/06/10 18:44:37 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/10 19:18:37 Client closed local connection on 127.0.0.1:5432
+2023/06/10 19:20:42 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/10 19:37:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/10 19:37:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/10 19:37:38 Scheduling refresh of ephemeral certificate in 54m59.746114191s
+2023/06/10 19:44:37 Client closed local connection on 127.0.0.1:5432
+2023/06/10 19:46:17 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/10 20:27:37 Client closed local connection on 127.0.0.1:5432
+2023/06/10 20:27:37 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/10 20:32:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/10 20:32:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/10 20:32:38 Scheduling refresh of ephemeral certificate in 54m59.713366146s
+2023/06/10 20:46:17 Client closed local connection on 127.0.0.1:5432
+2023/06/10 20:47:37 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/10 21:27:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/10 21:27:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/10 21:27:38 Scheduling refresh of ephemeral certificate in 54m59.745047796s
+2023/06/10 21:34:47 Client closed local connection on 127.0.0.1:5432
+2023/06/10 21:34:47 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/10 21:47:37 Client closed local connection on 127.0.0.1:5432
+2023/06/10 21:49:37 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/10 22:22:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/10 22:22:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/10 22:22:38 Scheduling refresh of ephemeral certificate in 54m59.628861203s
+2023/06/10 22:34:48 Client closed local connection on 127.0.0.1:5432
+2023/06/10 22:35:38 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/10 22:49:38 Client closed local connection on 127.0.0.1:5432
+2023/06/10 23:00:38 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/10 23:17:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/10 23:17:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/10 23:17:38 Scheduling refresh of ephemeral certificate in 54m59.764500407s
+2023/06/10 23:35:38 Client closed local connection on 127.0.0.1:5432
+2023/06/10 23:42:28 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/11 00:00:38 Client closed local connection on 127.0.0.1:5432
+2023/06/11 00:08:48 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/11 00:12:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/11 00:12:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/11 00:12:38 Scheduling refresh of ephemeral certificate in 54m59.662308088s
+2023/06/11 00:42:28 Client closed local connection on 127.0.0.1:5432
+2023/06/11 00:45:28 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/11 01:07:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/11 01:07:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/11 01:07:38 Scheduling refresh of ephemeral certificate in 54m59.773916784s
+2023/06/11 01:08:48 Client closed local connection on 127.0.0.1:5432
+2023/06/11 01:09:08 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/11 01:45:28 Client closed local connection on 127.0.0.1:5432
+2023/06/11 01:53:38 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/11 02:02:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/11 02:02:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/11 02:02:38 Scheduling refresh of ephemeral certificate in 54m59.664988943s
+2023/06/11 02:09:08 Client closed local connection on 127.0.0.1:5432
+2023/06/11 02:09:39 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/11 02:53:39 Client closed local connection on 127.0.0.1:5432
+2023/06/11 02:57:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/11 02:57:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/11 02:57:38 Scheduling refresh of ephemeral certificate in 54m59.772802738s
+2023/06/11 02:58:19 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/11 03:09:39 Client closed local connection on 127.0.0.1:5432
+2023/06/11 03:16:19 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/11 03:52:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/11 03:52:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/11 03:52:38 Scheduling refresh of ephemeral certificate in 54m59.641167983s
+2023/06/11 03:58:19 Client closed local connection on 127.0.0.1:5432
+2023/06/11 04:08:29 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/11 04:16:19 Client closed local connection on 127.0.0.1:5432
+2023/06/11 04:16:19 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/11 04:47:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/11 04:47:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/11 04:47:38 Scheduling refresh of ephemeral certificate in 54m59.731680506s
+2023/06/11 05:08:29 Client closed local connection on 127.0.0.1:5432
+2023/06/11 05:14:29 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/11 05:16:19 Client closed local connection on 127.0.0.1:5432
+2023/06/11 05:39:59 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/11 05:42:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/11 05:42:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/11 05:42:38 Scheduling refresh of ephemeral certificate in 54m59.684589746s
+2023/06/11 06:14:29 Client closed local connection on 127.0.0.1:5432
+2023/06/11 06:20:39 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/11 06:37:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/11 06:37:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/11 06:37:38 Scheduling refresh of ephemeral certificate in 54m59.721821031s
+2023/06/11 06:40:00 Client closed local connection on 127.0.0.1:5432
+2023/06/11 06:41:39 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/11 07:20:40 Client closed local connection on 127.0.0.1:5432
+2023/06/11 07:26:30 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/11 07:32:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/11 07:32:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/11 07:32:38 Scheduling refresh of ephemeral certificate in 54m59.594280052s
+2023/06/11 07:41:40 Client closed local connection on 127.0.0.1:5432
+2023/06/11 07:47:40 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/11 08:26:30 Client closed local connection on 127.0.0.1:5432
+2023/06/11 08:27:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/11 08:27:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/11 08:27:38 Scheduling refresh of ephemeral certificate in 54m59.764896678s
+2023/06/11 08:30:30 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/11 08:56:50 Client closed local connection on 127.0.0.1:5432
+2023/06/11 08:56:50 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/11 09:22:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/11 09:22:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/11 09:22:38 Scheduling refresh of ephemeral certificate in 54m59.686690853s
+2023/06/11 09:30:30 Client closed local connection on 127.0.0.1:5432
+2023/06/11 09:42:50 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/11 09:56:50 Client closed local connection on 127.0.0.1:5432
+2023/06/11 10:02:00 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/11 10:17:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/11 10:17:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/11 10:17:38 Scheduling refresh of ephemeral certificate in 54m59.767748508s
+2023/06/11 10:50:00 Client closed local connection on 127.0.0.1:5432
+2023/06/11 10:50:00 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/11 11:02:01 Client closed local connection on 127.0.0.1:5432
+2023/06/11 11:12:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/11 11:12:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/11 11:12:38 Scheduling refresh of ephemeral certificate in 54m59.678792807s
+2023/06/11 11:14:42 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/11 11:50:01 Client closed local connection on 127.0.0.1:5432
+2023/06/11 12:00:11 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/11 12:07:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/11 12:07:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/11 12:07:38 Scheduling refresh of ephemeral certificate in 54m59.746177966s
+2023/06/11 12:14:42 Client closed local connection on 127.0.0.1:5432
+2023/06/11 12:33:01 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/11 13:00:11 Client closed local connection on 127.0.0.1:5432
+2023/06/11 13:00:30 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/11 13:02:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/11 13:02:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/11 13:02:38 Scheduling refresh of ephemeral certificate in 54m59.689497571s
+2023/06/11 13:33:01 Client closed local connection on 127.0.0.1:5432
+2023/06/11 13:39:51 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/11 13:57:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/11 13:57:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/11 13:57:38 Scheduling refresh of ephemeral certificate in 54m59.739067313s
+2023/06/11 14:00:30 Client closed local connection on 127.0.0.1:5432
+2023/06/11 14:31:11 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/11 14:39:51 Client closed local connection on 127.0.0.1:5432
+2023/06/11 14:43:41 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/11 14:52:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/11 14:52:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/11 14:52:38 Scheduling refresh of ephemeral certificate in 54m59.615952024s
+2023/06/11 15:31:12 Client closed local connection on 127.0.0.1:5432
+2023/06/11 15:32:42 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/11 15:43:42 Client closed local connection on 127.0.0.1:5432
+2023/06/11 15:43:42 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/11 15:47:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/11 15:47:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/11 15:47:38 Scheduling refresh of ephemeral certificate in 54m59.737630815s
+2023/06/11 16:35:42 Client closed local connection on 127.0.0.1:5432
+2023/06/11 16:35:42 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/11 16:42:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/11 16:42:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/11 16:42:38 Scheduling refresh of ephemeral certificate in 54m59.663621337s
+2023/06/11 16:43:43 Client closed local connection on 127.0.0.1:5432
+2023/06/11 16:46:02 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/11 17:35:42 Client closed local connection on 127.0.0.1:5432
+2023/06/11 17:35:42 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/11 17:37:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/11 17:37:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/11 17:37:38 Scheduling refresh of ephemeral certificate in 54m59.715681239s
+2023/06/11 17:46:02 Client closed local connection on 127.0.0.1:5432
+2023/06/11 17:46:42 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/11 17:49:42 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/11 17:49:42 Client closed local connection on 127.0.0.1:5432
+2023/06/11 18:15:42 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/11 18:15:42 Client closed local connection on 127.0.0.1:5432
+2023/06/11 18:32:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/11 18:32:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/11 18:32:38 Scheduling refresh of ephemeral certificate in 54m59.659749173s
+2023/06/11 18:35:42 Client closed local connection on 127.0.0.1:5432
+2023/06/11 18:44:12 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/11 18:46:42 Client closed local connection on 127.0.0.1:5432
+2023/06/11 19:00:33 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/11 19:27:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/11 19:27:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/11 19:27:38 Scheduling refresh of ephemeral certificate in 54m59.755737508s
+2023/06/11 19:44:13 Client closed local connection on 127.0.0.1:5432
+2023/06/11 19:46:23 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/11 20:00:33 Client closed local connection on 127.0.0.1:5432
+2023/06/11 20:06:53 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/11 20:22:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/11 20:22:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/11 20:22:38 Scheduling refresh of ephemeral certificate in 54m59.635051333s
+2023/06/11 20:46:23 Client closed local connection on 127.0.0.1:5432
+2023/06/11 20:46:23 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/11 21:06:53 Client closed local connection on 127.0.0.1:5432
+2023/06/11 21:12:42 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/11 21:17:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/11 21:17:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/11 21:17:38 Scheduling refresh of ephemeral certificate in 54m59.75543825s
+2023/06/11 21:46:23 Client closed local connection on 127.0.0.1:5432
+2023/06/11 22:00:38 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/11 22:12:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/11 22:12:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/11 22:12:38 Scheduling refresh of ephemeral certificate in 54m59.629236292s
+2023/06/11 22:12:42 Client closed local connection on 127.0.0.1:5432
+2023/06/11 22:14:42 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/11 23:00:38 Client closed local connection on 127.0.0.1:5432
+2023/06/11 23:04:43 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/11 23:07:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/11 23:07:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/11 23:07:38 Scheduling refresh of ephemeral certificate in 54m59.73778318s
+2023/06/11 23:14:42 Client closed local connection on 127.0.0.1:5432
+2023/06/11 23:17:13 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/12 00:02:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/12 00:02:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/12 00:02:38 Scheduling refresh of ephemeral certificate in 54m59.688310294s
+2023/06/12 00:04:44 Client closed local connection on 127.0.0.1:5432
+2023/06/12 00:10:24 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/12 00:17:14 Client closed local connection on 127.0.0.1:5432
+2023/06/12 00:20:44 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/12 00:57:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/12 00:57:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/12 00:57:38 Scheduling refresh of ephemeral certificate in 54m59.750957325s
+2023/06/12 01:11:44 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/12 01:11:44 Client closed local connection on 127.0.0.1:5432
+2023/06/12 01:20:44 Client closed local connection on 127.0.0.1:5432
+2023/06/12 01:46:34 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/12 01:52:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/12 01:52:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/12 01:52:38 Scheduling refresh of ephemeral certificate in 54m59.638378384s
+2023/06/12 02:11:44 Client closed local connection on 127.0.0.1:5432
+2023/06/12 02:13:04 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/12 02:46:34 Client closed local connection on 127.0.0.1:5432
+2023/06/12 02:47:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/12 02:47:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/12 02:47:38 Scheduling refresh of ephemeral certificate in 54m59.745425388s
+2023/06/12 02:54:54 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/12 03:13:04 Client closed local connection on 127.0.0.1:5432
+2023/06/12 03:16:24 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/12 03:42:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/12 03:42:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/12 03:42:38 Scheduling refresh of ephemeral certificate in 54m59.67604565s
+2023/06/12 03:54:54 Client closed local connection on 127.0.0.1:5432
+2023/06/12 04:00:45 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/12 04:16:25 Client closed local connection on 127.0.0.1:5432
+2023/06/12 04:27:15 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/12 04:37:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/12 04:37:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/12 04:37:38 Scheduling refresh of ephemeral certificate in 54m59.774013235s
+2023/06/12 05:00:45 Client closed local connection on 127.0.0.1:5432
+2023/06/12 05:03:42 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/12 05:27:15 Client closed local connection on 127.0.0.1:5432
+2023/06/12 05:32:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/12 05:32:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/12 05:32:38 Scheduling refresh of ephemeral certificate in 54m59.645165693s
+2023/06/12 05:59:35 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/12 06:03:42 Client closed local connection on 127.0.0.1:5432
+2023/06/12 06:11:45 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/12 06:27:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/12 06:27:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/12 06:27:38 Scheduling refresh of ephemeral certificate in 54m59.765119551s
+2023/06/12 06:59:35 Client closed local connection on 127.0.0.1:5432
+2023/06/12 07:08:05 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/12 07:22:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/12 07:22:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/12 07:22:38 Scheduling refresh of ephemeral certificate in 54m59.623212106s
+2023/06/12 07:28:15 Client closed local connection on 127.0.0.1:5432
+2023/06/12 07:28:15 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/12 08:08:05 Client closed local connection on 127.0.0.1:5432
+2023/06/12 08:12:25 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/12 08:17:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/12 08:17:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/12 08:17:38 Scheduling refresh of ephemeral certificate in 54m59.753288397s
+2023/06/12 08:28:15 Client closed local connection on 127.0.0.1:5432
+2023/06/12 08:48:26 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/12 09:12:26 Client closed local connection on 127.0.0.1:5432
+2023/06/12 09:12:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/12 09:12:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/12 09:12:38 Scheduling refresh of ephemeral certificate in 54m59.698846472s
+2023/06/12 09:17:16 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/12 09:48:26 Client closed local connection on 127.0.0.1:5432
+2023/06/12 09:57:26 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/12 10:07:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/12 10:07:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/12 10:07:38 Scheduling refresh of ephemeral certificate in 54m59.752186287s
+2023/06/12 10:17:16 Client closed local connection on 127.0.0.1:5432
+2023/06/12 10:17:46 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/12 10:57:26 Client closed local connection on 127.0.0.1:5432
+2023/06/12 11:00:46 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/12 11:02:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/12 11:02:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/12 11:02:38 Scheduling refresh of ephemeral certificate in 54m59.636179798s
+2023/06/12 11:21:36 Client closed local connection on 127.0.0.1:5432
+2023/06/12 11:21:36 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/12 11:57:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/12 11:57:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/12 11:57:38 Scheduling refresh of ephemeral certificate in 54m59.772364527s
+2023/06/12 12:00:46 Client closed local connection on 127.0.0.1:5432
+2023/06/12 12:07:42 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/12 12:21:36 Client closed local connection on 127.0.0.1:5432
+2023/06/12 12:23:36 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/12 12:52:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/12 12:52:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/12 12:52:38 Scheduling refresh of ephemeral certificate in 54m59.587817171s
+2023/06/12 13:07:42 Client closed local connection on 127.0.0.1:5432
+2023/06/12 13:09:27 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/12 13:23:37 Client closed local connection on 127.0.0.1:5432
+2023/06/12 13:37:17 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/12 13:47:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/12 13:47:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/12 13:47:38 Scheduling refresh of ephemeral certificate in 54m59.690976054s
+2023/06/12 14:09:27 Client closed local connection on 127.0.0.1:5432
+2023/06/12 14:37:07 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/12 14:37:17 Client closed local connection on 127.0.0.1:5432
+2023/06/12 14:42:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/12 14:42:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/12 14:42:38 Scheduling refresh of ephemeral certificate in 54m59.494471729s
+2023/06/12 14:47:57 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/12 15:37:17 Client closed local connection on 127.0.0.1:5432
+2023/06/12 15:37:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/12 15:37:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/12 15:37:38 Scheduling refresh of ephemeral certificate in 54m59.644961609s
+2023/06/12 15:42:57 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/12 15:47:57 Client closed local connection on 127.0.0.1:5432
+2023/06/12 15:58:27 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/12 16:32:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/12 16:32:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/12 16:32:38 Scheduling refresh of ephemeral certificate in 54m59.617515611s
+2023/06/12 16:42:57 Client closed local connection on 127.0.0.1:5432
+2023/06/12 16:48:07 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/12 16:58:28 Client closed local connection on 127.0.0.1:5432
+2023/06/12 17:01:47 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/12 17:27:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/12 17:27:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/12 17:27:38 Scheduling refresh of ephemeral certificate in 54m59.734187424s
+2023/06/12 17:48:08 Client closed local connection on 127.0.0.1:5432
+2023/06/12 18:01:48 Client closed local connection on 127.0.0.1:5432
+2023/06/12 18:01:48 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/12 18:03:38 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/12 18:22:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/12 18:22:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/12 18:22:38 Scheduling refresh of ephemeral certificate in 54m59.630198232s
+2023/06/12 19:01:49 Client closed local connection on 127.0.0.1:5432
+2023/06/12 19:03:38 Client closed local connection on 127.0.0.1:5432
+2023/06/12 19:03:38 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/12 19:17:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/12 19:17:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/12 19:17:38 Scheduling refresh of ephemeral certificate in 54m59.711056526s
+2023/06/12 19:17:48 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/12 20:03:38 Client closed local connection on 127.0.0.1:5432
+2023/06/12 20:08:08 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/12 20:12:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/12 20:12:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/12 20:12:38 Scheduling refresh of ephemeral certificate in 54m59.537002113s
+2023/06/12 20:17:48 Client closed local connection on 127.0.0.1:5432
+2023/06/12 20:22:28 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/12 21:07:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/12 21:07:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/12 21:07:38 Scheduling refresh of ephemeral certificate in 54m59.777478408s
+2023/06/12 21:08:08 Client closed local connection on 127.0.0.1:5432
+2023/06/12 21:15:48 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/12 21:22:28 Client closed local connection on 127.0.0.1:5432
+2023/06/12 21:29:19 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/12 22:02:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/12 22:02:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/12 22:02:38 Scheduling refresh of ephemeral certificate in 54m59.64759025s
+2023/06/12 22:15:49 Client closed local connection on 127.0.0.1:5432
+2023/06/12 22:17:49 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/12 22:29:19 Client closed local connection on 127.0.0.1:5432
+2023/06/12 22:37:49 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/12 22:57:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/12 22:57:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/12 22:57:38 Scheduling refresh of ephemeral certificate in 54m59.701149003s
+2023/06/12 23:17:49 Client closed local connection on 127.0.0.1:5432
+2023/06/12 23:27:09 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/12 23:37:49 Client closed local connection on 127.0.0.1:5432
+2023/06/12 23:39:42 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/12 23:52:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/12 23:52:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/12 23:52:38 Scheduling refresh of ephemeral certificate in 54m59.672984661s
+2023/06/13 00:27:09 Client closed local connection on 127.0.0.1:5432
+2023/06/13 00:27:39 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/13 00:39:42 Client closed local connection on 127.0.0.1:5432
+2023/06/13 00:39:49 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/13 00:47:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/13 00:47:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/13 00:47:38 Scheduling refresh of ephemeral certificate in 54m59.784041652s
+2023/06/13 01:27:40 Client closed local connection on 127.0.0.1:5432
+2023/06/13 01:34:30 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/13 01:39:49 Client closed local connection on 127.0.0.1:5432
+2023/06/13 01:42:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/13 01:42:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/13 01:42:38 Scheduling refresh of ephemeral certificate in 54m59.626402761s
+2023/06/13 01:51:40 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/13 02:34:30 Client closed local connection on 127.0.0.1:5432
+2023/06/13 02:37:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/13 02:37:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/13 02:37:38 Scheduling refresh of ephemeral certificate in 54m59.707014508s
+2023/06/13 02:38:00 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/13 02:51:40 Client closed local connection on 127.0.0.1:5432
+2023/06/13 03:00:01 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/13 03:32:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/13 03:32:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/13 03:32:38 Scheduling refresh of ephemeral certificate in 54m59.595325702s
+2023/06/13 03:38:00 Client closed local connection on 127.0.0.1:5432
+2023/06/13 03:38:30 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/13 04:00:01 Client closed local connection on 127.0.0.1:5432
+2023/06/13 04:02:10 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/13 04:27:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/13 04:27:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/13 04:27:38 Scheduling refresh of ephemeral certificate in 54m59.744065744s
+2023/06/13 04:38:30 Client closed local connection on 127.0.0.1:5432
+2023/06/13 04:47:30 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/13 05:02:10 Client closed local connection on 127.0.0.1:5432
+2023/06/13 05:03:40 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/13 05:22:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/13 05:22:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/13 05:22:38 Scheduling refresh of ephemeral certificate in 54m59.562596019s
+2023/06/13 05:47:30 Client closed local connection on 127.0.0.1:5432
+2023/06/13 05:58:01 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/13 06:03:40 Client closed local connection on 127.0.0.1:5432
+2023/06/13 06:03:41 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/13 06:17:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/13 06:17:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/13 06:17:38 Scheduling refresh of ephemeral certificate in 54m59.762581636s
+2023/06/13 06:58:01 Client closed local connection on 127.0.0.1:5432
+2023/06/13 07:00:11 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/13 07:03:41 Client closed local connection on 127.0.0.1:5432
+2023/06/13 07:10:42 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/13 07:12:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/13 07:12:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/13 07:12:38 Scheduling refresh of ephemeral certificate in 54m59.658395473s
+2023/06/13 08:00:11 Client closed local connection on 127.0.0.1:5432
+2023/06/13 08:03:31 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/13 08:07:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/13 08:07:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/13 08:07:38 Scheduling refresh of ephemeral certificate in 54m59.736179426s
+2023/06/13 08:10:42 Client closed local connection on 127.0.0.1:5432
+2023/06/13 08:13:01 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/13 09:02:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/13 09:02:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/13 09:02:38 Scheduling refresh of ephemeral certificate in 54m59.556401051s
+2023/06/13 09:03:31 Client closed local connection on 127.0.0.1:5432
+2023/06/13 09:13:01 Client closed local connection on 127.0.0.1:5432
+2023/06/13 09:13:01 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/13 09:22:42 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/13 09:57:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/13 09:57:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/13 09:57:38 Scheduling refresh of ephemeral certificate in 54m59.702778205s
+2023/06/13 10:13:01 Client closed local connection on 127.0.0.1:5432
+2023/06/13 10:13:42 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/13 10:22:42 Client closed local connection on 127.0.0.1:5432
+2023/06/13 10:27:32 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/13 10:52:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/13 10:52:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/13 10:52:38 Scheduling refresh of ephemeral certificate in 54m59.624026925s
+2023/06/13 11:13:42 Client closed local connection on 127.0.0.1:5432
+2023/06/13 11:17:42 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/13 11:27:32 Client closed local connection on 127.0.0.1:5432
+2023/06/13 11:29:52 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/13 11:47:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/13 11:47:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/13 11:47:38 Scheduling refresh of ephemeral certificate in 54m59.75459769s
+2023/06/13 12:17:42 Client closed local connection on 127.0.0.1:5432
+2023/06/13 12:18:42 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/13 12:29:52 Client closed local connection on 127.0.0.1:5432
+2023/06/13 12:30:42 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/13 12:42:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/13 12:42:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/13 12:42:38 Scheduling refresh of ephemeral certificate in 54m59.594239613s
+2023/06/13 12:49:42 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/13 12:49:42 Client closed local connection on 127.0.0.1:5432
+2023/06/13 13:00:32 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/13 13:00:33 Client closed local connection on 127.0.0.1:5432
+2023/06/13 13:03:42 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/13 13:03:42 Client closed local connection on 127.0.0.1:5432
+2023/06/13 13:18:42 Client closed local connection on 127.0.0.1:5432
+2023/06/13 13:21:12 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/13 13:30:42 Client closed local connection on 127.0.0.1:5432
+2023/06/13 13:33:02 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/13 13:37:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/13 13:37:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/13 13:37:38 Scheduling refresh of ephemeral certificate in 54m59.73391032s
+2023/06/13 14:21:12 Client closed local connection on 127.0.0.1:5432
+2023/06/13 14:21:32 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/13 14:32:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/13 14:32:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/13 14:32:38 Scheduling refresh of ephemeral certificate in 54m59.609748392s
+2023/06/13 14:33:02 Client closed local connection on 127.0.0.1:5432
+2023/06/13 14:37:33 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/13 15:21:33 Client closed local connection on 127.0.0.1:5432
+2023/06/13 15:24:33 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/13 15:27:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/13 15:27:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/13 15:27:38 Scheduling refresh of ephemeral certificate in 54m59.753157654s
+2023/06/13 15:37:33 Client closed local connection on 127.0.0.1:5432
+2023/06/13 15:38:13 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/13 16:22:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/13 16:22:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/13 16:22:38 Scheduling refresh of ephemeral certificate in 54m59.594325054s
+2023/06/13 16:24:33 Client closed local connection on 127.0.0.1:5432
+2023/06/13 16:33:53 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/13 16:38:13 Client closed local connection on 127.0.0.1:5432
+2023/06/13 16:41:43 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/13 17:17:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/13 17:17:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/13 17:17:38 Scheduling refresh of ephemeral certificate in 54m59.748856392s
+2023/06/13 17:33:53 Client closed local connection on 127.0.0.1:5432
+2023/06/13 17:38:42 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/13 17:41:43 Client closed local connection on 127.0.0.1:5432
+2023/06/13 17:44:43 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/13 18:12:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/13 18:12:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/13 18:12:38 Scheduling refresh of ephemeral certificate in 54m59.594196104s
+2023/06/13 18:38:42 Client closed local connection on 127.0.0.1:5432
+2023/06/13 18:41:23 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/13 18:44:44 Client closed local connection on 127.0.0.1:5432
+2023/06/13 18:46:24 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/13 19:07:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/13 19:07:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/13 19:07:38 Scheduling refresh of ephemeral certificate in 54m59.762234698s
+2023/06/13 19:42:14 Client closed local connection on 127.0.0.1:5432
+2023/06/13 19:42:14 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/13 19:46:24 Client closed local connection on 127.0.0.1:5432
+2023/06/13 19:49:04 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/13 20:02:14 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/13 20:02:14 Client closed local connection on 127.0.0.1:5432
+2023/06/13 20:02:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/13 20:02:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/13 20:02:38 Scheduling refresh of ephemeral certificate in 54m59.651242316s
+2023/06/13 20:42:14 Client closed local connection on 127.0.0.1:5432
+2023/06/13 20:42:54 New connection for "tn-mvp-staging:us-central1:staging-upgraded"
+2023/06/13 20:49:04 Client closed local connection on 127.0.0.1:5432
+2023/06/13 20:57:38 ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded will expire soon, refreshing now.
+2023/06/13 20:57:38 refreshing ephemeral certificate for instance tn-mvp-staging:us-central1:staging-upgraded
+2023/06/13 20:57:38 Scheduling refresh of ephemeral certificate in 54m59.755199799s
+2023/06/13 21:00:03 New connection for "tn-mvp-staging:us-central1:staging-upgraded"

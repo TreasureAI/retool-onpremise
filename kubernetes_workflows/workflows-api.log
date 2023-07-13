@@ -1,0 +1,1134 @@
+wait-for-it.sh: waiting for 127.0.0.1:5432 without a timeout
+wait-for-it.sh: 127.0.0.1:5432 is available after 1 seconds
+not untarring the bundle
+{"level":"info","message":"[process service types] MAIN_BACKEND, DB_CONNECTOR, DB_SSH_CONNECTOR","timestamp":"2023-06-13T21:30:24.941Z"}
+Database migrations are up to date.
+Setting http and https agent maxSockets to 25
+{"level":"info","message":"Not configuring Sentry...","timestamp":"2023-06-13T21:30:26.677Z"}
+{"level":"info","message":"Not configuring StatsD...","timestamp":"2023-06-13T21:30:26.678Z"}
+{"level":"info","message":"Running node v16.14.2","timestamp":"2023-06-13T21:30:26.678Z"}
+{"0":"--max-http-header-size=80000","level":"info","message":"ARGV:","timestamp":"2023-06-13T21:30:26.679Z"}
+{"level":"info","message":"Node.js heap size limit: 5144 MiB","timestamp":"2023-06-13T21:30:26.679Z"}
+{"level":"info","message":"Initialized general rate limiter: 60 attempts every 60 seconds","timestamp":"2023-06-13T21:30:27.984Z"}
+{"level":"info","message":"Initialized invite rate limiter: 50 attempts every 86400 seconds","timestamp":"2023-06-13T21:30:27.984Z"}
+Tue, 13 Jun 2023 21:30:27 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at ../snapshot/retool_development/backend/transpiled/server/app.js:null:null
+Tue, 13 Jun 2023 21:30:27 GMT body-parser deprecated undefined extended: provide extended option at ../snapshot/retool_development/node_modules/body-parser/index.js:104:29
+main web boot-up: 8.393s
+(node:19) [DEP0111] DeprecationWarning: Access to process.binding('http_parser') is deprecated.
+(Use `retool_backend --trace-deprecation ...` to show where the warning was created)
+(node:19) [DEP0148] DeprecationWarning: Use of deprecated folder mapping "./" in the "exports" field module resolution of the package at /snapshot/retool_development/node_modules/@tryretool/common/package.json.
+Update this package.json to use a subpath pattern like "./*".
+(node:19) [LRU_CACHE_UNBOUNDED] UnboundedCacheWarning: TTL caching without ttlAutopurge, max, or maxSize can result in unbounded memory consumption.
+(node:19) [LRU_CACHE_OPTION_maxAge] DeprecationWarning: The maxAge option is deprecated. Please use options.ttl instead.
+(node:19) NOTE: We are formalizing our plans to enter AWS SDK for JavaScript (v2) into maintenance mode in 2023.
+
+Please migrate your code to use AWS SDK for JavaScript (v3).
+For more information, check the migration guide at https://a.co/7PzMCcy
+{"level":"info","message":"RetoolDB credentials not found, skipping setup...","timestamp":"2023-06-13T21:30:36.069Z"}
+{"level":"info","message":{"CPU Usage % for process":"74.40%","Memory Stats for container":{"freeSystemMemory":"13195.046912 MB","percentageFreeMemory":"78.6%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"290.22208 MB","heapUsed":"257.555592 MB","percentageHeapUsed":"88.74%","rss":"454.73792 MB"},"pid":19},"namespace":"memoryUsage","pid":19,"timestamp":"2023-06-13T21:30:36.071Z"}
+
+Environment variables:
+	ACCESS_TOKEN_COOKIE_NAME: accessToken
+	ACTIVE_PAGE_SAVE_PROCESSOR_QUEUE: azure
+	AIRGAPPED: false
+	APPS_FS_SYNC_ON: false
+	APPS_FS_SYNC_WATCHER: false
+	AUDIT_INSERT_TIMEOUT_SECONDS: 20
+	AUDIT_SELECT_TIMEOUT_SECONDS: 20
+	AUDIT_TRAILS_FILTER_DEFAULT_DAYS: 90
+	AUDIT_TRAILS_POSTGRES_PORT: 5432
+	AUTH_REQS_PER_MINUTE: 60
+	BOOTSTRAP_FROM_SOURCE: false
+	BUILD_NUMBER: 1391
+	CLIENT_ID: secret
+	CLIENT_SECRET: secret
+	CODE_EXECUTOR_INGRESS_DOMAIN: http://localhost:3004
+	COMMIT_HASH: 5e2103e
+	CONTENT_TYPE_PARSING_REST_API_ENABLED: false
+	CUSTOM_OAUTH2_SSO_ACCESS_TOKEN_LIFESPAN_MINUTES: undefined
+	CUSTOM_OAUTH2_SSO_NO_SCOPE_IN_AUTHORIZATION_CODE_REQ: false
+	CUSTOM_OAUTH2_SSO_ROLE_MAPPING_DISABLED: false
+	DATABASE_MIGRATIONS_TIMEOUT_SECONDS: 300
+	DATABASE_SCHEMA_QUERY_LIMIT: 3000
+	DBCONNECTOR_AWS_ENABLE_DEFAULT_PROVIDER_ATHENA: false
+	DBCONNECTOR_AWS_ENABLE_DEFAULT_PROVIDER_DYNAMODB: false
+	DBCONNECTOR_AWS_ENABLE_DEFAULT_PROVIDER_LAMBDA: false
+	DBCONNECTOR_AWS_ENABLE_DEFAULT_PROVIDER_S3: false
+	DBCONNECTOR_AWS_ROLE_ASSUMER_WITH_WEB_IDENTITY: false
+	DBCONNECTOR_CPU_PROFILING_TIME_MS: 60000
+	DBCONNECTOR_FIREBASE_MEMORY_LIMIT_MB: 0
+	DBCONNECTOR_FIREBASE_WORKER_ENDURANCE: 1
+	DBCONNECTOR_HEADERS_TIMEOUT_MS: 0
+	DBCONNECTOR_HTTP_AGENT_MAX_SOCKETS: 25
+	DBCONNECTOR_INGRESS_DOMAIN: http://localhost:3002
+	DBCONNECTOR_INGRESS_DOMAIN_SECONDARY: http://localhost:3002
+	DBCONNECTOR_KEEPALIVE_TIMEOUT_MS: 0
+	DBCONNECTOR_MONGODB_ENABLE_STREAMING_ONPREM: false
+	DBCONNECTOR_NUM_WORKERS: 1
+	DBCONNECTOR_POSTGRES_POOL_MAX_SIZE: 10
+	DBCONNECTOR_QUERY_TIMEOUT_MS: 120000
+	DBCONNECTOR_SHARDING_DOMAIN: http://localhost:3002
+	DBCONNECTOR_SHARDING_JITTER_THRESHOLD: 500
+	DBCONNECTOR_SHARDING_MAX_JITTER: 0.4
+	DBCONNECTOR_SHARDING_MIN_JITTER: 0.05
+	DBCONNECTOR_SHARDING_OLD_WINDOW_WEIGHT: 3
+	DBCONNECTOR_SHARDING_RESOURCE_TYPES: postgresql,mysql,mssql,mongodb,snowflake,redshift
+	DBCONNECTOR_SHARDING_TIME_PERIOD_IN_SECONDS: 10
+	DBCONNECTOR_SHARDING_TTL: 6
+	DB_CONNECTOR_PORT: undefined
+	DEBUG: false
+	DISABLE_DATABASE_MIGRATIONS: false
+	DISABLE_DATABASE_MIGRATIONS_TIMEOUT: false
+	DISABLE_FORWARDABLE_COOKIE_DECODING: false
+	DISABLE_GIT_SYNCING: false
+	DISABLE_IMAGE_PROXY: false
+	DISABLE_INTERCOM: false
+	DISABLE_MEMORY_AND_CPU_USAGE_LOGGING: false
+	DISABLE_PAGE_USER_HEARTBEAT: false
+	DISABLE_PROTECTED_APPS_SYNCING: false
+	DISABLE_PUBLIC_PAGES: false
+	DISABLE_RATE_LIMIT: false
+	DISABLE_SOURCE_CONTROL_SYNCING: false
+	DISABLE_TEST_RESOURCES: false
+	DISABLE_USER_PASS_LOGIN: false
+	DO_HIBP_CHECK: true
+	ENABLE_CLIENT_SIDE_CUSTOM_AUTH_BROWSER_CALLS: false
+	ENABLE_CUSTOM_PLATFORM_LEVEL_AUTH_STEPS: false
+	ENABLE_DATABASE_MIGRATIONS_CONCURRENT_INDEX_CREATION: false
+	ENABLE_DBCONNECTOR_FIREBASE_PROCESS_LIMIT: false
+	ENABLE_GLOBAL_QUERY_TIMEOUT: false
+	ENABLE_RUN_QUERY_BY_UUID_METADATA_LOG: false
+	ENCRYPTION_KEY: secret
+	FAILED_MONTHLY_LOGINS_PER_IP: 10
+	FAILED_MONTHLY_LOGINS_PER_USER: 100
+	GITHUB_SYNC_TOKEN: secret
+	GITLAB_PROJECT_ID: undefined
+	GPT_HOURLY_TOKEN_LIMIT: 50000
+	HEADER_BASED_AUTH_ENABLED: false
+	HEADER_BASED_AUTH_ROLE_MAPPING_DISABLED: false
+	HIBP_API_KEY: secret
+	HIDE_ALL_HEADERS_IN_AUDIT_LOG_EVENTS: false
+	HIDE_PROD_AND_STAGING_TOGGLES: false
+	HTML_ESCAPE_RETOOL_EXPRESSIONS: false
+	HTTP_PROXY_STRICT: true
+	INC_613_GET_RECORD_TRANSIT: false
+	INVITES_PER_DAY: 50
+	IS_ADMIN: false
+	IS_E2E: false
+	JOBS_SERVER_PORT: 3003
+	JWT_SECRET: secret
+	K8S_HOSTED: false
+	LDAP_ROLE_MAPPING_DISABLED: false
+	LDAP_SYNC_ALL_GROUPS: false
+	LDAP_SYNC_GROUP_CLAIMS: false
+	LICENSE_KEY: secret
+	LICENSING_STATUS_PROPAGATION_ENABLED: true
+	LOG_AUDIT_EVENTS: false
+	LOG_LEVEL: info
+	NODE_ENV: production
+	NODE_HTTP_AGENT_MAX_SOCKETS: 25
+	NODE_METRICS_MONTIOR_ENABLED: false
+	NODE_METRICS_MONTIOR_MINUTE_INTERVAL: 5
+	NO_PROXY: localhost
+	NUM_WORKERS: undefined
+	OKTA_CLIENT_SECRET: secret
+	OPEN_API_SPEC_CACHE_TTL_MS: 600000
+	OTEL_TRACING_ENABLED: false
+	PORT: undefined
+	POSTGRES_DB: retool
+	POSTGRES_HOST: 127.0.0.1
+	POSTGRES_IDLE_IN_TRANSACTION_SESSION_TIMEOUT: undefined
+	POSTGRES_PASSWORD: secret
+	POSTGRES_POOL_SIZE_MAX: 5
+	POSTGRES_POOL_SIZE_MIN: 0
+	POSTGRES_PORT: 5432
+	POSTGRES_SSL_DISABLED: false
+	POSTGRES_SSL_ENABLED: false
+	POSTGRES_SSL_REJECT_UNAUTHORIZED: false
+	POSTGRES_STATEMENT_TIMEOUT: undefined
+	POSTGRES_USER: retool
+	PRESERVE_PASSWORDS_FIRST_GOOGLE_LOGIN: false
+	PRESTO_DISABLE_GET_SCHEMA: false
+	PRESTO_DISABLE_QUERY_TIMEOUT: false
+	PRESTO_POOL_MAX_CONNECTION_RETRIES: 20
+	PRESTO_POOL_MAX_SIZE: 10
+	PRESTO_POOL_MIN_SIZE: 1
+	PROTECTED_APPS_TREE_TRIMMING: false
+	PROTECTED_APPS_TREE_TRIMMING_CHUNK_SIZE: 1000
+	REDIS_TLS: false
+	REDIS_USER_CACHE_TLS: false
+	REQUIRE_PASSWORD_TO_DISABLE_MFA: true
+	REST_API_MIME_TO_EXTENSION_PARSING_ENABLED: false
+	RETOOLDB_POSTGRES_PORT: 5432
+	RETOOLDB_POSTGRES_SSL: false
+	RETOOL_CACHE_FEATURE_FLAGS_IN_REDIS: true
+	RETOOL_ENV: production
+	RETOOL_HOSTED: false
+	RETOOL_MAX_MEMORY_MB: 0
+	RETOOL_WORKFLOW_IN_SANDBOX: false
+	SAML_FIRST_NAME_ATTRIBUTE: firstName
+	SAML_GROUPS_ATTRIBUTE: groups
+	SAML_LAST_NAME_ATTRIBUTE: lastName
+	SAML_SYNC_GROUP_CLAIMS: false
+	SCIM_AUTH_TOKEN: secret
+	SCIM_ENABLE_GROUP_PUT: false
+	SCIM_LOG_FULL_REQUESTS: false
+	SCIM_ONLY_MODE: false
+	SEQUELIZE_ACQUIRE: 100000
+	SEQUELIZE_EVICT: 1000000
+	SEQUELIZE_IDLE: 100000
+	SEQUELIZE_MAX_USES: 1000000
+	SERVE_LOCAL_SPECS: false
+	SNOWFLAKE_POOL_ACQUIRE_TIMEOUT_MS: 10000
+	SNOWFLAKE_POOL_MAX_SIZE: 10
+	SNOWFLAKE_POOL_MAX_TRIES: 1
+	SNOWFLAKE_POOL_MIN_SIZE: 0
+	SNOWFLAKE_VALIDATION_DISABLE_HEARTBEAT: false
+	STATSD_PORT: undefined
+	TRIGGER_OAUTH_2_SSO_LOGIN_AUTOMATICALLY: false
+	TRIGGER_SAML_LOGIN_AUTOMATICALLY: false
+	TRUNCATE_LONG_AUDIT_LOG_DATA: false
+	USE_AUDIT_TRAILS_POSTGRES_DB: false
+	USE_DBCONNECTOR_INGRESS_FOR_PRIMARY: false
+	USE_DBCONNECTOR_INGRESS_FOR_SECONDARY: false
+	USE_GCM_ENCRYPTION: false
+	USE_REDIS_HEARTBEATS: false
+	USE_SHORT_SESSIONS: false
+	USE_STAGING_LICENSING_SERVER: false
+	VERSION_CONTROL_LOCKED: false
+	WORKFLOW_BACKEND_HOST: http://workflows-api
+	WORKFLOW_BLOCK_STORAGE_LOCATION: postgres
+	WORKFLOW_BURST_10_SECOND_LIMIT: 200
+	WORKFLOW_CONCURRENT_WEBHOOKS_LIMIT: 100
+	WORKFLOW_DEV_FORCE_USE_CLOUD_EXECUTION_PATH: false
+	WORKFLOW_REDIS_TLS: false
+	WORKFLOW_SCHEDULING_ENABLED: false
+	WORKFLOW_TEMPORAL_CLUSTER_FRONTEND_HOST: retool-temporal-frontend
+	WORKFLOW_TEMPORAL_CLUSTER_FRONTEND_PORT: 7233
+	WORKFLOW_TEMPORAL_CLUSTER_NAMESPACE: workflows
+	WORKFLOW_TEMPORAL_CONCURRENT_ACTIVITIES_LIMIT: 10
+	WORKFLOW_TEMPORAL_CONCURRENT_TASKS_LIMIT: 10
+	WORKFLOW_TEMPORAL_STICKY_CACHE_SIZE: 200
+	WORKFLOW_TEMPORAL_TLS_ENABLED: false
+	WORKFLOW_TEMPORAL_WORKER_SHUTDOWN_GRACE_TIME: 11 minute
+	WORKFLOW_WORKER_HEALTHCHECK_PORT: 3005
+
+{"level":"info","message":"Rechecking license status...","timestamp":"2023-06-13T21:30:36.079Z"}
+{"level":"info","message":"license check http response code: 200","timestamp":"2023-06-13T21:30:36.277Z"}
+{"level":"info","message":"License key feature flag overrides: {\"newSignUpFlowWithMobile\":true,\"mobileFeatureCallout\":true,\"retoolMobile\":true,\"workflowsBillingFrontend\":true,\"workflowsBetaAccess\":true,\"workflowsEnableTemporal\":true,\"workflowsSourceControl\":true}","timestamp":"2023-06-13T21:30:36.279Z"}
+{"level":"info","message":"Updated license status from licensing server","timestamp":"2023-06-13T21:30:36.282Z"}
+{"level":"info","message":"[Master] Detected 4 cpus, starting 3 workers","timestamp":"2023-06-13T21:30:36.283Z"}
+{"level":"info","message":"[process service types] MAIN_BACKEND, DB_CONNECTOR, DB_SSH_CONNECTOR","timestamp":"2023-06-13T21:30:37.352Z"}
+Database migrations are up to date.
+Setting http and https agent maxSockets to 25
+{"level":"info","message":"Not configuring Sentry...","timestamp":"2023-06-13T21:30:39.042Z"}
+{"level":"info","message":"Not configuring StatsD...","timestamp":"2023-06-13T21:30:39.043Z"}
+{"level":"info","message":"Running node v16.14.2","timestamp":"2023-06-13T21:30:39.044Z"}
+{"0":"--max-http-header-size=80000","level":"info","message":"ARGV:","timestamp":"2023-06-13T21:30:39.044Z"}
+{"level":"info","message":"Node.js heap size limit: 5144 MiB","timestamp":"2023-06-13T21:30:39.044Z"}
+{"level":"info","message":"Initialized general rate limiter: 60 attempts every 60 seconds","timestamp":"2023-06-13T21:30:40.355Z"}
+{"level":"info","message":"Initialized invite rate limiter: 50 attempts every 86400 seconds","timestamp":"2023-06-13T21:30:40.355Z"}
+Tue, 13 Jun 2023 21:30:40 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at ../snapshot/retool_development/backend/transpiled/server/app.js:null:null
+Tue, 13 Jun 2023 21:30:40 GMT body-parser deprecated undefined extended: provide extended option at ../snapshot/retool_development/node_modules/body-parser/index.js:104:29
+main web boot-up: 7.779s
+(node:49) [DEP0111] DeprecationWarning: Access to process.binding('http_parser') is deprecated.
+(Use `retool_backend --trace-deprecation ...` to show where the warning was created)
+(node:49) [DEP0148] DeprecationWarning: Use of deprecated folder mapping "./" in the "exports" field module resolution of the package at /snapshot/retool_development/node_modules/@tryretool/common/package.json.
+Update this package.json to use a subpath pattern like "./*".
+(node:49) [LRU_CACHE_UNBOUNDED] UnboundedCacheWarning: TTL caching without ttlAutopurge, max, or maxSize can result in unbounded memory consumption.
+(node:49) [LRU_CACHE_OPTION_maxAge] DeprecationWarning: The maxAge option is deprecated. Please use options.ttl instead.
+(node:49) NOTE: We are formalizing our plans to enter AWS SDK for JavaScript (v2) into maintenance mode in 2023.
+
+Please migrate your code to use AWS SDK for JavaScript (v3).
+For more information, check the migration guide at https://a.co/7PzMCcy
+{"level":"info","message":"RetoolDB credentials not found, skipping setup...","timestamp":"2023-06-13T21:30:47.798Z"}
+{"level":"info","message":{"CPU Usage % for process":"63.40%","Memory Stats for container":{"freeSystemMemory":"12781.232128 MB","percentageFreeMemory":"76.14%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"289.574912 MB","heapUsed":"257.615192 MB","percentageHeapUsed":"88.96%","rss":"439.443456 MB"},"pid":49},"namespace":"memoryUsage","pid":49,"timestamp":"2023-06-13T21:30:47.800Z"}
+
+Environment variables:
+	ACCESS_TOKEN_COOKIE_NAME: accessToken
+	ACTIVE_PAGE_SAVE_PROCESSOR_QUEUE: azure
+	AIRGAPPED: false
+	APPS_FS_SYNC_ON: false
+	APPS_FS_SYNC_WATCHER: false
+	AUDIT_INSERT_TIMEOUT_SECONDS: 20
+	AUDIT_SELECT_TIMEOUT_SECONDS: 20
+	AUDIT_TRAILS_FILTER_DEFAULT_DAYS: 90
+	AUDIT_TRAILS_POSTGRES_PORT: 5432
+	AUTH_REQS_PER_MINUTE: 60
+	BOOTSTRAP_FROM_SOURCE: false
+	BUILD_NUMBER: 1391
+	CLIENT_ID: secret
+	CLIENT_SECRET: secret
+	CODE_EXECUTOR_INGRESS_DOMAIN: http://localhost:3004
+	COMMIT_HASH: 5e2103e
+	CONTENT_TYPE_PARSING_REST_API_ENABLED: false
+	CUSTOM_OAUTH2_SSO_ACCESS_TOKEN_LIFESPAN_MINUTES: undefined
+	CUSTOM_OAUTH2_SSO_NO_SCOPE_IN_AUTHORIZATION_CODE_REQ: false
+	CUSTOM_OAUTH2_SSO_ROLE_MAPPING_DISABLED: false
+	DATABASE_MIGRATIONS_TIMEOUT_SECONDS: 300
+	DATABASE_SCHEMA_QUERY_LIMIT: 3000
+	DBCONNECTOR_AWS_ENABLE_DEFAULT_PROVIDER_ATHENA: false
+	DBCONNECTOR_AWS_ENABLE_DEFAULT_PROVIDER_DYNAMODB: false
+	DBCONNECTOR_AWS_ENABLE_DEFAULT_PROVIDER_LAMBDA: false
+	DBCONNECTOR_AWS_ENABLE_DEFAULT_PROVIDER_S3: false
+	DBCONNECTOR_AWS_ROLE_ASSUMER_WITH_WEB_IDENTITY: false
+	DBCONNECTOR_CPU_PROFILING_TIME_MS: 60000
+	DBCONNECTOR_FIREBASE_MEMORY_LIMIT_MB: 0
+	DBCONNECTOR_FIREBASE_WORKER_ENDURANCE: 1
+	DBCONNECTOR_HEADERS_TIMEOUT_MS: 0
+	DBCONNECTOR_HTTP_AGENT_MAX_SOCKETS: 25
+	DBCONNECTOR_INGRESS_DOMAIN: http://localhost:3002
+	DBCONNECTOR_INGRESS_DOMAIN_SECONDARY: http://localhost:3002
+	DBCONNECTOR_KEEPALIVE_TIMEOUT_MS: 0
+	DBCONNECTOR_MONGODB_ENABLE_STREAMING_ONPREM: false
+	DBCONNECTOR_NUM_WORKERS: 1
+	DBCONNECTOR_POSTGRES_POOL_MAX_SIZE: 10
+	DBCONNECTOR_QUERY_TIMEOUT_MS: 120000
+	DBCONNECTOR_SHARDING_DOMAIN: http://localhost:3002
+	DBCONNECTOR_SHARDING_JITTER_THRESHOLD: 500
+	DBCONNECTOR_SHARDING_MAX_JITTER: 0.4
+	DBCONNECTOR_SHARDING_MIN_JITTER: 0.05
+	DBCONNECTOR_SHARDING_OLD_WINDOW_WEIGHT: 3
+	DBCONNECTOR_SHARDING_RESOURCE_TYPES: postgresql,mysql,mssql,mongodb,snowflake,redshift
+	DBCONNECTOR_SHARDING_TIME_PERIOD_IN_SECONDS: 10
+	DBCONNECTOR_SHARDING_TTL: 6
+	DB_CONNECTOR_PORT: undefined
+	DEBUG: false
+	DISABLE_DATABASE_MIGRATIONS: false
+	DISABLE_DATABASE_MIGRATIONS_TIMEOUT: false
+	DISABLE_FORWARDABLE_COOKIE_DECODING: false
+	DISABLE_GIT_SYNCING: false
+	DISABLE_IMAGE_PROXY: false
+	DISABLE_INTERCOM: false
+	DISABLE_MEMORY_AND_CPU_USAGE_LOGGING: false
+	DISABLE_PAGE_USER_HEARTBEAT: false
+	DISABLE_PROTECTED_APPS_SYNCING: false
+	DISABLE_PUBLIC_PAGES: false
+	DISABLE_RATE_LIMIT: false
+	DISABLE_SOURCE_CONTROL_SYNCING: false
+	DISABLE_TEST_RESOURCES: false
+	DISABLE_USER_PASS_LOGIN: false
+	DO_HIBP_CHECK: true
+	ENABLE_CLIENT_SIDE_CUSTOM_AUTH_BROWSER_CALLS: false
+	ENABLE_CUSTOM_PLATFORM_LEVEL_AUTH_STEPS: false
+	ENABLE_DATABASE_MIGRATIONS_CONCURRENT_INDEX_CREATION: false
+	ENABLE_DBCONNECTOR_FIREBASE_PROCESS_LIMIT: false
+	ENABLE_GLOBAL_QUERY_TIMEOUT: false
+	ENABLE_RUN_QUERY_BY_UUID_METADATA_LOG: false
+	ENCRYPTION_KEY: secret
+	FAILED_MONTHLY_LOGINS_PER_IP: 10
+	FAILED_MONTHLY_LOGINS_PER_USER: 100
+	GITHUB_SYNC_TOKEN: secret
+	GITLAB_PROJECT_ID: undefined
+	GPT_HOURLY_TOKEN_LIMIT: 50000
+	HEADER_BASED_AUTH_ENABLED: false
+	HEADER_BASED_AUTH_ROLE_MAPPING_DISABLED: false
+	HIBP_API_KEY: secret
+	HIDE_ALL_HEADERS_IN_AUDIT_LOG_EVENTS: false
+	HIDE_PROD_AND_STAGING_TOGGLES: false
+	HTML_ESCAPE_RETOOL_EXPRESSIONS: false
+	HTTP_PROXY_STRICT: true
+	INC_613_GET_RECORD_TRANSIT: false
+	INVITES_PER_DAY: 50
+	IS_ADMIN: false
+	IS_E2E: false
+	JOBS_SERVER_PORT: 3003
+	JWT_SECRET: secret
+	K8S_HOSTED: false
+	LDAP_ROLE_MAPPING_DISABLED: false
+	LDAP_SYNC_ALL_GROUPS: false
+	LDAP_SYNC_GROUP_CLAIMS: false
+	LICENSE_KEY: secret
+	LICENSING_STATUS_PROPAGATION_ENABLED: true
+	LOG_AUDIT_EVENTS: false
+	LOG_LEVEL: info
+	NODE_ENV: production
+	NODE_HTTP_AGENT_MAX_SOCKETS: 25
+	NODE_METRICS_MONTIOR_ENABLED: false
+	NODE_METRICS_MONTIOR_MINUTE_INTERVAL: 5
+	NO_PROXY: localhost
+	NUM_WORKERS: undefined
+	OKTA_CLIENT_SECRET: secret
+	OPEN_API_SPEC_CACHE_TTL_MS: 600000
+	OTEL_TRACING_ENABLED: false
+	PORT: undefined
+	POSTGRES_DB: retool
+	POSTGRES_HOST: 127.0.0.1
+	POSTGRES_IDLE_IN_TRANSACTION_SESSION_TIMEOUT: undefined
+	POSTGRES_PASSWORD: secret
+	POSTGRES_POOL_SIZE_MAX: 5
+	POSTGRES_POOL_SIZE_MIN: 0
+	POSTGRES_PORT: 5432
+	POSTGRES_SSL_DISABLED: false
+	POSTGRES_SSL_ENABLED: false
+	POSTGRES_SSL_REJECT_UNAUTHORIZED: false
+	POSTGRES_STATEMENT_TIMEOUT: undefined
+	POSTGRES_USER: retool
+	PRESERVE_PASSWORDS_FIRST_GOOGLE_LOGIN: false
+	PRESTO_DISABLE_GET_SCHEMA: false
+	PRESTO_DISABLE_QUERY_TIMEOUT: false
+	PRESTO_POOL_MAX_CONNECTION_RETRIES: 20
+	PRESTO_POOL_MAX_SIZE: 10
+	PRESTO_POOL_MIN_SIZE: 1
+	PROTECTED_APPS_TREE_TRIMMING: false
+	PROTECTED_APPS_TREE_TRIMMING_CHUNK_SIZE: 1000
+	REDIS_TLS: false
+	REDIS_USER_CACHE_TLS: false
+	REQUIRE_PASSWORD_TO_DISABLE_MFA: true
+	REST_API_MIME_TO_EXTENSION_PARSING_ENABLED: false
+	RETOOLDB_POSTGRES_PORT: 5432
+	RETOOLDB_POSTGRES_SSL: false
+	RETOOL_CACHE_FEATURE_FLAGS_IN_REDIS: true
+	RETOOL_ENV: production
+	RETOOL_HOSTED: false
+	RETOOL_MAX_MEMORY_MB: 0
+	RETOOL_WORKFLOW_IN_SANDBOX: false
+	SAML_FIRST_NAME_ATTRIBUTE: firstName
+	SAML_GROUPS_ATTRIBUTE: groups
+	SAML_LAST_NAME_ATTRIBUTE: lastName
+	SAML_SYNC_GROUP_CLAIMS: false
+	SCIM_AUTH_TOKEN: secret
+	SCIM_ENABLE_GROUP_PUT: false
+	SCIM_LOG_FULL_REQUESTS: false
+	SCIM_ONLY_MODE: false
+	SEQUELIZE_ACQUIRE: 100000
+	SEQUELIZE_EVICT: 1000000
+	SEQUELIZE_IDLE: 100000
+	SEQUELIZE_MAX_USES: 1000000
+	SERVE_LOCAL_SPECS: false
+	SNOWFLAKE_POOL_ACQUIRE_TIMEOUT_MS: 10000
+	SNOWFLAKE_POOL_MAX_SIZE: 10
+	SNOWFLAKE_POOL_MAX_TRIES: 1
+	SNOWFLAKE_POOL_MIN_SIZE: 0
+	SNOWFLAKE_VALIDATION_DISABLE_HEARTBEAT: false
+	STATSD_PORT: undefined
+	TRIGGER_OAUTH_2_SSO_LOGIN_AUTOMATICALLY: false
+	TRIGGER_SAML_LOGIN_AUTOMATICALLY: false
+	TRUNCATE_LONG_AUDIT_LOG_DATA: false
+	USE_AUDIT_TRAILS_POSTGRES_DB: false
+	USE_DBCONNECTOR_INGRESS_FOR_PRIMARY: false
+	USE_DBCONNECTOR_INGRESS_FOR_SECONDARY: false
+	USE_GCM_ENCRYPTION: false
+	USE_REDIS_HEARTBEATS: false
+	USE_SHORT_SESSIONS: false
+	USE_STAGING_LICENSING_SERVER: false
+	VERSION_CONTROL_LOCKED: false
+	WORKFLOW_BACKEND_HOST: http://workflows-api
+	WORKFLOW_BLOCK_STORAGE_LOCATION: postgres
+	WORKFLOW_BURST_10_SECOND_LIMIT: 200
+	WORKFLOW_CONCURRENT_WEBHOOKS_LIMIT: 100
+	WORKFLOW_DEV_FORCE_USE_CLOUD_EXECUTION_PATH: false
+	WORKFLOW_REDIS_TLS: false
+	WORKFLOW_SCHEDULING_ENABLED: false
+	WORKFLOW_TEMPORAL_CLUSTER_FRONTEND_HOST: retool-temporal-frontend
+	WORKFLOW_TEMPORAL_CLUSTER_FRONTEND_PORT: 7233
+	WORKFLOW_TEMPORAL_CLUSTER_NAMESPACE: workflows
+	WORKFLOW_TEMPORAL_CONCURRENT_ACTIVITIES_LIMIT: 10
+	WORKFLOW_TEMPORAL_CONCURRENT_TASKS_LIMIT: 10
+	WORKFLOW_TEMPORAL_STICKY_CACHE_SIZE: 200
+	WORKFLOW_TEMPORAL_TLS_ENABLED: false
+	WORKFLOW_TEMPORAL_WORKER_SHUTDOWN_GRACE_TIME: 11 minute
+	WORKFLOW_WORKER_HEALTHCHECK_PORT: 3005
+
+[Worker] Worker 49 started and listening on 3001
+{"level":"info","message":"[process service types] MAIN_BACKEND, DB_CONNECTOR, DB_SSH_CONNECTOR","timestamp":"2023-06-13T21:30:49.017Z"}
+Database migrations are up to date.
+Setting http and https agent maxSockets to 25
+{"level":"info","message":"Not configuring Sentry...","timestamp":"2023-06-13T21:30:51.209Z"}
+{"level":"info","message":"Not configuring StatsD...","timestamp":"2023-06-13T21:30:51.209Z"}
+{"level":"info","message":"Running node v16.14.2","timestamp":"2023-06-13T21:30:51.210Z"}
+{"0":"--max-http-header-size=80000","level":"info","message":"ARGV:","timestamp":"2023-06-13T21:30:51.210Z"}
+{"level":"info","message":"Node.js heap size limit: 5144 MiB","timestamp":"2023-06-13T21:30:51.211Z"}
+{"level":"info","message":"Not configuring Sentry...","timestamp":"2023-06-13T21:30:51.276Z"}
+{"level":"info","message":"Not configuring StatsD...","timestamp":"2023-06-13T21:30:51.276Z"}
+{"level":"info","message":"Starting database connector server on port","port":3002,"timestamp":"2023-06-13T21:30:51.277Z"}
+{"argv":["--max-http-header-size=80000"],"heap_size_limit_mib":5144,"level":"info","message":"Starting DBConnector","node_version":"v16.14.2","timestamp":"2023-06-13T21:30:51.278Z"}
+Tue, 13 Jun 2023 21:30:51 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at ../snapshot/retool_development/backend/transpiled/dbconnector/app.js:null:null
+{"durationMs":513,"level":"info","message":"dbconnector boot-up","timestamp":"2023-06-13T21:30:51.790Z"}
+Running node v16.14.2
+ARGV: [ '--max-http-header-size=80000' ]
+Node.js heap size limit: 5144 MiB
+[HPM] Proxy created: /  -> http://localhost:3001
+[HPM] Proxy created: /  -> http://localhost:3001
+[HPM] Proxy created: /  -> http://localhost:3001
+[HPM] Proxy created: /  -> http://localhost:3001/api
+[HPM] Proxy created: /  -> http://localhost:3001/api
+[HPM] Proxy created: /  -> http://localhost:3001
+[HPM] Proxy created: /  -> http://localhost:3001
+[HPM] Proxy created: /  -> http://localhost:3001
+[HPM] Proxy created: /  -> http://localhost:3001
+[HPM] Proxy created: /  -> http://localhost:3001
+[HPM] Proxy created: /  -> http://localhost:3001
+[HPM] Proxy created: /  -> http://localhost:3001
+[HPM] Proxy created: /  -> http://localhost:3001
+[HPM] Proxy created: /  -> http://localhost:3001
+[HPM] Proxy created: /  -> http://127.0.0.1:3001
+[HPM] Proxy created: /  -> http://localhost:3001
+[HPM] Proxy created: /  -> http://localhost:3001
+[HPM] Proxy created: /  -> http://localhost:3001
+Starting static http server on port 3000
+{"level":"info","message":"Initialized general rate limiter: 60 attempts every 60 seconds","timestamp":"2023-06-13T21:30:52.835Z"}
+{"level":"info","message":"Initialized invite rate limiter: 50 attempts every 86400 seconds","timestamp":"2023-06-13T21:30:52.836Z"}
+Tue, 13 Jun 2023 21:30:52 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at ../snapshot/retool_development/backend/transpiled/server/app.js:null:null
+Tue, 13 Jun 2023 21:30:52 GMT body-parser deprecated undefined extended: provide extended option at ../snapshot/retool_development/node_modules/body-parser/index.js:104:29
+{"level":"info","message":{"CPU Usage % for process":"11.94%","Memory Stats for container":{"freeSystemMemory":"12405.305344 MB","percentageFreeMemory":"73.9%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"249.46688 MB","heapUsed":"232.580224 MB","percentageHeapUsed":"93.23%","rss":"413.638656 MB"},"pid":19},"namespace":"memoryUsage","pid":19,"timestamp":"2023-06-13T21:30:56.073Z"}
+main web boot-up: 9.245s
+(node:79) [DEP0111] DeprecationWarning: Access to process.binding('http_parser') is deprecated.
+(Use `retool_backend --trace-deprecation ...` to show where the warning was created)
+(node:79) [DEP0148] DeprecationWarning: Use of deprecated folder mapping "./" in the "exports" field module resolution of the package at /snapshot/retool_development/node_modules/@tryretool/common/package.json.
+Update this package.json to use a subpath pattern like "./*".
+(node:79) [LRU_CACHE_UNBOUNDED] UnboundedCacheWarning: TTL caching without ttlAutopurge, max, or maxSize can result in unbounded memory consumption.
+(node:79) [LRU_CACHE_OPTION_maxAge] DeprecationWarning: The maxAge option is deprecated. Please use options.ttl instead.
+(node:79) NOTE: We are formalizing our plans to enter AWS SDK for JavaScript (v2) into maintenance mode in 2023.
+
+Please migrate your code to use AWS SDK for JavaScript (v3).
+For more information, check the migration guide at https://a.co/7PzMCcy
+{"level":"info","message":"RetoolDB credentials not found, skipping setup...","timestamp":"2023-06-13T21:31:01.462Z"}
+{"level":"info","message":{"CPU Usage % for process":"72.50%","Memory Stats for container":{"freeSystemMemory":"12298.059776 MB","percentageFreeMemory":"73.26%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"290.709504 MB","heapUsed":"257.281344 MB","percentageHeapUsed":"88.5%","rss":"453.353472 MB"},"pid":79},"namespace":"memoryUsage","pid":79,"timestamp":"2023-06-13T21:31:01.464Z"}
+
+Environment variables:
+	ACCESS_TOKEN_COOKIE_NAME: accessToken
+	ACTIVE_PAGE_SAVE_PROCESSOR_QUEUE: azure
+	AIRGAPPED: false
+	APPS_FS_SYNC_ON: false
+	APPS_FS_SYNC_WATCHER: false
+	AUDIT_INSERT_TIMEOUT_SECONDS: 20
+	AUDIT_SELECT_TIMEOUT_SECONDS: 20
+	AUDIT_TRAILS_FILTER_DEFAULT_DAYS: 90
+	AUDIT_TRAILS_POSTGRES_PORT: 5432
+	AUTH_REQS_PER_MINUTE: 60
+	BOOTSTRAP_FROM_SOURCE: false
+	BUILD_NUMBER: 1391
+	CLIENT_ID: secret
+	CLIENT_SECRET: secret
+	CODE_EXECUTOR_INGRESS_DOMAIN: http://localhost:3004
+	COMMIT_HASH: 5e2103e
+	CONTENT_TYPE_PARSING_REST_API_ENABLED: false
+	CUSTOM_OAUTH2_SSO_ACCESS_TOKEN_LIFESPAN_MINUTES: undefined
+	CUSTOM_OAUTH2_SSO_NO_SCOPE_IN_AUTHORIZATION_CODE_REQ: false
+	CUSTOM_OAUTH2_SSO_ROLE_MAPPING_DISABLED: false
+	DATABASE_MIGRATIONS_TIMEOUT_SECONDS: 300
+	DATABASE_SCHEMA_QUERY_LIMIT: 3000
+	DBCONNECTOR_AWS_ENABLE_DEFAULT_PROVIDER_ATHENA: false
+	DBCONNECTOR_AWS_ENABLE_DEFAULT_PROVIDER_DYNAMODB: false
+	DBCONNECTOR_AWS_ENABLE_DEFAULT_PROVIDER_LAMBDA: false
+	DBCONNECTOR_AWS_ENABLE_DEFAULT_PROVIDER_S3: false
+	DBCONNECTOR_AWS_ROLE_ASSUMER_WITH_WEB_IDENTITY: false
+	DBCONNECTOR_CPU_PROFILING_TIME_MS: 60000
+	DBCONNECTOR_FIREBASE_MEMORY_LIMIT_MB: 0
+	DBCONNECTOR_FIREBASE_WORKER_ENDURANCE: 1
+	DBCONNECTOR_HEADERS_TIMEOUT_MS: 0
+	DBCONNECTOR_HTTP_AGENT_MAX_SOCKETS: 25
+	DBCONNECTOR_INGRESS_DOMAIN: http://localhost:3002
+	DBCONNECTOR_INGRESS_DOMAIN_SECONDARY: http://localhost:3002
+	DBCONNECTOR_KEEPALIVE_TIMEOUT_MS: 0
+	DBCONNECTOR_MONGODB_ENABLE_STREAMING_ONPREM: false
+	DBCONNECTOR_NUM_WORKERS: 1
+	DBCONNECTOR_POSTGRES_POOL_MAX_SIZE: 10
+	DBCONNECTOR_QUERY_TIMEOUT_MS: 120000
+	DBCONNECTOR_SHARDING_DOMAIN: http://localhost:3002
+	DBCONNECTOR_SHARDING_JITTER_THRESHOLD: 500
+	DBCONNECTOR_SHARDING_MAX_JITTER: 0.4
+	DBCONNECTOR_SHARDING_MIN_JITTER: 0.05
+	DBCONNECTOR_SHARDING_OLD_WINDOW_WEIGHT: 3
+	DBCONNECTOR_SHARDING_RESOURCE_TYPES: postgresql,mysql,mssql,mongodb,snowflake,redshift
+	DBCONNECTOR_SHARDING_TIME_PERIOD_IN_SECONDS: 10
+	DBCONNECTOR_SHARDING_TTL: 6
+	DB_CONNECTOR_PORT: undefined
+	DEBUG: false
+	DISABLE_DATABASE_MIGRATIONS: false
+	DISABLE_DATABASE_MIGRATIONS_TIMEOUT: false
+	DISABLE_FORWARDABLE_COOKIE_DECODING: false
+	DISABLE_GIT_SYNCING: false
+	DISABLE_IMAGE_PROXY: false
+	DISABLE_INTERCOM: false
+	DISABLE_MEMORY_AND_CPU_USAGE_LOGGING: false
+	DISABLE_PAGE_USER_HEARTBEAT: false
+	DISABLE_PROTECTED_APPS_SYNCING: false
+	DISABLE_PUBLIC_PAGES: false
+	DISABLE_RATE_LIMIT: false
+	DISABLE_SOURCE_CONTROL_SYNCING: false
+	DISABLE_TEST_RESOURCES: false
+	DISABLE_USER_PASS_LOGIN: false
+	DO_HIBP_CHECK: true
+	ENABLE_CLIENT_SIDE_CUSTOM_AUTH_BROWSER_CALLS: false
+	ENABLE_CUSTOM_PLATFORM_LEVEL_AUTH_STEPS: false
+	ENABLE_DATABASE_MIGRATIONS_CONCURRENT_INDEX_CREATION: false
+	ENABLE_DBCONNECTOR_FIREBASE_PROCESS_LIMIT: false
+	ENABLE_GLOBAL_QUERY_TIMEOUT: false
+	ENABLE_RUN_QUERY_BY_UUID_METADATA_LOG: false
+	ENCRYPTION_KEY: secret
+	FAILED_MONTHLY_LOGINS_PER_IP: 10
+	FAILED_MONTHLY_LOGINS_PER_USER: 100
+	GITHUB_SYNC_TOKEN: secret
+	GITLAB_PROJECT_ID: undefined
+	GPT_HOURLY_TOKEN_LIMIT: 50000
+	HEADER_BASED_AUTH_ENABLED: false
+	HEADER_BASED_AUTH_ROLE_MAPPING_DISABLED: false
+	HIBP_API_KEY: secret
+	HIDE_ALL_HEADERS_IN_AUDIT_LOG_EVENTS: false
+	HIDE_PROD_AND_STAGING_TOGGLES: false
+	HTML_ESCAPE_RETOOL_EXPRESSIONS: false
+	HTTP_PROXY_STRICT: true
+	INC_613_GET_RECORD_TRANSIT: false
+	INVITES_PER_DAY: 50
+	IS_ADMIN: false
+	IS_E2E: false
+	JOBS_SERVER_PORT: 3003
+	JWT_SECRET: secret
+	K8S_HOSTED: false
+	LDAP_ROLE_MAPPING_DISABLED: false
+	LDAP_SYNC_ALL_GROUPS: false
+	LDAP_SYNC_GROUP_CLAIMS: false
+	LICENSE_KEY: secret
+	LICENSING_STATUS_PROPAGATION_ENABLED: true
+	LOG_AUDIT_EVENTS: false
+	LOG_LEVEL: info
+	NODE_ENV: production
+	NODE_HTTP_AGENT_MAX_SOCKETS: 25
+	NODE_METRICS_MONTIOR_ENABLED: false
+	NODE_METRICS_MONTIOR_MINUTE_INTERVAL: 5
+	NO_PROXY: localhost
+	NUM_WORKERS: undefined
+	OKTA_CLIENT_SECRET: secret
+	OPEN_API_SPEC_CACHE_TTL_MS: 600000
+	OTEL_TRACING_ENABLED: false
+	PORT: undefined
+	POSTGRES_DB: retool
+	POSTGRES_HOST: 127.0.0.1
+	POSTGRES_IDLE_IN_TRANSACTION_SESSION_TIMEOUT: undefined
+	POSTGRES_PASSWORD: secret
+	POSTGRES_POOL_SIZE_MAX: 5
+	POSTGRES_POOL_SIZE_MIN: 0
+	POSTGRES_PORT: 5432
+	POSTGRES_SSL_DISABLED: false
+	POSTGRES_SSL_ENABLED: false
+	POSTGRES_SSL_REJECT_UNAUTHORIZED: false
+	POSTGRES_STATEMENT_TIMEOUT: undefined
+	POSTGRES_USER: retool
+	PRESERVE_PASSWORDS_FIRST_GOOGLE_LOGIN: false
+	PRESTO_DISABLE_GET_SCHEMA: false
+	PRESTO_DISABLE_QUERY_TIMEOUT: false
+	PRESTO_POOL_MAX_CONNECTION_RETRIES: 20
+	PRESTO_POOL_MAX_SIZE: 10
+	PRESTO_POOL_MIN_SIZE: 1
+	PROTECTED_APPS_TREE_TRIMMING: false
+	PROTECTED_APPS_TREE_TRIMMING_CHUNK_SIZE: 1000
+	REDIS_TLS: false
+	REDIS_USER_CACHE_TLS: false
+	REQUIRE_PASSWORD_TO_DISABLE_MFA: true
+	REST_API_MIME_TO_EXTENSION_PARSING_ENABLED: false
+	RETOOLDB_POSTGRES_PORT: 5432
+	RETOOLDB_POSTGRES_SSL: false
+	RETOOL_CACHE_FEATURE_FLAGS_IN_REDIS: true
+	RETOOL_ENV: production
+	RETOOL_HOSTED: false
+	RETOOL_MAX_MEMORY_MB: 0
+	RETOOL_WORKFLOW_IN_SANDBOX: false
+	SAML_FIRST_NAME_ATTRIBUTE: firstName
+	SAML_GROUPS_ATTRIBUTE: groups
+	SAML_LAST_NAME_ATTRIBUTE: lastName
+	SAML_SYNC_GROUP_CLAIMS: false
+	SCIM_AUTH_TOKEN: secret
+	SCIM_ENABLE_GROUP_PUT: false
+	SCIM_LOG_FULL_REQUESTS: false
+	SCIM_ONLY_MODE: false
+	SEQUELIZE_ACQUIRE: 100000
+	SEQUELIZE_EVICT: 1000000
+	SEQUELIZE_IDLE: 100000
+	SEQUELIZE_MAX_USES: 1000000
+	SERVE_LOCAL_SPECS: false
+	SNOWFLAKE_POOL_ACQUIRE_TIMEOUT_MS: 10000
+	SNOWFLAKE_POOL_MAX_SIZE: 10
+	SNOWFLAKE_POOL_MAX_TRIES: 1
+	SNOWFLAKE_POOL_MIN_SIZE: 0
+	SNOWFLAKE_VALIDATION_DISABLE_HEARTBEAT: false
+	STATSD_PORT: undefined
+	TRIGGER_OAUTH_2_SSO_LOGIN_AUTOMATICALLY: false
+	TRIGGER_SAML_LOGIN_AUTOMATICALLY: false
+	TRUNCATE_LONG_AUDIT_LOG_DATA: false
+	USE_AUDIT_TRAILS_POSTGRES_DB: false
+	USE_DBCONNECTOR_INGRESS_FOR_PRIMARY: false
+	USE_DBCONNECTOR_INGRESS_FOR_SECONDARY: false
+	USE_GCM_ENCRYPTION: false
+	USE_REDIS_HEARTBEATS: false
+	USE_SHORT_SESSIONS: false
+	USE_STAGING_LICENSING_SERVER: false
+	VERSION_CONTROL_LOCKED: false
+	WORKFLOW_BACKEND_HOST: http://workflows-api
+	WORKFLOW_BLOCK_STORAGE_LOCATION: postgres
+	WORKFLOW_BURST_10_SECOND_LIMIT: 200
+	WORKFLOW_CONCURRENT_WEBHOOKS_LIMIT: 100
+	WORKFLOW_DEV_FORCE_USE_CLOUD_EXECUTION_PATH: false
+	WORKFLOW_REDIS_TLS: false
+	WORKFLOW_SCHEDULING_ENABLED: false
+	WORKFLOW_TEMPORAL_CLUSTER_FRONTEND_HOST: retool-temporal-frontend
+	WORKFLOW_TEMPORAL_CLUSTER_FRONTEND_PORT: 7233
+	WORKFLOW_TEMPORAL_CLUSTER_NAMESPACE: workflows
+	WORKFLOW_TEMPORAL_CONCURRENT_ACTIVITIES_LIMIT: 10
+	WORKFLOW_TEMPORAL_CONCURRENT_TASKS_LIMIT: 10
+	WORKFLOW_TEMPORAL_STICKY_CACHE_SIZE: 200
+	WORKFLOW_TEMPORAL_TLS_ENABLED: false
+	WORKFLOW_TEMPORAL_WORKER_SHUTDOWN_GRACE_TIME: 11 minute
+	WORKFLOW_WORKER_HEALTHCHECK_PORT: 3005
+
+[Worker] Worker 79 started and listening on 3001
+{"level":"info","message":"[process service types] MAIN_BACKEND, DB_CONNECTOR, DB_SSH_CONNECTOR","timestamp":"2023-06-13T21:31:02.526Z"}
+Database migrations are up to date.
+Setting http and https agent maxSockets to 25
+{"level":"info","message":"Not configuring Sentry...","timestamp":"2023-06-13T21:31:04.526Z"}
+{"level":"info","message":"Not configuring StatsD...","timestamp":"2023-06-13T21:31:04.526Z"}
+{"level":"info","message":"Starting database connector server on port","port":3002,"timestamp":"2023-06-13T21:31:04.527Z"}
+{"argv":["--max-http-header-size=80000"],"heap_size_limit_mib":5144,"level":"info","message":"Starting DBConnector","node_version":"v16.14.2","timestamp":"2023-06-13T21:31:04.528Z"}
+{"level":"info","message":"Not configuring Sentry...","timestamp":"2023-06-13T21:31:04.577Z"}
+{"level":"info","message":"Not configuring StatsD...","timestamp":"2023-06-13T21:31:04.577Z"}
+{"level":"info","message":"Running node v16.14.2","timestamp":"2023-06-13T21:31:04.578Z"}
+{"0":"--max-http-header-size=80000","level":"info","message":"ARGV:","timestamp":"2023-06-13T21:31:04.579Z"}
+{"level":"info","message":"Node.js heap size limit: 5144 MiB","timestamp":"2023-06-13T21:31:04.579Z"}
+Tue, 13 Jun 2023 21:31:04 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at ../snapshot/retool_development/backend/transpiled/dbconnector/app.js:null:null
+{"durationMs":301,"level":"info","message":"dbconnector boot-up","timestamp":"2023-06-13T21:31:04.828Z"}
+Running node v16.14.2
+ARGV: [ '--max-http-header-size=80000' ]
+Node.js heap size limit: 5144 MiB
+[HPM] Proxy created: /  -> http://localhost:3001
+[HPM] Proxy created: /  -> http://localhost:3001
+[HPM] Proxy created: /  -> http://localhost:3001
+[HPM] Proxy created: /  -> http://localhost:3001/api
+[HPM] Proxy created: /  -> http://localhost:3001/api
+[HPM] Proxy created: /  -> http://localhost:3001
+[HPM] Proxy created: /  -> http://localhost:3001
+[HPM] Proxy created: /  -> http://localhost:3001
+[HPM] Proxy created: /  -> http://localhost:3001
+[HPM] Proxy created: /  -> http://localhost:3001
+[HPM] Proxy created: /  -> http://localhost:3001
+[HPM] Proxy created: /  -> http://localhost:3001
+[HPM] Proxy created: /  -> http://localhost:3001
+[HPM] Proxy created: /  -> http://localhost:3001
+[HPM] Proxy created: /  -> http://127.0.0.1:3001
+[HPM] Proxy created: /  -> http://localhost:3001
+[HPM] Proxy created: /  -> http://localhost:3001
+[HPM] Proxy created: /  -> http://localhost:3001
+Starting static http server on port 3000
+{"level":"info","message":"Initialized general rate limiter: 60 attempts every 60 seconds","timestamp":"2023-06-13T21:31:05.900Z"}
+{"level":"info","message":"Initialized invite rate limiter: 50 attempts every 86400 seconds","timestamp":"2023-06-13T21:31:05.901Z"}
+Tue, 13 Jun 2023 21:31:05 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at ../snapshot/retool_development/backend/transpiled/server/app.js:null:null
+Tue, 13 Jun 2023 21:31:05 GMT body-parser deprecated undefined extended: provide extended option at ../snapshot/retool_development/node_modules/body-parser/index.js:104:29
+{"level":"info","message":{"CPU Usage % for process":"23.01%","Memory Stats for container":{"freeSystemMemory":"11860.762624 MB","percentageFreeMemory":"70.66%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"388.046848 MB","heapUsed":"353.198552 MB","percentageHeapUsed":"91.02%","rss":"559.685632 MB"},"pid":49},"namespace":"memoryUsage","pid":49,"timestamp":"2023-06-13T21:31:07.803Z"}
+main web boot-up: 9.880s
+(node:110) [DEP0111] DeprecationWarning: Access to process.binding('http_parser') is deprecated.
+(Use `retool_backend --trace-deprecation ...` to show where the warning was created)
+(node:110) [DEP0148] DeprecationWarning: Use of deprecated folder mapping "./" in the "exports" field module resolution of the package at /snapshot/retool_development/node_modules/@tryretool/common/package.json.
+Update this package.json to use a subpath pattern like "./*".
+(node:110) [LRU_CACHE_UNBOUNDED] UnboundedCacheWarning: TTL caching without ttlAutopurge, max, or maxSize can result in unbounded memory consumption.
+(node:110) [LRU_CACHE_OPTION_maxAge] DeprecationWarning: The maxAge option is deprecated. Please use options.ttl instead.
+(node:110) NOTE: We are formalizing our plans to enter AWS SDK for JavaScript (v2) into maintenance mode in 2023.
+
+Please migrate your code to use AWS SDK for JavaScript (v3).
+For more information, check the migration guide at https://a.co/7PzMCcy
+{"level":"info","message":"RetoolDB credentials not found, skipping setup...","timestamp":"2023-06-13T21:31:15.452Z"}
+{"level":"info","message":{"CPU Usage % for process":"Infinity%","Memory Stats for container":{"freeSystemMemory":"11791.446016 MB","percentageFreeMemory":"70.24%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"290.185216 MB","heapUsed":"256.86848 MB","percentageHeapUsed":"88.52%","rss":"455.098368 MB"},"pid":110},"namespace":"memoryUsage","pid":110,"timestamp":"2023-06-13T21:31:15.454Z"}
+
+Environment variables:
+	ACCESS_TOKEN_COOKIE_NAME: accessToken
+	ACTIVE_PAGE_SAVE_PROCESSOR_QUEUE: azure
+	AIRGAPPED: false
+	APPS_FS_SYNC_ON: false
+	APPS_FS_SYNC_WATCHER: false
+	AUDIT_INSERT_TIMEOUT_SECONDS: 20
+	AUDIT_SELECT_TIMEOUT_SECONDS: 20
+	AUDIT_TRAILS_FILTER_DEFAULT_DAYS: 90
+	AUDIT_TRAILS_POSTGRES_PORT: 5432
+	AUTH_REQS_PER_MINUTE: 60
+	BOOTSTRAP_FROM_SOURCE: false
+	BUILD_NUMBER: 1391
+	CLIENT_ID: secret
+	CLIENT_SECRET: secret
+	CODE_EXECUTOR_INGRESS_DOMAIN: http://localhost:3004
+	COMMIT_HASH: 5e2103e
+	CONTENT_TYPE_PARSING_REST_API_ENABLED: false
+	CUSTOM_OAUTH2_SSO_ACCESS_TOKEN_LIFESPAN_MINUTES: undefined
+	CUSTOM_OAUTH2_SSO_NO_SCOPE_IN_AUTHORIZATION_CODE_REQ: false
+	CUSTOM_OAUTH2_SSO_ROLE_MAPPING_DISABLED: false
+	DATABASE_MIGRATIONS_TIMEOUT_SECONDS: 300
+	DATABASE_SCHEMA_QUERY_LIMIT: 3000
+	DBCONNECTOR_AWS_ENABLE_DEFAULT_PROVIDER_ATHENA: false
+	DBCONNECTOR_AWS_ENABLE_DEFAULT_PROVIDER_DYNAMODB: false
+	DBCONNECTOR_AWS_ENABLE_DEFAULT_PROVIDER_LAMBDA: false
+	DBCONNECTOR_AWS_ENABLE_DEFAULT_PROVIDER_S3: false
+	DBCONNECTOR_AWS_ROLE_ASSUMER_WITH_WEB_IDENTITY: false
+	DBCONNECTOR_CPU_PROFILING_TIME_MS: 60000
+	DBCONNECTOR_FIREBASE_MEMORY_LIMIT_MB: 0
+	DBCONNECTOR_FIREBASE_WORKER_ENDURANCE: 1
+	DBCONNECTOR_HEADERS_TIMEOUT_MS: 0
+	DBCONNECTOR_HTTP_AGENT_MAX_SOCKETS: 25
+	DBCONNECTOR_INGRESS_DOMAIN: http://localhost:3002
+	DBCONNECTOR_INGRESS_DOMAIN_SECONDARY: http://localhost:3002
+	DBCONNECTOR_KEEPALIVE_TIMEOUT_MS: 0
+	DBCONNECTOR_MONGODB_ENABLE_STREAMING_ONPREM: false
+	DBCONNECTOR_NUM_WORKERS: 1
+	DBCONNECTOR_POSTGRES_POOL_MAX_SIZE: 10
+	DBCONNECTOR_QUERY_TIMEOUT_MS: 120000
+	DBCONNECTOR_SHARDING_DOMAIN: http://localhost:3002
+	DBCONNECTOR_SHARDING_JITTER_THRESHOLD: 500
+	DBCONNECTOR_SHARDING_MAX_JITTER: 0.4
+	DBCONNECTOR_SHARDING_MIN_JITTER: 0.05
+	DBCONNECTOR_SHARDING_OLD_WINDOW_WEIGHT: 3
+	DBCONNECTOR_SHARDING_RESOURCE_TYPES: postgresql,mysql,mssql,mongodb,snowflake,redshift
+	DBCONNECTOR_SHARDING_TIME_PERIOD_IN_SECONDS: 10
+	DBCONNECTOR_SHARDING_TTL: 6
+	DB_CONNECTOR_PORT: undefined
+	DEBUG: false
+	DISABLE_DATABASE_MIGRATIONS: false
+	DISABLE_DATABASE_MIGRATIONS_TIMEOUT: false
+	DISABLE_FORWARDABLE_COOKIE_DECODING: false
+	DISABLE_GIT_SYNCING: false
+	DISABLE_IMAGE_PROXY: false
+	DISABLE_INTERCOM: false
+	DISABLE_MEMORY_AND_CPU_USAGE_LOGGING: false
+	DISABLE_PAGE_USER_HEARTBEAT: false
+	DISABLE_PROTECTED_APPS_SYNCING: false
+	DISABLE_PUBLIC_PAGES: false
+	DISABLE_RATE_LIMIT: false
+	DISABLE_SOURCE_CONTROL_SYNCING: false
+	DISABLE_TEST_RESOURCES: false
+	DISABLE_USER_PASS_LOGIN: false
+	DO_HIBP_CHECK: true
+	ENABLE_CLIENT_SIDE_CUSTOM_AUTH_BROWSER_CALLS: false
+	ENABLE_CUSTOM_PLATFORM_LEVEL_AUTH_STEPS: false
+	ENABLE_DATABASE_MIGRATIONS_CONCURRENT_INDEX_CREATION: false
+	ENABLE_DBCONNECTOR_FIREBASE_PROCESS_LIMIT: false
+	ENABLE_GLOBAL_QUERY_TIMEOUT: false
+	ENABLE_RUN_QUERY_BY_UUID_METADATA_LOG: false
+	ENCRYPTION_KEY: secret
+	FAILED_MONTHLY_LOGINS_PER_IP: 10
+	FAILED_MONTHLY_LOGINS_PER_USER: 100
+	GITHUB_SYNC_TOKEN: secret
+	GITLAB_PROJECT_ID: undefined
+	GPT_HOURLY_TOKEN_LIMIT: 50000
+	HEADER_BASED_AUTH_ENABLED: false
+	HEADER_BASED_AUTH_ROLE_MAPPING_DISABLED: false
+	HIBP_API_KEY: secret
+	HIDE_ALL_HEADERS_IN_AUDIT_LOG_EVENTS: false
+	HIDE_PROD_AND_STAGING_TOGGLES: false
+	HTML_ESCAPE_RETOOL_EXPRESSIONS: false
+	HTTP_PROXY_STRICT: true
+	INC_613_GET_RECORD_TRANSIT: false
+	INVITES_PER_DAY: 50
+	IS_ADMIN: false
+	IS_E2E: false
+	JOBS_SERVER_PORT: 3003
+	JWT_SECRET: secret
+	K8S_HOSTED: false
+	LDAP_ROLE_MAPPING_DISABLED: false
+	LDAP_SYNC_ALL_GROUPS: false
+	LDAP_SYNC_GROUP_CLAIMS: false
+	LICENSE_KEY: secret
+	LICENSING_STATUS_PROPAGATION_ENABLED: true
+	LOG_AUDIT_EVENTS: false
+	LOG_LEVEL: info
+	NODE_ENV: production
+	NODE_HTTP_AGENT_MAX_SOCKETS: 25
+	NODE_METRICS_MONTIOR_ENABLED: false
+	NODE_METRICS_MONTIOR_MINUTE_INTERVAL: 5
+	NO_PROXY: localhost
+	NUM_WORKERS: undefined
+	OKTA_CLIENT_SECRET: secret
+	OPEN_API_SPEC_CACHE_TTL_MS: 600000
+	OTEL_TRACING_ENABLED: false
+	PORT: undefined
+	POSTGRES_DB: retool
+	POSTGRES_HOST: 127.0.0.1
+	POSTGRES_IDLE_IN_TRANSACTION_SESSION_TIMEOUT: undefined
+	POSTGRES_PASSWORD: secret
+	POSTGRES_POOL_SIZE_MAX: 5
+	POSTGRES_POOL_SIZE_MIN: 0
+	POSTGRES_PORT: 5432
+	POSTGRES_SSL_DISABLED: false
+	POSTGRES_SSL_ENABLED: false
+	POSTGRES_SSL_REJECT_UNAUTHORIZED: false
+	POSTGRES_STATEMENT_TIMEOUT: undefined
+	POSTGRES_USER: retool
+	PRESERVE_PASSWORDS_FIRST_GOOGLE_LOGIN: false
+	PRESTO_DISABLE_GET_SCHEMA: false
+	PRESTO_DISABLE_QUERY_TIMEOUT: false
+	PRESTO_POOL_MAX_CONNECTION_RETRIES: 20
+	PRESTO_POOL_MAX_SIZE: 10
+	PRESTO_POOL_MIN_SIZE: 1
+	PROTECTED_APPS_TREE_TRIMMING: false
+	PROTECTED_APPS_TREE_TRIMMING_CHUNK_SIZE: 1000
+	REDIS_TLS: false
+	REDIS_USER_CACHE_TLS: false
+	REQUIRE_PASSWORD_TO_DISABLE_MFA: true
+	REST_API_MIME_TO_EXTENSION_PARSING_ENABLED: false
+	RETOOLDB_POSTGRES_PORT: 5432
+	RETOOLDB_POSTGRES_SSL: false
+	RETOOL_CACHE_FEATURE_FLAGS_IN_REDIS: true
+	RETOOL_ENV: production
+	RETOOL_HOSTED: false
+	RETOOL_MAX_MEMORY_MB: 0
+	RETOOL_WORKFLOW_IN_SANDBOX: false
+	SAML_FIRST_NAME_ATTRIBUTE: firstName
+	SAML_GROUPS_ATTRIBUTE: groups
+	SAML_LAST_NAME_ATTRIBUTE: lastName
+	SAML_SYNC_GROUP_CLAIMS: false
+	SCIM_AUTH_TOKEN: secret
+	SCIM_ENABLE_GROUP_PUT: false
+	SCIM_LOG_FULL_REQUESTS: false
+	SCIM_ONLY_MODE: false
+	SEQUELIZE_ACQUIRE: 100000
+	SEQUELIZE_EVICT: 1000000
+	SEQUELIZE_IDLE: 100000
+	SEQUELIZE_MAX_USES: 1000000
+	SERVE_LOCAL_SPECS: false
+	SNOWFLAKE_POOL_ACQUIRE_TIMEOUT_MS: 10000
+	SNOWFLAKE_POOL_MAX_SIZE: 10
+	SNOWFLAKE_POOL_MAX_TRIES: 1
+	SNOWFLAKE_POOL_MIN_SIZE: 0
+	SNOWFLAKE_VALIDATION_DISABLE_HEARTBEAT: false
+	STATSD_PORT: undefined
+	TRIGGER_OAUTH_2_SSO_LOGIN_AUTOMATICALLY: false
+	TRIGGER_SAML_LOGIN_AUTOMATICALLY: false
+	TRUNCATE_LONG_AUDIT_LOG_DATA: false
+	USE_AUDIT_TRAILS_POSTGRES_DB: false
+	USE_DBCONNECTOR_INGRESS_FOR_PRIMARY: false
+	USE_DBCONNECTOR_INGRESS_FOR_SECONDARY: false
+	USE_GCM_ENCRYPTION: false
+	USE_REDIS_HEARTBEATS: false
+	USE_SHORT_SESSIONS: false
+	USE_STAGING_LICENSING_SERVER: false
+	VERSION_CONTROL_LOCKED: false
+	WORKFLOW_BACKEND_HOST: http://workflows-api
+	WORKFLOW_BLOCK_STORAGE_LOCATION: postgres
+	WORKFLOW_BURST_10_SECOND_LIMIT: 200
+	WORKFLOW_CONCURRENT_WEBHOOKS_LIMIT: 100
+	WORKFLOW_DEV_FORCE_USE_CLOUD_EXECUTION_PATH: false
+	WORKFLOW_REDIS_TLS: false
+	WORKFLOW_SCHEDULING_ENABLED: false
+	WORKFLOW_TEMPORAL_CLUSTER_FRONTEND_HOST: retool-temporal-frontend
+	WORKFLOW_TEMPORAL_CLUSTER_FRONTEND_PORT: 7233
+	WORKFLOW_TEMPORAL_CLUSTER_NAMESPACE: workflows
+	WORKFLOW_TEMPORAL_CONCURRENT_ACTIVITIES_LIMIT: 10
+	WORKFLOW_TEMPORAL_CONCURRENT_TASKS_LIMIT: 10
+	WORKFLOW_TEMPORAL_STICKY_CACHE_SIZE: 200
+	WORKFLOW_TEMPORAL_TLS_ENABLED: false
+	WORKFLOW_TEMPORAL_WORKER_SHUTDOWN_GRACE_TIME: 11 minute
+	WORKFLOW_WORKER_HEALTHCHECK_PORT: 3005
+
+[Worker] Worker 110 started and listening on 3001
+{"level":"info","message":{"CPU Usage % for process":"6.32%","Memory Stats for container":{"freeSystemMemory":"11749.412864 MB","percentageFreeMemory":"69.99%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"249.46688 MB","heapUsed":"234.369312 MB","percentageHeapUsed":"93.95%","rss":"414.892032 MB"},"pid":19},"namespace":"memoryUsage","pid":19,"timestamp":"2023-06-13T21:31:16.076Z"}
+{"level":"info","message":"Not configuring Sentry...","timestamp":"2023-06-13T21:31:17.902Z"}
+{"level":"info","message":"Not configuring StatsD...","timestamp":"2023-06-13T21:31:17.903Z"}
+{"level":"info","message":"Starting database connector server on port","port":3002,"timestamp":"2023-06-13T21:31:17.903Z"}
+{"argv":["--max-http-header-size=80000"],"heap_size_limit_mib":5144,"level":"info","message":"Starting DBConnector","node_version":"v16.14.2","timestamp":"2023-06-13T21:31:17.904Z"}
+Tue, 13 Jun 2023 21:31:18 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at ../snapshot/retool_development/backend/transpiled/dbconnector/app.js:null:null
+{"durationMs":240,"level":"info","message":"dbconnector boot-up","timestamp":"2023-06-13T21:31:18.144Z"}
+Running node v16.14.2
+ARGV: [ '--max-http-header-size=80000' ]
+Node.js heap size limit: 5144 MiB
+[HPM] Proxy created: /  -> http://localhost:3001
+[HPM] Proxy created: /  -> http://localhost:3001
+[HPM] Proxy created: /  -> http://localhost:3001
+[HPM] Proxy created: /  -> http://localhost:3001/api
+[HPM] Proxy created: /  -> http://localhost:3001/api
+[HPM] Proxy created: /  -> http://localhost:3001
+[HPM] Proxy created: /  -> http://localhost:3001
+[HPM] Proxy created: /  -> http://localhost:3001
+[HPM] Proxy created: /  -> http://localhost:3001
+[HPM] Proxy created: /  -> http://localhost:3001
+[HPM] Proxy created: /  -> http://localhost:3001
+[HPM] Proxy created: /  -> http://localhost:3001
+[HPM] Proxy created: /  -> http://localhost:3001
+[HPM] Proxy created: /  -> http://localhost:3001
+[HPM] Proxy created: /  -> http://127.0.0.1:3001
+[HPM] Proxy created: /  -> http://localhost:3001
+[HPM] Proxy created: /  -> http://localhost:3001
+[HPM] Proxy created: /  -> http://localhost:3001
+Starting static http server on port 3000
+{"level":"info","message":{"CPU Usage % for process":"21.69%","Memory Stats for container":{"freeSystemMemory":"11675.107328 MB","percentageFreeMemory":"69.55%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"387.52256 MB","heapUsed":"350.656992 MB","percentageHeapUsed":"90.49%","rss":"570.806272 MB"},"pid":79},"namespace":"memoryUsage","pid":79,"timestamp":"2023-06-13T21:31:21.465Z"}
+{"level":"info","message":{"CPU Usage % for process":"18.94%","Memory Stats for container":{"freeSystemMemory":"11697.352704 MB","percentageFreeMemory":"69.68%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"362.749952 MB","heapUsed":"294.303072 MB","percentageHeapUsed":"81.13%","rss":"531.226624 MB"},"pid":49},"namespace":"memoryUsage","pid":49,"timestamp":"2023-06-13T21:31:27.806Z"}
+{"level":"info","message":{"CPU Usage % for process":"29.93%","Memory Stats for container":{"freeSystemMemory":"11730.415616 MB","percentageFreeMemory":"69.88%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"360.914944 MB","heapUsed":"335.604656 MB","percentageHeapUsed":"92.99%","rss":"545.169408 MB"},"pid":110},"namespace":"memoryUsage","pid":110,"timestamp":"2023-06-13T21:31:35.456Z"}
+{"level":"info","message":{"CPU Usage % for process":"4.23%","Memory Stats for container":{"freeSystemMemory":"11736.22784 MB","percentageFreeMemory":"69.91%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"249.46688 MB","heapUsed":"234.4322 MB","percentageHeapUsed":"93.97%","rss":"414.978048 MB"},"pid":19},"namespace":"memoryUsage","pid":19,"timestamp":"2023-06-13T21:31:36.077Z"}
+{"level":"info","message":{"CPU Usage % for process":"16.45%","Memory Stats for container":{"freeSystemMemory":"11737.513984 MB","percentageFreeMemory":"69.92%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"363.798528 MB","heapUsed":"336.41468 MB","percentageHeapUsed":"92.47%","rss":"546.824192 MB"},"pid":79},"namespace":"memoryUsage","pid":79,"timestamp":"2023-06-13T21:31:41.469Z"}
+{"level":"info","message":{"CPU Usage % for process":"12.64%","Memory Stats for container":{"freeSystemMemory":"11735.433216 MB","percentageFreeMemory":"69.91%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"362.749952 MB","heapUsed":"294.411272 MB","percentageHeapUsed":"81.16%","rss":"531.226624 MB"},"pid":49},"namespace":"memoryUsage","pid":49,"timestamp":"2023-06-13T21:31:47.807Z"}
+{"level":"info","message":{"CPU Usage % for process":"14.98%","Memory Stats for container":{"freeSystemMemory":"11734.515712 MB","percentageFreeMemory":"69.9%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"360.914944 MB","heapUsed":"335.87548 MB","percentageHeapUsed":"93.06%","rss":"545.185792 MB"},"pid":110},"namespace":"memoryUsage","pid":110,"timestamp":"2023-06-13T21:31:55.458Z"}
+{"level":"info","message":{"CPU Usage % for process":"3.18%","Memory Stats for container":{"freeSystemMemory":"11733.01248 MB","percentageFreeMemory":"69.89%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"249.46688 MB","heapUsed":"234.473056 MB","percentageHeapUsed":"93.99%","rss":"414.978048 MB"},"pid":19},"namespace":"memoryUsage","pid":19,"timestamp":"2023-06-13T21:31:56.079Z"}
+{"level":"info","message":{"CPU Usage % for process":"10.98%","Memory Stats for container":{"freeSystemMemory":"11742.429184 MB","percentageFreeMemory":"69.95%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"363.798528 MB","heapUsed":"336.531304 MB","percentageHeapUsed":"92.5%","rss":"546.824192 MB"},"pid":79},"namespace":"memoryUsage","pid":79,"timestamp":"2023-06-13T21:32:01.470Z"}
+{"level":"info","message":{"CPU Usage % for process":"9.49%","Memory Stats for container":{"freeSystemMemory":"11739.021312 MB","percentageFreeMemory":"69.93%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"362.749952 MB","heapUsed":"294.503848 MB","percentageHeapUsed":"81.19%","rss":"531.47648 MB"},"pid":49},"namespace":"memoryUsage","pid":49,"timestamp":"2023-06-13T21:32:07.810Z"}
+{"level":"info","message":{"CPU Usage % for process":"10.00%","Memory Stats for container":{"freeSystemMemory":"11742.117888 MB","percentageFreeMemory":"69.95%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"360.914944 MB","heapUsed":"335.979056 MB","percentageHeapUsed":"93.09%","rss":"545.435648 MB"},"pid":110},"namespace":"memoryUsage","pid":110,"timestamp":"2023-06-13T21:32:15.460Z"}
+{"level":"info","message":{"CPU Usage % for process":"2.55%","Memory Stats for container":{"freeSystemMemory":"11742.318592 MB","percentageFreeMemory":"69.95%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"249.46688 MB","heapUsed":"233.794288 MB","percentageHeapUsed":"93.72%","rss":"414.322688 MB"},"pid":19},"namespace":"memoryUsage","pid":19,"timestamp":"2023-06-13T21:32:16.080Z"}
+{"level":"info","message":{"CPU Usage % for process":"8.24%","Memory Stats for container":{"freeSystemMemory":"11741.126656 MB","percentageFreeMemory":"69.94%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"363.798528 MB","heapUsed":"336.624512 MB","percentageHeapUsed":"92.53%","rss":"547.078144 MB"},"pid":79},"namespace":"memoryUsage","pid":79,"timestamp":"2023-06-13T21:32:21.472Z"}
+{"level":"info","message":{"CPU Usage % for process":"7.60%","Memory Stats for container":{"freeSystemMemory":"11744.120832 MB","percentageFreeMemory":"69.96%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"362.749952 MB","heapUsed":"294.591256 MB","percentageHeapUsed":"81.21%","rss":"531.47648 MB"},"pid":49},"namespace":"memoryUsage","pid":49,"timestamp":"2023-06-13T21:32:27.814Z"}
+{"level":"info","message":{"CPU Usage % for process":"7.51%","Memory Stats for container":{"freeSystemMemory":"11746.107392 MB","percentageFreeMemory":"69.97%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"360.914944 MB","heapUsed":"336.069072 MB","percentageHeapUsed":"93.12%","rss":"545.435648 MB"},"pid":110},"namespace":"memoryUsage","pid":110,"timestamp":"2023-06-13T21:32:35.462Z"}
+{"level":"info","message":{"CPU Usage % for process":"2.13%","Memory Stats for container":{"freeSystemMemory":"11746.840576 MB","percentageFreeMemory":"69.98%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"249.46688 MB","heapUsed":"233.846584 MB","percentageHeapUsed":"93.74%","rss":"414.322688 MB"},"pid":19},"namespace":"memoryUsage","pid":19,"timestamp":"2023-06-13T21:32:36.082Z"}
+{"level":"info","message":{"CPU Usage % for process":"6.60%","Memory Stats for container":{"freeSystemMemory":"11745.079296 MB","percentageFreeMemory":"69.97%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"363.798528 MB","heapUsed":"336.717352 MB","percentageHeapUsed":"92.56%","rss":"547.078144 MB"},"pid":79},"namespace":"memoryUsage","pid":79,"timestamp":"2023-06-13T21:32:41.475Z"}
+{"level":"info","message":{"CPU Usage % for process":"6.34%","Memory Stats for container":{"freeSystemMemory":"11741.114368 MB","percentageFreeMemory":"69.94%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"362.749952 MB","heapUsed":"294.6896 MB","percentageHeapUsed":"81.24%","rss":"531.47648 MB"},"pid":49},"namespace":"memoryUsage","pid":49,"timestamp":"2023-06-13T21:32:47.816Z"}
+{"level":"info","message":{"CPU Usage % for process":"6.02%","Memory Stats for container":{"freeSystemMemory":"11742.171136 MB","percentageFreeMemory":"69.95%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"360.914944 MB","heapUsed":"336.15656 MB","percentageHeapUsed":"93.14%","rss":"545.435648 MB"},"pid":110},"namespace":"memoryUsage","pid":110,"timestamp":"2023-06-13T21:32:55.465Z"}
+{"level":"info","message":{"CPU Usage % for process":"1.83%","Memory Stats for container":{"freeSystemMemory":"11744.436224 MB","percentageFreeMemory":"69.96%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"249.46688 MB","heapUsed":"233.887144 MB","percentageHeapUsed":"93.75%","rss":"414.322688 MB"},"pid":19},"namespace":"memoryUsage","pid":19,"timestamp":"2023-06-13T21:32:56.086Z"}
+{"level":"info","message":{"CPU Usage % for process":"5.51%","Memory Stats for container":{"freeSystemMemory":"11739.99616 MB","percentageFreeMemory":"69.94%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"363.798528 MB","heapUsed":"336.826048 MB","percentageHeapUsed":"92.59%","rss":"547.078144 MB"},"pid":79},"namespace":"memoryUsage","pid":79,"timestamp":"2023-06-13T21:33:01.477Z"}
+{"level":"info","message":{"CPU Usage % for process":"5.44%","Memory Stats for container":{"freeSystemMemory":"11744.48128 MB","percentageFreeMemory":"69.96%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"362.749952 MB","heapUsed":"294.817408 MB","percentageHeapUsed":"81.27%","rss":"531.734528 MB"},"pid":49},"namespace":"memoryUsage","pid":49,"timestamp":"2023-06-13T21:33:07.819Z"}
+{"level":"info","message":{"CPU Usage % for process":"5.02%","Memory Stats for container":{"freeSystemMemory":"11718.262784 MB","percentageFreeMemory":"69.81%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"360.914944 MB","heapUsed":"336.254496 MB","percentageHeapUsed":"93.17%","rss":"545.6896 MB"},"pid":110},"namespace":"memoryUsage","pid":110,"timestamp":"2023-06-13T21:33:15.465Z"}
+{"level":"info","message":{"CPU Usage % for process":"1.61%","Memory Stats for container":{"freeSystemMemory":"11744.33792 MB","percentageFreeMemory":"69.96%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"249.46688 MB","heapUsed":"233.952176 MB","percentageHeapUsed":"93.78%","rss":"414.445568 MB"},"pid":19},"namespace":"memoryUsage","pid":19,"timestamp":"2023-06-13T21:33:16.087Z"}
+{"level":"info","message":{"CPU Usage % for process":"4.73%","Memory Stats for container":{"freeSystemMemory":"11745.542144 MB","percentageFreeMemory":"69.97%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"363.798528 MB","heapUsed":"336.200744 MB","percentageHeapUsed":"92.41%","rss":"546.553856 MB"},"pid":79},"namespace":"memoryUsage","pid":79,"timestamp":"2023-06-13T21:33:21.479Z"}
+{"level":"info","message":{"CPU Usage % for process":"4.77%","Memory Stats for container":{"freeSystemMemory":"11745.189888 MB","percentageFreeMemory":"69.97%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"362.749952 MB","heapUsed":"294.904272 MB","percentageHeapUsed":"81.3%","rss":"531.734528 MB"},"pid":49},"namespace":"memoryUsage","pid":49,"timestamp":"2023-06-13T21:33:27.822Z"}
+{"level":"info","message":{"CPU Usage % for process":"4.31%","Memory Stats for container":{"freeSystemMemory":"11746.414592 MB","percentageFreeMemory":"69.97%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"360.914944 MB","heapUsed":"336.362376 MB","percentageHeapUsed":"93.2%","rss":"545.6896 MB"},"pid":110},"namespace":"memoryUsage","pid":110,"timestamp":"2023-06-13T21:33:35.467Z"}
+{"level":"info","message":{"CPU Usage % for process":"1.43%","Memory Stats for container":{"freeSystemMemory":"11748.421632 MB","percentageFreeMemory":"69.99%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"249.46688 MB","heapUsed":"233.991784 MB","percentageHeapUsed":"93.8%","rss":"414.490624 MB"},"pid":19},"namespace":"memoryUsage","pid":19,"timestamp":"2023-06-13T21:33:36.089Z"}
+{"level":"info","message":{"CPU Usage % for process":"4.14%","Memory Stats for container":{"freeSystemMemory":"11737.2928 MB","percentageFreeMemory":"69.92%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"363.798528 MB","heapUsed":"336.320352 MB","percentageHeapUsed":"92.45%","rss":"546.553856 MB"},"pid":79},"namespace":"memoryUsage","pid":79,"timestamp":"2023-06-13T21:33:41.483Z"}
+{"level":"info","message":{"CPU Usage % for process":"4.24%","Memory Stats for container":{"freeSystemMemory":"11745.394688 MB","percentageFreeMemory":"69.97%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"362.749952 MB","heapUsed":"294.997952 MB","percentageHeapUsed":"81.32%","rss":"531.734528 MB"},"pid":49},"namespace":"memoryUsage","pid":49,"timestamp":"2023-06-13T21:33:47.824Z"}
+{"level":"info","message":{"CPU Usage % for process":"3.78%","Memory Stats for container":{"freeSystemMemory":"11746.643968 MB","percentageFreeMemory":"69.98%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"360.914944 MB","heapUsed":"336.449208 MB","percentageHeapUsed":"93.22%","rss":"545.6896 MB"},"pid":110},"namespace":"memoryUsage","pid":110,"timestamp":"2023-06-13T21:33:55.470Z"}
+{"level":"info","message":{"CPU Usage % for process":"1.29%","Memory Stats for container":{"freeSystemMemory":"11747.500032 MB","percentageFreeMemory":"69.98%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"249.46688 MB","heapUsed":"234.04288 MB","percentageHeapUsed":"93.82%","rss":"414.490624 MB"},"pid":19},"namespace":"memoryUsage","pid":19,"timestamp":"2023-06-13T21:33:56.092Z"}
+{"level":"info","message":{"CPU Usage % for process":"3.69%","Memory Stats for container":{"freeSystemMemory":"11746.820096 MB","percentageFreeMemory":"69.98%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"363.798528 MB","heapUsed":"336.433408 MB","percentageHeapUsed":"92.48%","rss":"546.807808 MB"},"pid":79},"namespace":"memoryUsage","pid":79,"timestamp":"2023-06-13T21:34:01.484Z"}
+{"level":"info","message":{"CPU Usage % for process":"3.82%","Memory Stats for container":{"freeSystemMemory":"11750.42048 MB","percentageFreeMemory":"70%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"362.749952 MB","heapUsed":"295.102816 MB","percentageHeapUsed":"81.35%","rss":"531.963904 MB"},"pid":49},"namespace":"memoryUsage","pid":49,"timestamp":"2023-06-13T21:34:07.827Z"}
+{"level":"info","message":{"CPU Usage % for process":"3.36%","Memory Stats for container":{"freeSystemMemory":"11743.563776 MB","percentageFreeMemory":"69.96%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"360.914944 MB","heapUsed":"336.546608 MB","percentageHeapUsed":"93.25%","rss":"545.931264 MB"},"pid":110},"namespace":"memoryUsage","pid":110,"timestamp":"2023-06-13T21:34:15.471Z"}
+{"level":"info","message":{"CPU Usage % for process":"1.18%","Memory Stats for container":{"freeSystemMemory":"11744.256 MB","percentageFreeMemory":"69.96%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"249.46688 MB","heapUsed":"234.081032 MB","percentageHeapUsed":"93.83%","rss":"414.490624 MB"},"pid":19},"namespace":"memoryUsage","pid":19,"timestamp":"2023-06-13T21:34:16.093Z"}
+{"level":"info","message":{"CPU Usage % for process":"3.32%","Memory Stats for container":{"freeSystemMemory":"11745.128448 MB","percentageFreeMemory":"69.97%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"363.798528 MB","heapUsed":"336.52408 MB","percentageHeapUsed":"92.5%","rss":"546.807808 MB"},"pid":79},"namespace":"memoryUsage","pid":79,"timestamp":"2023-06-13T21:34:21.486Z"}
+{"level":"info","message":{"CPU Usage % for process":"3.48%","Memory Stats for container":{"freeSystemMemory":"11745.988608 MB","percentageFreeMemory":"69.97%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"362.749952 MB","heapUsed":"295.187688 MB","percentageHeapUsed":"81.37%","rss":"531.963904 MB"},"pid":49},"namespace":"memoryUsage","pid":49,"timestamp":"2023-06-13T21:34:27.828Z"}
+{"level":"info","message":{"CPU Usage % for process":"3.03%","Memory Stats for container":{"freeSystemMemory":"11747.610624 MB","percentageFreeMemory":"69.98%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"360.914944 MB","heapUsed":"336.641664 MB","percentageHeapUsed":"93.27%","rss":"545.931264 MB"},"pid":110},"namespace":"memoryUsage","pid":110,"timestamp":"2023-06-13T21:34:35.473Z"}
+{"level":"info","message":{"CPU Usage % for process":"1.08%","Memory Stats for container":{"freeSystemMemory":"11747.762176 MB","percentageFreeMemory":"69.98%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"249.46688 MB","heapUsed":"234.120096 MB","percentageHeapUsed":"93.85%","rss":"414.490624 MB"},"pid":19},"namespace":"memoryUsage","pid":19,"timestamp":"2023-06-13T21:34:36.095Z"}
+{"level":"info","message":{"CPU Usage % for process":"3.02%","Memory Stats for container":{"freeSystemMemory":"11747.852288 MB","percentageFreeMemory":"69.98%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"363.798528 MB","heapUsed":"336.614616 MB","percentageHeapUsed":"92.53%","rss":"546.807808 MB"},"pid":79},"namespace":"memoryUsage","pid":79,"timestamp":"2023-06-13T21:34:41.488Z"}
+{"level":"info","message":{"CPU Usage % for process":"3.19%","Memory Stats for container":{"freeSystemMemory":"11744.997376 MB","percentageFreeMemory":"69.97%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"362.749952 MB","heapUsed":"295.273528 MB","percentageHeapUsed":"81.4%","rss":"532.144128 MB"},"pid":49},"namespace":"memoryUsage","pid":49,"timestamp":"2023-06-13T21:34:47.831Z"}
+{"level":"info","message":{"CPU Usage % for process":"2.76%","Memory Stats for container":{"freeSystemMemory":"11749.023744 MB","percentageFreeMemory":"69.99%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"360.914944 MB","heapUsed":"336.726536 MB","percentageHeapUsed":"93.3%","rss":"546.164736 MB"},"pid":110},"namespace":"memoryUsage","pid":110,"timestamp":"2023-06-13T21:34:55.475Z"}
+{"level":"info","message":{"CPU Usage % for process":"1.00%","Memory Stats for container":{"freeSystemMemory":"11748.978688 MB","percentageFreeMemory":"69.99%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"249.46688 MB","heapUsed":"234.158248 MB","percentageHeapUsed":"93.86%","rss":"414.490624 MB"},"pid":19},"namespace":"memoryUsage","pid":19,"timestamp":"2023-06-13T21:34:56.096Z"}
+{"level":"info","message":{"CPU Usage % for process":"2.77%","Memory Stats for container":{"freeSystemMemory":"11751.95648 MB","percentageFreeMemory":"70.01%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"363.798528 MB","heapUsed":"336.711224 MB","percentageHeapUsed":"92.55%","rss":"547.057664 MB"},"pid":79},"namespace":"memoryUsage","pid":79,"timestamp":"2023-06-13T21:35:01.490Z"}
+{"level":"info","message":{"CPU Usage % for process":"2.95%","Memory Stats for container":{"freeSystemMemory":"11752.087552 MB","percentageFreeMemory":"70.01%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"362.749952 MB","heapUsed":"294.365136 MB","percentageHeapUsed":"81.15%","rss":"531.095552 MB"},"pid":49},"namespace":"memoryUsage","pid":49,"timestamp":"2023-06-13T21:35:07.834Z"}
+{"level":"info","message":{"CPU Usage % for process":"2.53%","Memory Stats for container":{"freeSystemMemory":"11752.316928 MB","percentageFreeMemory":"70.01%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"360.914944 MB","heapUsed":"336.815456 MB","percentageHeapUsed":"93.32%","rss":"546.164736 MB"},"pid":110},"namespace":"memoryUsage","pid":110,"timestamp":"2023-06-13T21:35:15.477Z"}
+{"level":"info","message":{"CPU Usage % for process":"0.93%","Memory Stats for container":{"freeSystemMemory":"11752.431616 MB","percentageFreeMemory":"70.01%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"249.46688 MB","heapUsed":"234.19664 MB","percentageHeapUsed":"93.88%","rss":"414.69952 MB"},"pid":19},"namespace":"memoryUsage","pid":19,"timestamp":"2023-06-13T21:35:16.098Z"}
+{"level":"info","message":{"CPU Usage % for process":"2.56%","Memory Stats for container":{"freeSystemMemory":"11754.84416 MB","percentageFreeMemory":"70.02%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"363.798528 MB","heapUsed":"336.80036 MB","percentageHeapUsed":"92.58%","rss":"547.057664 MB"},"pid":79},"namespace":"memoryUsage","pid":79,"timestamp":"2023-06-13T21:35:21.492Z"}
+{"level":"info","message":{"CPU Usage % for process":"2.74%","Memory Stats for container":{"freeSystemMemory":"11755.60192 MB","percentageFreeMemory":"70.03%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"362.749952 MB","heapUsed":"294.45444 MB","percentageHeapUsed":"81.17%","rss":"531.349504 MB"},"pid":49},"namespace":"memoryUsage","pid":49,"timestamp":"2023-06-13T21:35:27.836Z"}
+{"level":"info","message":{"CPU Usage % for process":"2.34%","Memory Stats for container":{"freeSystemMemory":"11756.621824 MB","percentageFreeMemory":"70.04%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"360.914944 MB","heapUsed":"335.909056 MB","percentageHeapUsed":"93.07%","rss":"545.11616 MB"},"pid":110},"namespace":"memoryUsage","pid":110,"timestamp":"2023-06-13T21:35:35.479Z"}
+{"level":"info","message":{"CPU Usage % for process":"0.87%","Memory Stats for container":{"freeSystemMemory":"11756.62592 MB","percentageFreeMemory":"70.04%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"249.46688 MB","heapUsed":"234.235704 MB","percentageHeapUsed":"93.89%","rss":"414.69952 MB"},"pid":19},"namespace":"memoryUsage","pid":19,"timestamp":"2023-06-13T21:35:36.101Z"}
+{"level":"info","message":{"CPU Usage % for process":"2.38%","Memory Stats for container":{"freeSystemMemory":"11757.436928 MB","percentageFreeMemory":"70.04%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"363.798528 MB","heapUsed":"336.928608 MB","percentageHeapUsed":"92.61%","rss":"547.057664 MB"},"pid":79},"namespace":"memoryUsage","pid":79,"timestamp":"2023-06-13T21:35:41.492Z"}
+{"level":"info","message":{"CPU Usage % for process":"2.56%","Memory Stats for container":{"freeSystemMemory":"11757.023232 MB","percentageFreeMemory":"70.04%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"362.749952 MB","heapUsed":"294.5402 MB","percentageHeapUsed":"81.2%","rss":"531.349504 MB"},"pid":49},"namespace":"memoryUsage","pid":49,"timestamp":"2023-06-13T21:35:47.838Z"}
+{"level":"info","message":{"CPU Usage % for process":"2.18%","Memory Stats for container":{"freeSystemMemory":"11754.16832 MB","percentageFreeMemory":"70.02%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"360.914944 MB","heapUsed":"335.994296 MB","percentageHeapUsed":"93.1%","rss":"545.374208 MB"},"pid":110},"namespace":"memoryUsage","pid":110,"timestamp":"2023-06-13T21:35:55.480Z"}
+{"level":"info","message":{"CPU Usage % for process":"0.82%","Memory Stats for container":{"freeSystemMemory":"11754.426368 MB","percentageFreeMemory":"70.02%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"249.46688 MB","heapUsed":"234.274224 MB","percentageHeapUsed":"93.91%","rss":"414.69952 MB"},"pid":19},"namespace":"memoryUsage","pid":19,"timestamp":"2023-06-13T21:35:56.102Z"}
+{"level":"info","message":{"CPU Usage % for process":"2.23%","Memory Stats for container":{"freeSystemMemory":"11754.63936 MB","percentageFreeMemory":"70.02%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"363.798528 MB","heapUsed":"337.022712 MB","percentageHeapUsed":"92.64%","rss":"547.319808 MB"},"pid":79},"namespace":"memoryUsage","pid":79,"timestamp":"2023-06-13T21:36:01.494Z"}
+{"level":"info","message":{"CPU Usage % for process":"2.40%","Memory Stats for container":{"freeSystemMemory":"11751.616512 MB","percentageFreeMemory":"70.01%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"362.749952 MB","heapUsed":"294.629408 MB","percentageHeapUsed":"81.22%","rss":"531.349504 MB"},"pid":49},"namespace":"memoryUsage","pid":49,"timestamp":"2023-06-13T21:36:07.841Z"}
+{"level":"info","message":{"CPU Usage % for process":"2.03%","Memory Stats for container":{"freeSystemMemory":"11752.001536 MB","percentageFreeMemory":"70.01%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"360.914944 MB","heapUsed":"336.083384 MB","percentageHeapUsed":"93.12%","rss":"545.374208 MB"},"pid":110},"namespace":"memoryUsage","pid":110,"timestamp":"2023-06-13T21:36:15.481Z"}
+{"level":"info","message":{"CPU Usage % for process":"0.77%","Memory Stats for container":{"freeSystemMemory":"11752.042496 MB","percentageFreeMemory":"70.01%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"249.46688 MB","heapUsed":"234.312344 MB","percentageHeapUsed":"93.93%","rss":"414.69952 MB"},"pid":19},"namespace":"memoryUsage","pid":19,"timestamp":"2023-06-13T21:36:16.104Z"}
+{"level":"info","message":{"CPU Usage % for process":"2.09%","Memory Stats for container":{"freeSystemMemory":"11751.493632 MB","percentageFreeMemory":"70%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"363.798528 MB","heapUsed":"337.110208 MB","percentageHeapUsed":"92.66%","rss":"547.319808 MB"},"pid":79},"namespace":"memoryUsage","pid":79,"timestamp":"2023-06-13T21:36:21.496Z"}
+{"level":"info","message":{"CPU Usage % for process":"2.27%","Memory Stats for container":{"freeSystemMemory":"11749.863424 MB","percentageFreeMemory":"70%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"362.749952 MB","heapUsed":"294.987048 MB","percentageHeapUsed":"81.32%","rss":"531.791872 MB"},"pid":49},"namespace":"memoryUsage","pid":49,"timestamp":"2023-06-13T21:36:27.843Z"}
+{"level":"info","message":{"CPU Usage % for process":"1.91%","Memory Stats for container":{"freeSystemMemory":"11750.66624 MB","percentageFreeMemory":"70%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"360.914944 MB","heapUsed":"336.168384 MB","percentageHeapUsed":"93.14%","rss":"545.374208 MB"},"pid":110},"namespace":"memoryUsage","pid":110,"timestamp":"2023-06-13T21:36:35.484Z"}
+{"level":"info","message":{"CPU Usage % for process":"0.73%","Memory Stats for container":{"freeSystemMemory":"11750.760448 MB","percentageFreeMemory":"70%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"249.46688 MB","heapUsed":"234.36376 MB","percentageHeapUsed":"93.95%","rss":"414.875648 MB"},"pid":19},"namespace":"memoryUsage","pid":19,"timestamp":"2023-06-13T21:36:36.106Z"}
+{"level":"info","message":{"CPU Usage % for process":"1.97%","Memory Stats for container":{"freeSystemMemory":"11752.894464 MB","percentageFreeMemory":"70.01%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"363.798528 MB","heapUsed":"336.302088 MB","percentageHeapUsed":"92.44%","rss":"546.545664 MB"},"pid":79},"namespace":"memoryUsage","pid":79,"timestamp":"2023-06-13T21:36:41.497Z"}
+{"level":"info","message":{"CPU Usage % for process":"2.14%","Memory Stats for container":{"freeSystemMemory":"11750.821888 MB","percentageFreeMemory":"70%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"362.749952 MB","heapUsed":"295.088008 MB","percentageHeapUsed":"81.35%","rss":"531.791872 MB"},"pid":49},"namespace":"memoryUsage","pid":49,"timestamp":"2023-06-13T21:36:47.846Z"}
+{"level":"info","message":{"CPU Usage % for process":"1.80%","Memory Stats for container":{"freeSystemMemory":"11754.139648 MB","percentageFreeMemory":"70.02%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"360.914944 MB","heapUsed":"336.259944 MB","percentageHeapUsed":"93.17%","rss":"545.632256 MB"},"pid":110},"namespace":"memoryUsage","pid":110,"timestamp":"2023-06-13T21:36:55.485Z"}
+{"level":"info","message":{"CPU Usage % for process":"0.69%","Memory Stats for container":{"freeSystemMemory":"11754.082304 MB","percentageFreeMemory":"70.02%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"249.46688 MB","heapUsed":"234.40188 MB","percentageHeapUsed":"93.96%","rss":"414.875648 MB"},"pid":19},"namespace":"memoryUsage","pid":19,"timestamp":"2023-06-13T21:36:56.107Z"}
+{"level":"info","message":{"CPU Usage % for process":"1.86%","Memory Stats for container":{"freeSystemMemory":"11754.078208 MB","percentageFreeMemory":"70.02%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"363.798528 MB","heapUsed":"336.395976 MB","percentageHeapUsed":"92.47%","rss":"546.545664 MB"},"pid":79},"namespace":"memoryUsage","pid":79,"timestamp":"2023-06-13T21:37:01.499Z"}
+{"level":"info","message":{"CPU Usage % for process":"2.03%","Memory Stats for container":{"freeSystemMemory":"11754.156032 MB","percentageFreeMemory":"70.02%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"362.749952 MB","heapUsed":"295.176216 MB","percentageHeapUsed":"81.37%","rss":"532.13184 MB"},"pid":49},"namespace":"memoryUsage","pid":49,"timestamp":"2023-06-13T21:37:07.848Z"}
+{"level":"info","message":{"CPU Usage % for process":"1.70%","Memory Stats for container":{"freeSystemMemory":"11754.528768 MB","percentageFreeMemory":"70.02%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"360.914944 MB","heapUsed":"336.348512 MB","percentageHeapUsed":"93.19%","rss":"545.632256 MB"},"pid":110},"namespace":"memoryUsage","pid":110,"timestamp":"2023-06-13T21:37:15.487Z"}
+{"level":"info","message":{"CPU Usage % for process":"0.66%","Memory Stats for container":{"freeSystemMemory":"11754.594304 MB","percentageFreeMemory":"70.02%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"249.46688 MB","heapUsed":"234.44024 MB","percentageHeapUsed":"93.98%","rss":"414.875648 MB"},"pid":19},"namespace":"memoryUsage","pid":19,"timestamp":"2023-06-13T21:37:16.109Z"}
+{"level":"info","message":{"CPU Usage % for process":"1.77%","Memory Stats for container":{"freeSystemMemory":"11754.201088 MB","percentageFreeMemory":"70.02%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"363.798528 MB","heapUsed":"336.482944 MB","percentageHeapUsed":"92.49%","rss":"546.545664 MB"},"pid":79},"namespace":"memoryUsage","pid":79,"timestamp":"2023-06-13T21:37:21.500Z"}
+{"level":"info","message":{"CPU Usage % for process":"1.93%","Memory Stats for container":{"freeSystemMemory":"11752.7552 MB","percentageFreeMemory":"70.01%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"362.749952 MB","heapUsed":"295.261328 MB","percentageHeapUsed":"81.4%","rss":"532.13184 MB"},"pid":49},"namespace":"memoryUsage","pid":49,"timestamp":"2023-06-13T21:37:27.850Z"}
+{"level":"info","message":{"CPU Usage % for process":"1.61%","Memory Stats for container":{"freeSystemMemory":"11753.312256 MB","percentageFreeMemory":"70.02%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"360.914944 MB","heapUsed":"336.433352 MB","percentageHeapUsed":"93.22%","rss":"545.632256 MB"},"pid":110},"namespace":"memoryUsage","pid":110,"timestamp":"2023-06-13T21:37:35.490Z"}
+{"level":"info","message":{"CPU Usage % for process":"0.63%","Memory Stats for container":{"freeSystemMemory":"11753.304064 MB","percentageFreeMemory":"70.02%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"249.46688 MB","heapUsed":"234.479344 MB","percentageHeapUsed":"93.99%","rss":"414.875648 MB"},"pid":19},"namespace":"memoryUsage","pid":19,"timestamp":"2023-06-13T21:37:36.109Z"}
+{"level":"info","message":{"CPU Usage % for process":"1.68%","Memory Stats for container":{"freeSystemMemory":"11753.918464 MB","percentageFreeMemory":"70.02%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"363.798528 MB","heapUsed":"336.569848 MB","percentageHeapUsed":"92.52%","rss":"546.811904 MB"},"pid":79},"namespace":"memoryUsage","pid":79,"timestamp":"2023-06-13T21:37:41.502Z"}
+{"level":"info","message":{"CPU Usage % for process":"1.84%","Memory Stats for container":{"freeSystemMemory":"11752.0384 MB","percentageFreeMemory":"70.01%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"362.749952 MB","heapUsed":"295.347384 MB","percentageHeapUsed":"81.42%","rss":"532.13184 MB"},"pid":49},"namespace":"memoryUsage","pid":49,"timestamp":"2023-06-13T21:37:47.852Z"}
+{"level":"info","message":{"CPU Usage % for process":"1.53%","Memory Stats for container":{"freeSystemMemory":"11754.938368 MB","percentageFreeMemory":"70.03%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"360.914944 MB","heapUsed":"336.518624 MB","percentageHeapUsed":"93.24%","rss":"545.8944 MB"},"pid":110},"namespace":"memoryUsage","pid":110,"timestamp":"2023-06-13T21:37:55.492Z"}
+{"level":"info","message":{"CPU Usage % for process":"0.60%","Memory Stats for container":{"freeSystemMemory":"11755.053056 MB","percentageFreeMemory":"70.03%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"249.46688 MB","heapUsed":"234.517768 MB","percentageHeapUsed":"94.01%","rss":"414.875648 MB"},"pid":19},"namespace":"memoryUsage","pid":19,"timestamp":"2023-06-13T21:37:56.110Z"}
+{"level":"info","message":{"CPU Usage % for process":"1.60%","Memory Stats for container":{"freeSystemMemory":"11756.199936 MB","percentageFreeMemory":"70.03%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"363.798528 MB","heapUsed":"336.663416 MB","percentageHeapUsed":"92.54%","rss":"546.811904 MB"},"pid":79},"namespace":"memoryUsage","pid":79,"timestamp":"2023-06-13T21:38:01.505Z"}
+{"level":"info","message":{"CPU Usage % for process":"1.76%","Memory Stats for container":{"freeSystemMemory":"11756.883968 MB","percentageFreeMemory":"70.04%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"362.749952 MB","heapUsed":"294.60112 MB","percentageHeapUsed":"81.21%","rss":"531.484672 MB"},"pid":49},"namespace":"memoryUsage","pid":49,"timestamp":"2023-06-13T21:38:07.853Z"}
+{"level":"info","message":{"CPU Usage % for process":"1.46%","Memory Stats for container":{"freeSystemMemory":"11757.146112 MB","percentageFreeMemory":"70.04%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"360.914944 MB","heapUsed":"336.60748 MB","percentageHeapUsed":"93.27%","rss":"545.8944 MB"},"pid":110},"namespace":"memoryUsage","pid":110,"timestamp":"2023-06-13T21:38:15.495Z"}
+{"level":"info","message":{"CPU Usage % for process":"0.58%","Memory Stats for container":{"freeSystemMemory":"11757.252608 MB","percentageFreeMemory":"70.04%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"249.46688 MB","heapUsed":"234.555936 MB","percentageHeapUsed":"94.02%","rss":"414.875648 MB"},"pid":19},"namespace":"memoryUsage","pid":19,"timestamp":"2023-06-13T21:38:16.113Z"}
+{"level":"info","message":{"CPU Usage % for process":"1.53%","Memory Stats for container":{"freeSystemMemory":"11756.711936 MB","percentageFreeMemory":"70.04%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"363.798528 MB","heapUsed":"336.750832 MB","percentageHeapUsed":"92.57%","rss":"546.811904 MB"},"pid":79},"namespace":"memoryUsage","pid":79,"timestamp":"2023-06-13T21:38:21.505Z"}
+{"level":"info","message":{"CPU Usage % for process":"1.68%","Memory Stats for container":{"freeSystemMemory":"11753.92256 MB","percentageFreeMemory":"70.02%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"362.749952 MB","heapUsed":"294.68668 MB","percentageHeapUsed":"81.24%","rss":"531.484672 MB"},"pid":49},"namespace":"memoryUsage","pid":49,"timestamp":"2023-06-13T21:38:27.856Z"}
+{"level":"info","message":{"CPU Usage % for process":"1.40%","Memory Stats for container":{"freeSystemMemory":"11756.142592 MB","percentageFreeMemory":"70.03%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"360.914944 MB","heapUsed":"336.692288 MB","percentageHeapUsed":"93.29%","rss":"545.8944 MB"},"pid":110},"namespace":"memoryUsage","pid":110,"timestamp":"2023-06-13T21:38:35.496Z"}
+{"level":"info","message":{"CPU Usage % for process":"0.55%","Memory Stats for container":{"freeSystemMemory":"11756.171264 MB","percentageFreeMemory":"70.03%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"249.46688 MB","heapUsed":"234.595216 MB","percentageHeapUsed":"94.04%","rss":"415.08864 MB"},"pid":19},"namespace":"memoryUsage","pid":19,"timestamp":"2023-06-13T21:38:36.112Z"}
+{"level":"info","message":{"CPU Usage % for process":"1.46%","Memory Stats for container":{"freeSystemMemory":"8764.522496 MB","percentageFreeMemory":"52.21%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"363.798528 MB","heapUsed":"336.841064 MB","percentageHeapUsed":"92.59%","rss":"547.078144 MB"},"pid":79},"namespace":"memoryUsage","pid":79,"timestamp":"2023-06-13T21:38:41.508Z"}
+{"level":"info","message":{"CPU Usage % for process":"1.62%","Memory Stats for container":{"freeSystemMemory":"7724.068864 MB","percentageFreeMemory":"46.02%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"362.749952 MB","heapUsed":"294.772832 MB","percentageHeapUsed":"81.26%","rss":"531.447808 MB"},"pid":49},"namespace":"memoryUsage","pid":49,"timestamp":"2023-06-13T21:38:47.859Z"}
+{"level":"info","message":{"CPU Usage % for process":"1.34%","Memory Stats for container":{"freeSystemMemory":"11757.912064 MB","percentageFreeMemory":"70.04%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"360.914944 MB","heapUsed":"336.777112 MB","percentageHeapUsed":"93.31%","rss":"546.164736 MB"},"pid":110},"namespace":"memoryUsage","pid":110,"timestamp":"2023-06-13T21:38:55.499Z"}
+{"level":"info","message":{"CPU Usage % for process":"0.53%","Memory Stats for container":{"freeSystemMemory":"11757.838336 MB","percentageFreeMemory":"70.04%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"249.46688 MB","heapUsed":"234.633352 MB","percentageHeapUsed":"94.05%","rss":"415.064064 MB"},"pid":19},"namespace":"memoryUsage","pid":19,"timestamp":"2023-06-13T21:38:56.114Z"}
+{"level":"info","message":{"CPU Usage % for process":"1.41%","Memory Stats for container":{"freeSystemMemory":"11757.764608 MB","percentageFreeMemory":"70.04%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"363.798528 MB","heapUsed":"336.932016 MB","percentageHeapUsed":"92.62%","rss":"547.074048 MB"},"pid":79},"namespace":"memoryUsage","pid":79,"timestamp":"2023-06-13T21:39:01.511Z"}
+{"level":"info","message":{"CPU Usage % for process":"1.55%","Memory Stats for container":{"freeSystemMemory":"11756.875776 MB","percentageFreeMemory":"70.04%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"362.749952 MB","heapUsed":"294.861072 MB","percentageHeapUsed":"81.28%","rss":"531.718144 MB"},"pid":49},"namespace":"memoryUsage","pid":49,"timestamp":"2023-06-13T21:39:07.861Z"}
+{"level":"info","message":{"CPU Usage % for process":"1.28%","Memory Stats for container":{"freeSystemMemory":"11757.79328 MB","percentageFreeMemory":"70.04%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"360.914944 MB","heapUsed":"335.847272 MB","percentageHeapUsed":"93.05%","rss":"545.140736 MB"},"pid":110},"namespace":"memoryUsage","pid":110,"timestamp":"2023-06-13T21:39:15.502Z"}
+{"level":"info","message":{"CPU Usage % for process":"0.51%","Memory Stats for container":{"freeSystemMemory":"11757.764608 MB","percentageFreeMemory":"70.04%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"249.46688 MB","heapUsed":"234.67176 MB","percentageHeapUsed":"94.07%","rss":"415.064064 MB"},"pid":19},"namespace":"memoryUsage","pid":19,"timestamp":"2023-06-13T21:39:16.117Z"}
+{"level":"info","message":{"CPU Usage % for process":"1.35%","Memory Stats for container":{"freeSystemMemory":"11755.757568 MB","percentageFreeMemory":"70.03%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"363.798528 MB","heapUsed":"337.018952 MB","percentageHeapUsed":"92.64%","rss":"547.074048 MB"},"pid":79},"namespace":"memoryUsage","pid":79,"timestamp":"2023-06-13T21:39:21.512Z"}
+{"level":"info","message":{"CPU Usage % for process":"1.50%","Memory Stats for container":{"freeSystemMemory":"11755.180032 MB","percentageFreeMemory":"70.03%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"362.749952 MB","heapUsed":"294.949848 MB","percentageHeapUsed":"81.31%","rss":"531.718144 MB"},"pid":49},"namespace":"memoryUsage","pid":49,"timestamp":"2023-06-13T21:39:27.863Z"}
+{"level":"info","message":{"CPU Usage % for process":"1.23%","Memory Stats for container":{"freeSystemMemory":"11756.3392 MB","percentageFreeMemory":"70.03%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"360.914944 MB","heapUsed":"335.932128 MB","percentageHeapUsed":"93.08%","rss":"545.140736 MB"},"pid":110},"namespace":"memoryUsage","pid":110,"timestamp":"2023-06-13T21:39:35.503Z"}
+{"level":"info","message":{"CPU Usage % for process":"0.50%","Memory Stats for container":{"freeSystemMemory":"11756.72832 MB","percentageFreeMemory":"70.04%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"249.46688 MB","heapUsed":"234.710768 MB","percentageHeapUsed":"94.08%","rss":"415.064064 MB"},"pid":19},"namespace":"memoryUsage","pid":19,"timestamp":"2023-06-13T21:39:36.117Z"}
+{"level":"info","message":{"CPU Usage % for process":"1.30%","Memory Stats for container":{"freeSystemMemory":"11757.047808 MB","percentageFreeMemory":"70.04%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"363.798528 MB","heapUsed":"337.108248 MB","percentageHeapUsed":"92.66%","rss":"547.344384 MB"},"pid":79},"namespace":"memoryUsage","pid":79,"timestamp":"2023-06-13T21:39:41.515Z"}
+{"level":"info","message":{"CPU Usage % for process":"1.44%","Memory Stats for container":{"freeSystemMemory":"11758.256128 MB","percentageFreeMemory":"70.05%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"362.749952 MB","heapUsed":"295.035968 MB","percentageHeapUsed":"81.33%","rss":"531.718144 MB"},"pid":49},"namespace":"memoryUsage","pid":49,"timestamp":"2023-06-13T21:39:47.864Z"}
+{"level":"info","message":{"CPU Usage % for process":"1.19%","Memory Stats for container":{"freeSystemMemory":"11759.4112 MB","percentageFreeMemory":"70.05%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"360.914944 MB","heapUsed":"336.017416 MB","percentageHeapUsed":"93.1%","rss":"545.411072 MB"},"pid":110},"namespace":"memoryUsage","pid":110,"timestamp":"2023-06-13T21:39:55.505Z"}
+{"level":"info","message":{"CPU Usage % for process":"0.48%","Memory Stats for container":{"freeSystemMemory":"11759.443968 MB","percentageFreeMemory":"70.05%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"249.46688 MB","heapUsed":"233.836304 MB","percentageHeapUsed":"93.73%","rss":"414.294016 MB"},"pid":19},"namespace":"memoryUsage","pid":19,"timestamp":"2023-06-13T21:39:56.118Z"}
+{"level":"info","message":{"CPU Usage % for process":"1.25%","Memory Stats for container":{"freeSystemMemory":"11759.038464 MB","percentageFreeMemory":"70.05%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"363.798528 MB","heapUsed":"337.20232 MB","percentageHeapUsed":"92.69%","rss":"547.344384 MB"},"pid":79},"namespace":"memoryUsage","pid":79,"timestamp":"2023-06-13T21:40:01.515Z"}
+{"level":"info","message":{"CPU Usage % for process":"1.39%","Memory Stats for container":{"freeSystemMemory":"11758.276608 MB","percentageFreeMemory":"70.05%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"362.749952 MB","heapUsed":"295.12464 MB","percentageHeapUsed":"81.36%","rss":"531.98848 MB"},"pid":49},"namespace":"memoryUsage","pid":49,"timestamp":"2023-06-13T21:40:07.866Z"}
+{"level":"info","message":{"CPU Usage % for process":"1.15%","Memory Stats for container":{"freeSystemMemory":"11759.439872 MB","percentageFreeMemory":"70.05%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"360.914944 MB","heapUsed":"336.106512 MB","percentageHeapUsed":"93.13%","rss":"545.411072 MB"},"pid":110},"namespace":"memoryUsage","pid":110,"timestamp":"2023-06-13T21:40:15.508Z"}
+{"level":"info","message":{"CPU Usage % for process":"0.46%","Memory Stats for container":{"freeSystemMemory":"11759.468544 MB","percentageFreeMemory":"70.05%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"249.46688 MB","heapUsed":"233.874472 MB","percentageHeapUsed":"93.75%","rss":"414.294016 MB"},"pid":19},"namespace":"memoryUsage","pid":19,"timestamp":"2023-06-13T21:40:16.119Z"}
+{"level":"info","message":{"CPU Usage % for process":"1.21%","Memory Stats for container":{"freeSystemMemory":"11757.989888 MB","percentageFreeMemory":"70.04%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"363.798528 MB","heapUsed":"336.31956 MB","percentageHeapUsed":"92.45%","rss":"546.320384 MB"},"pid":79},"namespace":"memoryUsage","pid":79,"timestamp":"2023-06-13T21:40:21.517Z"}
+{"level":"info","message":{"CPU Usage % for process":"1.34%","Memory Stats for container":{"freeSystemMemory":"11758.055424 MB","percentageFreeMemory":"70.04%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"362.749952 MB","heapUsed":"295.209736 MB","percentageHeapUsed":"81.38%","rss":"531.98848 MB"},"pid":49},"namespace":"memoryUsage","pid":49,"timestamp":"2023-06-13T21:40:27.868Z"}
+{"level":"info","message":{"CPU Usage % for process":"1.11%","Memory Stats for container":{"freeSystemMemory":"11757.494272 MB","percentageFreeMemory":"70.04%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"360.914944 MB","heapUsed":"336.191368 MB","percentageHeapUsed":"93.15%","rss":"545.411072 MB"},"pid":110},"namespace":"memoryUsage","pid":110,"timestamp":"2023-06-13T21:40:35.511Z"}
+{"level":"info","message":{"CPU Usage % for process":"0.45%","Memory Stats for container":{"freeSystemMemory":"11757.490176 MB","percentageFreeMemory":"70.04%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"249.46688 MB","heapUsed":"233.913752 MB","percentageHeapUsed":"93.77%","rss":"414.294016 MB"},"pid":19},"namespace":"memoryUsage","pid":19,"timestamp":"2023-06-13T21:40:36.121Z"}
+{"level":"info","message":{"CPU Usage % for process":"1.17%","Memory Stats for container":{"freeSystemMemory":"11757.600768 MB","percentageFreeMemory":"70.04%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"363.798528 MB","heapUsed":"336.431096 MB","percentageHeapUsed":"92.48%","rss":"546.607104 MB"},"pid":79},"namespace":"memoryUsage","pid":79,"timestamp":"2023-06-13T21:40:41.519Z"}
+{"level":"info","message":{"CPU Usage % for process":"1.30%","Memory Stats for container":{"freeSystemMemory":"11755.839488 MB","percentageFreeMemory":"70.03%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"362.749952 MB","heapUsed":"295.3366 MB","percentageHeapUsed":"81.42%","rss":"532.598784 MB"},"pid":49},"namespace":"memoryUsage","pid":49,"timestamp":"2023-06-13T21:40:47.869Z"}
+{"level":"info","message":{"CPU Usage % for process":"1.07%","Memory Stats for container":{"freeSystemMemory":"11755.700224 MB","percentageFreeMemory":"70.03%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"360.914944 MB","heapUsed":"336.276224 MB","percentageHeapUsed":"93.17%","rss":"545.681408 MB"},"pid":110},"namespace":"memoryUsage","pid":110,"timestamp":"2023-06-13T21:40:55.514Z"}
+{"level":"info","message":{"CPU Usage % for process":"0.44%","Memory Stats for container":{"freeSystemMemory":"11755.716608 MB","percentageFreeMemory":"70.03%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"249.46688 MB","heapUsed":"233.95192 MB","percentageHeapUsed":"93.78%","rss":"414.294016 MB"},"pid":19},"namespace":"memoryUsage","pid":19,"timestamp":"2023-06-13T21:40:56.124Z"}
+{"level":"info","message":{"CPU Usage % for process":"1.13%","Memory Stats for container":{"freeSystemMemory":"11754.283008 MB","percentageFreeMemory":"70.02%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"363.798528 MB","heapUsed":"336.515744 MB","percentageHeapUsed":"92.5%","rss":"546.607104 MB"},"pid":79},"namespace":"memoryUsage","pid":79,"timestamp":"2023-06-13T21:41:01.520Z"}
+{"level":"info","message":{"CPU Usage % for process":"1.26%","Memory Stats for container":{"freeSystemMemory":"11750.44096 MB","percentageFreeMemory":"70%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"362.749952 MB","heapUsed":"295.418648 MB","percentageHeapUsed":"81.44%","rss":"532.598784 MB"},"pid":49},"namespace":"memoryUsage","pid":49,"timestamp":"2023-06-13T21:41:07.871Z"}
+{"level":"info","message":{"CPU Usage % for process":"1.04%","Memory Stats for container":{"freeSystemMemory":"11752.255488 MB","percentageFreeMemory":"70.01%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"360.914944 MB","heapUsed":"336.400744 MB","percentageHeapUsed":"93.21%","rss":"545.824768 MB"},"pid":110},"namespace":"memoryUsage","pid":110,"timestamp":"2023-06-13T21:41:15.515Z"}
+{"level":"info","message":{"CPU Usage % for process":"0.42%","Memory Stats for container":{"freeSystemMemory":"11752.230912 MB","percentageFreeMemory":"70.01%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"249.46688 MB","heapUsed":"233.990296 MB","percentageHeapUsed":"93.8%","rss":"414.294016 MB"},"pid":19},"namespace":"memoryUsage","pid":19,"timestamp":"2023-06-13T21:41:16.124Z"}
+{"level":"info","message":{"CPU Usage % for process":"1.10%","Memory Stats for container":{"freeSystemMemory":"11752.054784 MB","percentageFreeMemory":"70.01%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"363.798528 MB","heapUsed":"336.59888 MB","percentageHeapUsed":"92.52%","rss":"546.807808 MB"},"pid":79},"namespace":"memoryUsage","pid":79,"timestamp":"2023-06-13T21:41:21.521Z"}
+{"level":"info","message":{"CPU Usage % for process":"1.22%","Memory Stats for container":{"freeSystemMemory":"11749.281792 MB","percentageFreeMemory":"69.99%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"362.749952 MB","heapUsed":"295.498392 MB","percentageHeapUsed":"81.46%","rss":"532.779008 MB"},"pid":49},"namespace":"memoryUsage","pid":49,"timestamp":"2023-06-13T21:41:27.873Z"}
+{"level":"info","message":{"CPU Usage % for process":"1.00%","Memory Stats for container":{"freeSystemMemory":"11741.089792 MB","percentageFreeMemory":"69.94%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"360.914944 MB","heapUsed":"336.47944 MB","percentageHeapUsed":"93.23%","rss":"545.824768 MB"},"pid":110},"namespace":"memoryUsage","pid":110,"timestamp":"2023-06-13T21:41:35.518Z"}
+{"level":"info","message":{"CPU Usage % for process":"0.41%","Memory Stats for container":{"freeSystemMemory":"11740.565504 MB","percentageFreeMemory":"69.94%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"249.46688 MB","heapUsed":"234.029336 MB","percentageHeapUsed":"93.81%","rss":"414.294016 MB"},"pid":19},"namespace":"memoryUsage","pid":19,"timestamp":"2023-06-13T21:41:36.126Z"}
+{"level":"info","message":{"CPU Usage % for process":"1.07%","Memory Stats for container":{"freeSystemMemory":"11743.203328 MB","percentageFreeMemory":"69.96%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"363.798528 MB","heapUsed":"336.679992 MB","percentageHeapUsed":"92.55%","rss":"546.807808 MB"},"pid":79},"namespace":"memoryUsage","pid":79,"timestamp":"2023-06-13T21:41:41.523Z"}
+{"level":"info","message":{"CPU Usage % for process":"1.19%","Memory Stats for container":{"freeSystemMemory":"11744.755712 MB","percentageFreeMemory":"69.96%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"362.749952 MB","heapUsed":"295.578632 MB","percentageHeapUsed":"81.48%","rss":"532.779008 MB"},"pid":49},"namespace":"memoryUsage","pid":49,"timestamp":"2023-06-13T21:41:47.875Z"}
+{"level":"info","message":{"CPU Usage % for process":"0.97%","Memory Stats for container":{"freeSystemMemory":"11748.265984 MB","percentageFreeMemory":"69.99%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"360.914944 MB","heapUsed":"336.558536 MB","percentageHeapUsed":"93.25%","rss":"545.824768 MB"},"pid":110},"namespace":"memoryUsage","pid":110,"timestamp":"2023-06-13T21:41:55.521Z"}
+{"level":"info","message":{"CPU Usage % for process":"0.40%","Memory Stats for container":{"freeSystemMemory":"11748.376576 MB","percentageFreeMemory":"69.99%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"249.46688 MB","heapUsed":"234.067744 MB","percentageHeapUsed":"93.83%","rss":"414.523392 MB"},"pid":19},"namespace":"memoryUsage","pid":19,"timestamp":"2023-06-13T21:41:56.128Z"}
+{"level":"info","message":{"CPU Usage % for process":"1.03%","Memory Stats for container":{"freeSystemMemory":"11750.150144 MB","percentageFreeMemory":"70%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"363.798528 MB","heapUsed":"336.763608 MB","percentageHeapUsed":"92.57%","rss":"546.807808 MB"},"pid":79},"namespace":"memoryUsage","pid":79,"timestamp":"2023-06-13T21:42:01.524Z"}
+{"level":"info","message":{"CPU Usage % for process":"1.15%","Memory Stats for container":{"freeSystemMemory":"11747.422208 MB","percentageFreeMemory":"69.98%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"362.749952 MB","heapUsed":"294.705496 MB","percentageHeapUsed":"81.24%","rss":"531.750912 MB"},"pid":49},"namespace":"memoryUsage","pid":49,"timestamp":"2023-06-13T21:42:07.879Z"}
+{"level":"info","message":{"CPU Usage % for process":"0.94%","Memory Stats for container":{"freeSystemMemory":"11748.585472 MB","percentageFreeMemory":"69.99%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"360.914944 MB","heapUsed":"336.641528 MB","percentageHeapUsed":"93.27%","rss":"545.824768 MB"},"pid":110},"namespace":"memoryUsage","pid":110,"timestamp":"2023-06-13T21:42:15.522Z"}
+{"level":"info","message":{"CPU Usage % for process":"0.39%","Memory Stats for container":{"freeSystemMemory":"11748.655104 MB","percentageFreeMemory":"69.99%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"249.46688 MB","heapUsed":"234.105936 MB","percentageHeapUsed":"93.84%","rss":"414.523392 MB"},"pid":19},"namespace":"memoryUsage","pid":19,"timestamp":"2023-06-13T21:42:16.128Z"}
+{"level":"info","message":{"CPU Usage % for process":"1.00%","Memory Stats for container":{"freeSystemMemory":"11750.080512 MB","percentageFreeMemory":"70%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"363.798528 MB","heapUsed":"336.844096 MB","percentageHeapUsed":"92.59%","rss":"546.807808 MB"},"pid":79},"namespace":"memoryUsage","pid":79,"timestamp":"2023-06-13T21:42:21.526Z"}
+{"level":"info","message":{"CPU Usage % for process":"1.12%","Memory Stats for container":{"freeSystemMemory":"11749.19168 MB","percentageFreeMemory":"69.99%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"362.749952 MB","heapUsed":"294.784496 MB","percentageHeapUsed":"81.26%","rss":"532.017152 MB"},"pid":49},"namespace":"memoryUsage","pid":49,"timestamp":"2023-06-13T21:42:27.880Z"}
+{"level":"info","message":{"CPU Usage % for process":"0.92%","Memory Stats for container":{"freeSystemMemory":"11748.990976 MB","percentageFreeMemory":"69.99%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"360.914944 MB","heapUsed":"336.720224 MB","percentageHeapUsed":"93.3%","rss":"546.095104 MB"},"pid":110},"namespace":"memoryUsage","pid":110,"timestamp":"2023-06-13T21:42:35.524Z"}
+{"level":"info","message":{"CPU Usage % for process":"0.38%","Memory Stats for container":{"freeSystemMemory":"11748.933632 MB","percentageFreeMemory":"69.99%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"249.46688 MB","heapUsed":"234.145216 MB","percentageHeapUsed":"93.86%","rss":"414.523392 MB"},"pid":19},"namespace":"memoryUsage","pid":19,"timestamp":"2023-06-13T21:42:36.130Z"}
+{"level":"info","message":{"CPU Usage % for process":"0.98%","Memory Stats for container":{"freeSystemMemory":"11748.196352 MB","percentageFreeMemory":"69.99%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"363.798528 MB","heapUsed":"336.927144 MB","percentageHeapUsed":"92.61%","rss":"547.078144 MB"},"pid":79},"namespace":"memoryUsage","pid":79,"timestamp":"2023-06-13T21:42:41.529Z"}
+{"level":"info","message":{"CPU Usage % for process":"1.09%","Memory Stats for container":{"freeSystemMemory":"11746.230272 MB","percentageFreeMemory":"69.97%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"362.749952 MB","heapUsed":"294.864456 MB","percentageHeapUsed":"81.29%","rss":"532.017152 MB"},"pid":49},"namespace":"memoryUsage","pid":49,"timestamp":"2023-06-13T21:42:47.881Z"}
+{"level":"info","message":{"CPU Usage % for process":"0.89%","Memory Stats for container":{"freeSystemMemory":"11745.964032 MB","percentageFreeMemory":"69.97%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"360.914944 MB","heapUsed":"336.79892 MB","percentageHeapUsed":"93.32%","rss":"546.095104 MB"},"pid":110},"namespace":"memoryUsage","pid":110,"timestamp":"2023-06-13T21:42:55.528Z"}
+{"level":"info","message":{"CPU Usage % for process":"0.37%","Memory Stats for container":{"freeSystemMemory":"11745.882112 MB","percentageFreeMemory":"69.97%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"249.46688 MB","heapUsed":"234.183384 MB","percentageHeapUsed":"93.87%","rss":"414.523392 MB"},"pid":19},"namespace":"memoryUsage","pid":19,"timestamp":"2023-06-13T21:42:56.131Z"}
+{"level":"info","message":{"CPU Usage % for process":"0.95%","Memory Stats for container":{"freeSystemMemory":"11746.246656 MB","percentageFreeMemory":"69.97%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"363.798528 MB","heapUsed":"337.011792 MB","percentageHeapUsed":"92.64%","rss":"547.078144 MB"},"pid":79},"namespace":"memoryUsage","pid":79,"timestamp":"2023-06-13T21:43:01.532Z"}
+{"level":"info","message":{"CPU Usage % for process":"1.06%","Memory Stats for container":{"freeSystemMemory":"11748.175872 MB","percentageFreeMemory":"69.99%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"362.749952 MB","heapUsed":"294.946536 MB","percentageHeapUsed":"81.31%","rss":"532.017152 MB"},"pid":49},"namespace":"memoryUsage","pid":49,"timestamp":"2023-06-13T21:43:07.884Z"}
+{"level":"info","message":{"CPU Usage % for process":"0.87%","Memory Stats for container":{"freeSystemMemory":"11748.888576 MB","percentageFreeMemory":"69.99%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"360.914944 MB","heapUsed":"336.881472 MB","percentageHeapUsed":"93.34%","rss":"546.095104 MB"},"pid":110},"namespace":"memoryUsage","pid":110,"timestamp":"2023-06-13T21:43:15.530Z"}
+{"level":"info","message":{"CPU Usage % for process":"0.36%","Memory Stats for container":{"freeSystemMemory":"11751.23968 MB","percentageFreeMemory":"70%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"249.46688 MB","heapUsed":"234.221792 MB","percentageHeapUsed":"93.89%","rss":"414.67904 MB"},"pid":19},"namespace":"memoryUsage","pid":19,"timestamp":"2023-06-13T21:43:16.133Z"}
+{"level":"info","message":{"CPU Usage % for process":"0.93%","Memory Stats for container":{"freeSystemMemory":"11751.44448 MB","percentageFreeMemory":"70%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"363.798528 MB","heapUsed":"337.095248 MB","percentageHeapUsed":"92.66%","rss":"547.078144 MB"},"pid":79},"namespace":"memoryUsage","pid":79,"timestamp":"2023-06-13T21:43:21.535Z"}
+{"level":"info","message":{"CPU Usage % for process":"1.03%","Memory Stats for container":{"freeSystemMemory":"11753.193472 MB","percentageFreeMemory":"70.01%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"362.749952 MB","heapUsed":"295.025968 MB","percentageHeapUsed":"81.33%","rss":"532.287488 MB"},"pid":49},"namespace":"memoryUsage","pid":49,"timestamp":"2023-06-13T21:43:27.884Z"}
+{"level":"info","message":{"CPU Usage % for process":"0.85%","Memory Stats for container":{"freeSystemMemory":"11754.217472 MB","percentageFreeMemory":"70.02%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"360.914944 MB","heapUsed":"335.963296 MB","percentageHeapUsed":"93.09%","rss":"545.316864 MB"},"pid":110},"namespace":"memoryUsage","pid":110,"timestamp":"2023-06-13T21:43:35.534Z"}
+{"level":"info","message":{"CPU Usage % for process":"0.35%","Memory Stats for container":{"freeSystemMemory":"11754.389504 MB","percentageFreeMemory":"70.02%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"249.46688 MB","heapUsed":"234.260776 MB","percentageHeapUsed":"93.9%","rss":"414.67904 MB"},"pid":19},"namespace":"memoryUsage","pid":19,"timestamp":"2023-06-13T21:43:36.135Z"}
+{"level":"info","message":{"CPU Usage % for process":"0.90%","Memory Stats for container":{"freeSystemMemory":"11752.1408 MB","percentageFreeMemory":"70.01%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"363.798528 MB","heapUsed":"337.175984 MB","percentageHeapUsed":"92.68%","rss":"547.34848 MB"},"pid":79},"namespace":"memoryUsage","pid":79,"timestamp":"2023-06-13T21:43:41.536Z"}
+{"level":"info","message":{"CPU Usage % for process":"1.01%","Memory Stats for container":{"freeSystemMemory":"11751.632896 MB","percentageFreeMemory":"70.01%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"362.749952 MB","heapUsed":"295.105776 MB","percentageHeapUsed":"81.35%","rss":"532.287488 MB"},"pid":49},"namespace":"memoryUsage","pid":49,"timestamp":"2023-06-13T21:43:47.886Z"}
+{"level":"info","message":{"CPU Usage % for process":"0.82%","Memory Stats for container":{"freeSystemMemory":"11757.604864 MB","percentageFreeMemory":"70.04%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"360.914944 MB","heapUsed":"336.042424 MB","percentageHeapUsed":"93.11%","rss":"545.316864 MB"},"pid":110},"namespace":"memoryUsage","pid":110,"timestamp":"2023-06-13T21:43:55.534Z"}
+{"level":"info","message":{"CPU Usage % for process":"0.34%","Memory Stats for container":{"freeSystemMemory":"11757.604864 MB","percentageFreeMemory":"70.04%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"249.46688 MB","heapUsed":"234.29916 MB","percentageHeapUsed":"93.92%","rss":"414.67904 MB"},"pid":19},"namespace":"memoryUsage","pid":19,"timestamp":"2023-06-13T21:43:56.136Z"}
+{"level":"info","message":{"CPU Usage % for process":"0.88%","Memory Stats for container":{"freeSystemMemory":"11753.078784 MB","percentageFreeMemory":"70.01%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"363.798528 MB","heapUsed":"337.262904 MB","percentageHeapUsed":"92.71%","rss":"547.34848 MB"},"pid":79},"namespace":"memoryUsage","pid":79,"timestamp":"2023-06-13T21:44:01.538Z"}
+{"level":"info","message":{"CPU Usage % for process":"0.98%","Memory Stats for container":{"freeSystemMemory":"11753.816064 MB","percentageFreeMemory":"70.02%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"362.749952 MB","heapUsed":"295.187888 MB","percentageHeapUsed":"81.38%","rss":"532.287488 MB"},"pid":49},"namespace":"memoryUsage","pid":49,"timestamp":"2023-06-13T21:44:07.889Z"}
+{"level":"info","message":{"CPU Usage % for process":"0.80%","Memory Stats for container":{"freeSystemMemory":"11750.944768 MB","percentageFreeMemory":"70%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"360.914944 MB","heapUsed":"336.124792 MB","percentageHeapUsed":"93.13%","rss":"545.316864 MB"},"pid":110},"namespace":"memoryUsage","pid":110,"timestamp":"2023-06-13T21:44:15.537Z"}
+{"level":"info","message":{"CPU Usage % for process":"0.34%","Memory Stats for container":{"freeSystemMemory":"11751.026688 MB","percentageFreeMemory":"70%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"249.46688 MB","heapUsed":"234.348648 MB","percentageHeapUsed":"93.94%","rss":"414.826496 MB"},"pid":19},"namespace":"memoryUsage","pid":19,"timestamp":"2023-06-13T21:44:16.136Z"}
+{"level":"info","message":{"CPU Usage % for process":"0.86%","Memory Stats for container":{"freeSystemMemory":"11746.050048 MB","percentageFreeMemory":"69.97%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"363.798528 MB","heapUsed":"336.363632 MB","percentageHeapUsed":"92.46%","rss":"546.312192 MB"},"pid":79},"namespace":"memoryUsage","pid":79,"timestamp":"2023-06-13T21:44:21.541Z"}
+{"level":"info","message":{"CPU Usage % for process":"0.96%","Memory Stats for container":{"freeSystemMemory":"11749.228544 MB","percentageFreeMemory":"69.99%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"362.749952 MB","heapUsed":"295.266888 MB","percentageHeapUsed":"81.4%","rss":"532.557824 MB"},"pid":49},"namespace":"memoryUsage","pid":49,"timestamp":"2023-06-13T21:44:27.890Z"}
+{"level":"info","message":{"CPU Usage % for process":"0.78%","Memory Stats for container":{"freeSystemMemory":"11751.58784 MB","percentageFreeMemory":"70.01%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"360.914944 MB","heapUsed":"336.203472 MB","percentageHeapUsed":"93.15%","rss":"545.5872 MB"},"pid":110},"namespace":"memoryUsage","pid":110,"timestamp":"2023-06-13T21:44:35.539Z"}
+{"level":"info","message":{"CPU Usage % for process":"0.33%","Memory Stats for container":{"freeSystemMemory":"11751.653376 MB","percentageFreeMemory":"70.01%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"249.46688 MB","heapUsed":"234.387904 MB","percentageHeapUsed":"93.96%","rss":"414.826496 MB"},"pid":19},"namespace":"memoryUsage","pid":19,"timestamp":"2023-06-13T21:44:36.138Z"}
+{"level":"info","message":{"CPU Usage % for process":"0.84%","Memory Stats for container":{"freeSystemMemory":"11747.98336 MB","percentageFreeMemory":"69.98%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"363.798528 MB","heapUsed":"336.446696 MB","percentageHeapUsed":"92.48%","rss":"546.582528 MB"},"pid":79},"namespace":"memoryUsage","pid":79,"timestamp":"2023-06-13T21:44:41.542Z"}
+{"level":"info","message":{"CPU Usage % for process":"0.94%","Memory Stats for container":{"freeSystemMemory":"11751.317504 MB","percentageFreeMemory":"70%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"362.749952 MB","heapUsed":"295.346696 MB","percentageHeapUsed":"81.42%","rss":"532.557824 MB"},"pid":49},"namespace":"memoryUsage","pid":49,"timestamp":"2023-06-13T21:44:47.893Z"}
+{"level":"info","message":{"CPU Usage % for process":"0.77%","Memory Stats for container":{"freeSystemMemory":"11752.906752 MB","percentageFreeMemory":"70.01%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"360.914944 MB","heapUsed":"336.282136 MB","percentageHeapUsed":"93.17%","rss":"545.5872 MB"},"pid":110},"namespace":"memoryUsage","pid":110,"timestamp":"2023-06-13T21:44:55.539Z"}
+{"level":"info","message":{"CPU Usage % for process":"0.32%","Memory Stats for container":{"freeSystemMemory":"11752.8576 MB","percentageFreeMemory":"70.01%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"249.46688 MB","heapUsed":"234.426072 MB","percentageHeapUsed":"93.97%","rss":"414.826496 MB"},"pid":19},"namespace":"memoryUsage","pid":19,"timestamp":"2023-06-13T21:44:56.138Z"}
+{"level":"info","message":{"CPU Usage % for process":"0.82%","Memory Stats for container":{"freeSystemMemory":"11747.700736 MB","percentageFreeMemory":"69.98%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"363.798528 MB","heapUsed":"336.531344 MB","percentageHeapUsed":"92.5%","rss":"546.582528 MB"},"pid":79},"namespace":"memoryUsage","pid":79,"timestamp":"2023-06-13T21:45:01.544Z"}
+{"level":"info","message":{"CPU Usage % for process":"0.92%","Memory Stats for container":{"freeSystemMemory":"11748.397056 MB","percentageFreeMemory":"69.99%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"362.749952 MB","heapUsed":"295.461344 MB","percentageHeapUsed":"81.45%","rss":"532.557824 MB"},"pid":49},"namespace":"memoryUsage","pid":49,"timestamp":"2023-06-13T21:45:07.894Z"}
+{"level":"info","message":{"CPU Usage % for process":"0.75%","Memory Stats for container":{"freeSystemMemory":"11743.383552 MB","percentageFreeMemory":"69.96%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"360.914944 MB","heapUsed":"336.364688 MB","percentageHeapUsed":"93.2%","rss":"545.5872 MB"},"pid":110},"namespace":"memoryUsage","pid":110,"timestamp":"2023-06-13T21:45:15.541Z"}
+{"level":"info","message":{"CPU Usage % for process":"0.31%","Memory Stats for container":{"freeSystemMemory":"11743.29344 MB","percentageFreeMemory":"69.96%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"249.46688 MB","heapUsed":"234.46448 MB","percentageHeapUsed":"93.99%","rss":"414.826496 MB"},"pid":19},"namespace":"memoryUsage","pid":19,"timestamp":"2023-06-13T21:45:16.140Z"}
+{"level":"info","message":{"CPU Usage % for process":"0.80%","Memory Stats for container":{"freeSystemMemory":"11739.426816 MB","percentageFreeMemory":"69.93%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"363.798528 MB","heapUsed":"336.64428 MB","percentageHeapUsed":"92.54%","rss":"546.582528 MB"},"pid":79},"namespace":"memoryUsage","pid":79,"timestamp":"2023-06-13T21:45:21.547Z"}
+{"level":"info","message":{"CPU Usage % for process":"0.90%","Memory Stats for container":{"freeSystemMemory":"11743.469568 MB","percentageFreeMemory":"69.96%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"362.749952 MB","heapUsed":"295.540344 MB","percentageHeapUsed":"81.47%","rss":"532.557824 MB"},"pid":49},"namespace":"memoryUsage","pid":49,"timestamp":"2023-06-13T21:45:27.894Z"}
+{"level":"info","message":{"CPU Usage % for process":"0.73%","Memory Stats for container":{"freeSystemMemory":"11747.18464 MB","percentageFreeMemory":"69.98%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"360.914944 MB","heapUsed":"336.443768 MB","percentageHeapUsed":"93.22%","rss":"545.849344 MB"},"pid":110},"namespace":"memoryUsage","pid":110,"timestamp":"2023-06-13T21:45:35.544Z"}
+{"level":"info","message":{"CPU Usage % for process":"0.31%","Memory Stats for container":{"freeSystemMemory":"11747.291136 MB","percentageFreeMemory":"69.98%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"249.46688 MB","heapUsed":"234.503488 MB","percentageHeapUsed":"94%","rss":"414.826496 MB"},"pid":19},"namespace":"memoryUsage","pid":19,"timestamp":"2023-06-13T21:45:36.141Z"}
+{"level":"info","message":{"CPU Usage % for process":"0.78%","Memory Stats for container":{"freeSystemMemory":"11740.28288 MB","percentageFreeMemory":"69.94%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"363.798528 MB","heapUsed":"336.725008 MB","percentageHeapUsed":"92.56%","rss":"546.844672 MB"},"pid":79},"namespace":"memoryUsage","pid":79,"timestamp":"2023-06-13T21:45:41.549Z"}
+{"level":"info","message":{"CPU Usage % for process":"0.88%","Memory Stats for container":{"freeSystemMemory":"11742.55616 MB","percentageFreeMemory":"69.95%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"362.749952 MB","heapUsed":"294.678808 MB","percentageHeapUsed":"81.23%","rss":"531.88608 MB"},"pid":49},"namespace":"memoryUsage","pid":49,"timestamp":"2023-06-13T21:45:47.897Z"}
+{"level":"info","message":{"CPU Usage % for process":"0.72%","Memory Stats for container":{"freeSystemMemory":"11746.430976 MB","percentageFreeMemory":"69.97%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"360.914944 MB","heapUsed":"336.522896 MB","percentageHeapUsed":"93.24%","rss":"545.849344 MB"},"pid":110},"namespace":"memoryUsage","pid":110,"timestamp":"2023-06-13T21:45:55.545Z"}
+{"level":"info","message":{"CPU Usage % for process":"0.30%","Memory Stats for container":{"freeSystemMemory":"11746.435072 MB","percentageFreeMemory":"69.97%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"249.46688 MB","heapUsed":"234.541896 MB","percentageHeapUsed":"94.02%","rss":"414.826496 MB"},"pid":19},"namespace":"memoryUsage","pid":19,"timestamp":"2023-06-13T21:45:56.142Z"}
+{"level":"info","message":{"CPU Usage % for process":"0.77%","Memory Stats for container":{"freeSystemMemory":"11741.159424 MB","percentageFreeMemory":"69.94%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"363.798528 MB","heapUsed":"336.809656 MB","percentageHeapUsed":"92.58%","rss":"546.844672 MB"},"pid":79},"namespace":"memoryUsage","pid":79,"timestamp":"2023-06-13T21:46:01.551Z"}
+{"level":"info","message":{"CPU Usage % for process":"0.86%","Memory Stats for container":{"freeSystemMemory":"11742.5152 MB","percentageFreeMemory":"69.95%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"362.749952 MB","heapUsed":"294.760856 MB","percentageHeapUsed":"81.26%","rss":"531.88608 MB"},"pid":49},"namespace":"memoryUsage","pid":49,"timestamp":"2023-06-13T21:46:07.898Z"}
+{"level":"info","message":{"CPU Usage % for process":"0.70%","Memory Stats for container":{"freeSystemMemory":"11745.656832 MB","percentageFreeMemory":"69.97%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"360.914944 MB","heapUsed":"336.60548 MB","percentageHeapUsed":"93.26%","rss":"545.849344 MB"},"pid":110},"namespace":"memoryUsage","pid":110,"timestamp":"2023-06-13T21:46:15.548Z"}
+{"level":"info","message":{"CPU Usage % for process":"0.30%","Memory Stats for container":{"freeSystemMemory":"11745.6896 MB","percentageFreeMemory":"69.97%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"249.46688 MB","heapUsed":"234.585536 MB","percentageHeapUsed":"94.03%","rss":"414.826496 MB"},"pid":19},"namespace":"memoryUsage","pid":19,"timestamp":"2023-06-13T21:46:16.145Z"}
+{"level":"info","message":{"CPU Usage % for process":"0.75%","Memory Stats for container":{"freeSystemMemory":"11738.353664 MB","percentageFreeMemory":"69.93%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"363.798528 MB","heapUsed":"337.127448 MB","percentageHeapUsed":"92.67%","rss":"547.078144 MB"},"pid":79},"namespace":"memoryUsage","pid":79,"timestamp":"2023-06-13T21:46:21.552Z"}
+{"level":"info","message":{"CPU Usage % for process":"0.84%","Memory Stats for container":{"freeSystemMemory":"11744.714752 MB","percentageFreeMemory":"69.96%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"362.749952 MB","heapUsed":"294.839976 MB","percentageHeapUsed":"81.28%","rss":"531.88608 MB"},"pid":49},"namespace":"memoryUsage","pid":49,"timestamp":"2023-06-13T21:46:27.899Z"}
+{"level":"info","message":{"CPU Usage % for process":"0.69%","Memory Stats for container":{"freeSystemMemory":"11741.908992 MB","percentageFreeMemory":"69.95%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"360.914944 MB","heapUsed":"336.68424 MB","percentageHeapUsed":"93.29%","rss":"546.11968 MB"},"pid":110},"namespace":"memoryUsage","pid":110,"timestamp":"2023-06-13T21:46:35.549Z"}
+{"level":"info","message":{"CPU Usage % for process":"0.29%","Memory Stats for container":{"freeSystemMemory":"11742.969856 MB","percentageFreeMemory":"69.95%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"249.46688 MB","heapUsed":"234.639656 MB","percentageHeapUsed":"94.06%","rss":"415.453184 MB"},"pid":19},"namespace":"memoryUsage","pid":19,"timestamp":"2023-06-13T21:46:36.146Z"}
+{"level":"info","message":{"CPU Usage % for process":"0.74%","Memory Stats for container":{"freeSystemMemory":"11739.8528 MB","percentageFreeMemory":"69.94%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"363.798528 MB","heapUsed":"337.208512 MB","percentageHeapUsed":"92.69%","rss":"547.078144 MB"},"pid":79},"namespace":"memoryUsage","pid":79,"timestamp":"2023-06-13T21:46:41.554Z"}
+{"level":"info","message":{"CPU Usage % for process":"0.83%","Memory Stats for container":{"freeSystemMemory":"11749.142528 MB","percentageFreeMemory":"69.99%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"362.749952 MB","heapUsed":"294.919944 MB","percentageHeapUsed":"81.3%","rss":"532.156416 MB"},"pid":49},"namespace":"memoryUsage","pid":49,"timestamp":"2023-06-13T21:46:47.901Z"}
+{"level":"info","message":{"CPU Usage % for process":"0.67%","Memory Stats for container":{"freeSystemMemory":"11752.259584 MB","percentageFreeMemory":"70.01%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"360.914944 MB","heapUsed":"336.762872 MB","percentageHeapUsed":"93.31%","rss":"546.11968 MB"},"pid":110},"namespace":"memoryUsage","pid":110,"timestamp":"2023-06-13T21:46:55.551Z"}
+{"level":"info","message":{"CPU Usage % for process":"0.29%","Memory Stats for container":{"freeSystemMemory":"11752.275968 MB","percentageFreeMemory":"70.01%","totalSystemMemory":"16786.685952 MB"},"Memory Stats for process":{"heapTotal":"249.46688 MB","heapUsed":"234.674832 MB","percentageHeapUsed":"94.07%","rss":"415.506432 MB"},"pid":19},"namespace":"memoryUsage","pid":19,"timestamp":"2023-06-13T21:46:56.148Z"}

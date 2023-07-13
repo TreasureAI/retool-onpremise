@@ -52,7 +52,7 @@ spec:
     spec:
       containers:
         - name: retool-temporal-history
-          image: "tryretool/one-offs:retool-temporal-1.1.1"
+          image: "tryretool/one-offs:retool-temporal-1.1.2"
           imagePullPolicy: IfNotPresent
           env:
             - name: POD_IP
@@ -68,15 +68,15 @@ spec:
             - name: DB
               value: postgresql
             - name: DBNAME
-              value: "temporal"
+              value: "retool"
             - name: VISIBILITY_DBNAME
               value: "temporal_visibility"
             - name: POSTGRES_HOST
-              value: postgres
+              value: 127.0.0.1
             - name: POSTGRES_PORT
               value: "5432"
             - name: POSTGRES_USER
-              value: "retool_internal_user"
+              value: "retool"
             - name: POSTGRES_PASSWORD
               valueFrom:
                 secretKeyRef:
@@ -110,11 +110,30 @@ spec:
               mountPath: /etc/temporal/dynamic_config
           resources:
             limits:
-              cpu: 500m
-              memory: 1024Mi
+              cpu: 250m
+              memory: 512Mi
             requests:
               cpu: 100m
               memory: 128Mi
+        - name: cloud-sql-proxy
+          image: gcr.io/cloudsql-docker/gce-proxy:1.30.0
+          imagePullPolicy: IfNotPresent
+          command: ["/cloud_sql_proxy",
+            "-instances=tn-mvp-staging:us-central1:staging-upgraded=tcp:5432" ]
+          securityContext:
+              runAsNonRoot: true
+              runAsUser: 65532
+          resources:
+            limits:
+              memory: "1Gi"
+              cpu: "300m"
+            requests:
+              memory: "512Mi"
+              cpu: "150m"
+        # any node pools that schedule this job must have workload-identity properly configured
+      serviceAccount: workload-identity-ksa
+      serviceAccountName: workload-identity-ksa
+      restartPolicy: Always
       volumes:
         - name: config
           configMap:
