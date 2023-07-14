@@ -72,7 +72,7 @@ spec:
             secretKeyRef:
               name: retoolstagingsecrets
               key: github_app_private_key
-        image: tryretool/backend:2.121.5
+        image: tryretool/backend:2.123.12
         name: jobs-runner
         ports:
         - containerPort: 3000

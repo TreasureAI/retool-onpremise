@@ -87,7 +87,7 @@ spec:
           value: "workflows"
         - name: WORKFLOW_BACKEND_HOST
           value: http://workflows-api
-        image: tryretool/backend:2.121.5
+        image: tryretool/backend:2.123.12
         name: retool-api
         # livenessProbe:
         #     failureThreshold: 3
