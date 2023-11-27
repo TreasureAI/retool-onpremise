@@ -74,7 +74,7 @@ spec:
               key: github_app_private_key
         - name: LOG_LEVEL  # debugging
           value: "verbose"
-        image: tryretool/backend:3.10.2
+        image: tryretool/backend:3.18.6
         name: jobs-runner
         ports:
         - containerPort: 3000
